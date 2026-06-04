@@ -1,0 +1,23 @@
+/*
+Theme Name: Health Insurance
+Theme URI: http://themeforest.net/user/rayoflightt
+Author: rayoflightthemes.com
+Author URI: rayoflightthemes.com
+Text Domain: health-insurance
+Domain Path: /languages
+Description: Business and Insurance Wordpress Theme
+Version: 1.0.4
+Tags: right-sidebar, accessibility-ready, custom-background, custom-colors, custom-menu, featured-images, post-formats, sticky-post, threaded-comments, translation-ready
+, page-builder
+License:http://themeforest.net
+License URI: http://themeforest.net/licenses
+*/
+
+@import url("assets/css/bootstrap.css");
+@import url("assets/css/font-awesome.css");
+@import url("assets/css/simple-line-icons.css");
+@import url("assets/css/colorbox.css");
+@import url("assets/css/ionrangeslider.css");
+@import url("assets/css/ion.rangeSlider.skinHTML5.css");
+
+

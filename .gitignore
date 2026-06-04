@@ -1,0 +1,36 @@
+# Secrets — keep wp-config.php on each server/local machine only
+wp-config.php
+
+# WordPress uploads and generated files
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+wp-content/debug.log
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+
+# Old plugin backups from server export
+wp-content/plugins_old/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Database dumps and temp import files
+*.sql
+*.sql.gz
+_import.sql
+_*.sql
+
+# Logs
+*.log
+error_log
+
+# Node (if any theme/plugin uses npm)
+node_modules/
