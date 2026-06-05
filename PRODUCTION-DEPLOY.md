@@ -42,7 +42,37 @@ Or configure **WP Mail SMTP → Other SMTP** in wp-admin:
 - Port: `587`, TLS
 - User: `info@riskwisdom.com.au`
 
-## 4. Security
+## 4. Inner pages 500 (homepage works, subpages fail)
+
+Symptom: `https://riskwisdom.com.au/financial-planning-process/` shows **Internal Server Error**, but homepage loads. `wp-login.php` may still work.
+
+**Cause (most common on this site):**
+
+1. **Hacked `.htaccess` files** still on production (malware cleanup not run on server)
+2. **Wrong `RewriteBase`** — local uses `/riskwisdom/` but production must use `/`
+3. **WP Fastest Cache** serving cached homepage only; inner pages hit broken Apache rules
+4. Broken `ErrorDocument` in `.htaccess` (double 500 message in browser)
+
+**Fix on server (SSH):**
+
+```bash
+cd /var/www/vhosts/riskwisdom.com.au/httpdocs
+php cleanup-malware.php
+php fix-production-pages.php
+php fix-production-pages.php --apply
+```
+
+Then in **wp-admin → WP Fastest Cache → Delete Cache**.
+
+Verify root `.htaccess` has `RewriteBase /` (see `.htaccess.production` in repo).
+
+If still failing, read Apache log:
+
+```bash
+tail -50 /var/www/vhosts/riskwisdom.com.au/logs/error_log
+```
+
+## 5. Security
 
 - Change mailbox password after any exposure
 - Never commit `wp-config-smtp.php` to Git
