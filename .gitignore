@@ -1,5 +1,6 @@
 # Secrets — keep wp-config.php on each server/local machine only
 wp-config.php
+wp-config-smtp.php
 
 # WordPress uploads and generated files
 wp-content/uploads/

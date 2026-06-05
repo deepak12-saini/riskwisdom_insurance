@@ -2,11 +2,27 @@
 
 (function($) {
   
-  //preloader
-  var foo3 = $('body');
-  foo3.fadeOut(100);  
-  $('.preloader').fadeOut(800,function(){$(this).remove();})
-  foo3.fadeIn(1000);
+  function clearCf7Loader() {
+    $('.preloader').stop(true, true).remove();
+    $('body').css({ opacity: 1, display: '' });
+    $('.wpcf7-form').removeClass('submitting');
+  }
+
+  document.addEventListener('wpcf7submit', clearCf7Loader);
+  document.addEventListener('wpcf7invalid', clearCf7Loader);
+  document.addEventListener('wpcf7mailfailed', clearCf7Loader);
+  document.addEventListener('wpcf7spam', clearCf7Loader);
+
+  var skipPreloader = window.location.hash && window.location.hash.indexOf('wpcf7') !== -1;
+
+  //preloader — only fade the overlay; do not hide body (breaks Revolution Slider lazy-load)
+  if (!skipPreloader) {
+    $('.preloader').fadeOut(800, function() {
+      $(this).remove();
+    });
+  } else {
+    clearCf7Loader();
+  }
 
   
   //animations

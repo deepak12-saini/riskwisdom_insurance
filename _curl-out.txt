@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset=UTF-8 />
+<meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+<link rel=pingback href=http://localhost/riskwisdom/xmlrpc.php /> 
+<title>Home - Risk Wisdom</title>
+
+		<!-- All in One SEO 4.9.7.2 - aioseo.com -->
+	<meta name="description" content="We are specialist of income, trauma cover, sickness, family and life protection insurance. We also provide travel and business insurance for your business." />
+	<meta name="robots" content="max-image-preview:large" />
+	<meta name="google-site-verification" content="QjikVqVqnFn42p6EYofXXAZhGDAtOvhiU2g2L4oPkWk" />
+	<link rel="canonical" href="http://localhost/riskwisdom/" />
+	<meta name="generator" content="All in One SEO (AIOSEO) 4.9.7.2" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:site_name" content="Risk Wisdom -" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Home - Risk Wisdom" />
+		<meta property="og:description" content="We are specialist of income, trauma cover, sickness, family and life protection insurance. We also provide travel and business insurance for your business." />
+		<meta property="og:url" content="http://localhost/riskwisdom/" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Home - Risk Wisdom" />
+		<meta name="twitter:description" content="We are specialist of income, trauma cover, sickness, family and life protection insurance. We also provide travel and business insurance for your business." />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"http:\/\/localhost\/riskwisdom\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"http:\/\/localhost\/riskwisdom#listItem","position":1,"name":"Home"}]},{"@type":"Organization","@id":"http:\/\/localhost\/riskwisdom\/#organization","name":"Risk Wisdom","url":"http:\/\/localhost\/riskwisdom\/"},{"@type":"WebPage","@id":"http:\/\/localhost\/riskwisdom\/#webpage","url":"http:\/\/localhost\/riskwisdom\/","name":"Home - Risk Wisdom","description":"We are specialist of income, trauma cover, sickness, family and life protection insurance. We also provide travel and business insurance for your business.","inLanguage":"en-US","isPartOf":{"@id":"http:\/\/localhost\/riskwisdom\/#website"},"breadcrumb":{"@id":"http:\/\/localhost\/riskwisdom\/#breadcrumblist"},"datePublished":"2017-05-08T03:51:11+00:00","dateModified":"2026-05-28T03:40:11+00:00"},{"@type":"WebSite","@id":"http:\/\/localhost\/riskwisdom\/#website","url":"http:\/\/localhost\/riskwisdom\/","name":"Risk Wisdom","inLanguage":"en-US","publisher":{"@id":"http:\/\/localhost\/riskwisdom\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Risk Wisdom &raquo; Feed" href="http://localhost/riskwisdom/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Risk Wisdom &raquo; Comments Feed" href="http://localhost/riskwisdom/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="http://localhost/riskwisdom/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Friskwisdom%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="http://localhost/riskwisdom/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Friskwisdom%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<link rel='stylesheet' id='wc-blocks-style-css' href='http://localhost/riskwisdom/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-10.8.1' media='all' />
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--inter: "Inter", sans-serif;--wp--preset--font-family--cardo: Cardo;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-cardo-font-family{font-family: var(--wp--preset--font-family--cardo) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='contact-form-7-css' href='http://localhost/riskwisdom/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='http://localhost/riskwisdom/wp-content/plugins/revslider--/public/assets/css/settings.css?ver=5.4.7.4' media='all' />
+<style id="rs-plugin-settings-inline-css">
+#rs-demo-id {}
+/*# sourceURL=rs-plugin-settings-inline-css */
+</style>
+<link rel='stylesheet' id='sp-testimonial-swiper-css' href='http://localhost/riskwisdom/wp-content/plugins/testimonial-free/src/Frontend/assets/css/swiper.min.css?ver=3.1.14' media='all' />
+<link rel='stylesheet' id='tfree-font-awesome-css' href='http://localhost/riskwisdom/wp-content/plugins/testimonial-free/src/Frontend/assets/css/font-awesome.min.css?ver=3.1.14' media='all' />
+<link rel='stylesheet' id='tfree-deprecated-style-css' href='http://localhost/riskwisdom/wp-content/plugins/testimonial-free/src/Frontend/assets/css/deprecated-style.min.css?ver=3.1.14' media='all' />
+<link rel='stylesheet' id='tfree-style-css' href='http://localhost/riskwisdom/wp-content/plugins/testimonial-free/src/Frontend/assets/css/style.min.css?ver=3.1.14' media='all' />
+<style id="tfree-style-inline-css">
+#sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section .testimonial-pagination span.swiper-pagination-bullet{background: #cccccc;}#sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section .testimonial-pagination span.swiper-pagination-bullet.swiper-pagination-bullet-active{background: #1595ce;} #sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section .testimonial-nav-arrow{background: transparent;border: 2px solid #777777;color: #777777;}#sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section .testimonial-nav-arrow:hover {background: #1595ce;border-color: #1595ce;color: #ffffff;}#sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section{margin: 0 50px;}#sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section{margin-bottom: 50px;}#sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section .sp-testimonial-client-image img {background: #ffffff;border: 0px solid #dddddd;padding: 0px;}#sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section .sp-testimonial-client-image {text-align: center;}#sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section .sp-testimonial-client-rating{ display: inline-flex; gap: 2px;}#sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section .sp-testimonial-client-rating i.fa{ color: #ffb900; font-size: 19px;}#sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section .sp-testimonial-client-rating i.fa-star{color: #ffb900;}#sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section .sp-testimonial-client-designation{color: #444444;}#sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section .sp-testimonial-client-name{color: #333333;}#sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section .sp-testimonial-client-testimonial{color: #333333;}#sp-testimonial-free-wrapper-3036 .sp-testimonial-free-section .sp-testimonial-title .sp-testimonial-post-title{color: #333333;}#sp-testimonial-free-wrapper-3036 .sp-testimonial-free {background : transparent;border: 0px solid #e3e3e3;border-radius: 0px;}.pragrh_text{ color:#000000 !important; }
+/*# sourceURL=tfree-style-inline-css */
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css' href='http://localhost/riskwisdom/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=10.8.1' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='http://localhost/riskwisdom/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=10.8.1' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='http://localhost/riskwisdom/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=10.8.1' media='all' />
+<style id="woocommerce-inline-inline-css">
+.woocommerce form .form-row .required { visibility: visible; }
+/*# sourceURL=woocommerce-inline-inline-css */
+</style>
+<link rel='stylesheet' id='rt_healthinsurance_style-css' href='http://localhost/riskwisdom/wp-content/themes/health-insurance/style.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='custom-style1-css' href='http://localhost/riskwisdom/wp-content/themes/health-insurance/assets/css/custom_style1.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='rt_healthinsurance_fonts-css' href='//fonts.googleapis.com/css?family=Montserrat%3A300%2C400%2C500%2C600%7CRoboto%3A300%2C400%2C700%26subset%3Dlatin%2Clatin-ext&#038;ver=1.0.0' media='all' />
+<link rel='stylesheet' id='rt_healthinsurance_green-css' href='http://localhost/riskwisdom/wp-content/themes/health-insurance/main-green.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css' href='//localhost/riskwisdom/wp-content/uploads/pum/pum-site-styles.css?generated=1771827479&#038;ver=1.22.0' media='all' />
+<link rel='stylesheet' id='kc-general-css' href='http://localhost/riskwisdom/wp-content/plugins/kingcomposer/assets/frontend/css/kingcomposer.min.css?ver=2.7.8' media='all' />
+<link rel='stylesheet' id='kc-animate-css' href='http://localhost/riskwisdom/wp-content/plugins/kingcomposer/assets/css/animate.css?ver=2.7.8' media='all' />
+<link rel='stylesheet' id='kc-icon-1-css' href='http://localhost/riskwisdom/wp-content/plugins/kingcomposer/assets/css/icons.css?ver=2.7.8' media='all' />
+<link rel='stylesheet' id='owl-theme-css' href='http://localhost/riskwisdom/wp-content/plugins/kingcomposer/includes/frontend/vendors/owl-carousel/owl.theme.css?ver=2.7.8' media='all' />
+<link rel='stylesheet' id='owl-carousel-css' href='http://localhost/riskwisdom/wp-content/plugins/kingcomposer/includes/frontend/vendors/owl-carousel/owl.carousel.css?ver=2.7.8' media='all' />
+<script id="jquery-core-js" src="http://localhost/riskwisdom/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="http://localhost/riskwisdom/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="tp-tools-js" src="http://localhost/riskwisdom/wp-content/plugins/revslider--/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.7.4"></script>
+<script id="revmin-js" src="http://localhost/riskwisdom/wp-content/plugins/revslider--/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.7.4"></script>
+<script data-wp-strategy="defer" defer id="wc-jquery-blockui-js" src="http://localhost/riskwisdom/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.8.1"></script>
+<script id="wc-add-to-cart-js-extra">
+var wc_add_to_cart_params = {"ajax_url":"/riskwisdom/wp-admin/admin-ajax.php","wc_ajax_url":"/riskwisdom/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http://localhost/riskwisdom","is_cart":"","cart_redirect_after_add":"no"};
+//# sourceURL=wc-add-to-cart-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="wc-add-to-cart-js" src="http://localhost/riskwisdom/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=10.8.1"></script>
+<script data-wp-strategy="defer" defer id="wc-js-cookie-js" src="http://localhost/riskwisdom/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.8.1"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"/riskwisdom/wp-admin/admin-ajax.php","wc_ajax_url":"/riskwisdom/?wc-ajax=%%endpoint%%","i18n_password_show":"Show password","i18n_password_hide":"Hide password"};
+//# sourceURL=woocommerce-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="woocommerce-js" src="http://localhost/riskwisdom/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.8.1"></script>
+<link rel="https://api.w.org/" href="http://localhost/riskwisdom/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="http://localhost/riskwisdom/wp-json/wp/v2/pages/2318" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/riskwisdom/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0" />
+<meta name="generator" content="WooCommerce 10.8.1" />
+<link rel='shortlink' href='http://localhost/riskwisdom/' />
+<script type="text/javascript">var kc_script_data={ajax_url:"http://localhost/riskwisdom/wp-admin/admin-ajax.php"}</script>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by Slider Revolution 5.4.7.4 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<style class="wp-fonts-local">
+@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('http://localhost/riskwisdom/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('http://localhost/riskwisdom/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');}
+</style>
+<link rel="icon" href="http://localhost/riskwisdom/wp-content/uploads/2022/05/cropped-logo_riskwisdom-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="http://localhost/riskwisdom/wp-content/uploads/2022/05/cropped-logo_riskwisdom-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="http://localhost/riskwisdom/wp-content/uploads/2022/05/cropped-logo_riskwisdom-180x180.jpg" />
+<meta name="msapplication-TileImage" content="http://localhost/riskwisdom/wp-content/uploads/2022/05/cropped-logo_riskwisdom-270x270.jpg" />
+<style type="text/css">
+    .menu-item-has-children.open > .sub-menu { display: block !important; max-height: 3000px !important; opacity: 1 !important; overflow: visible !important; }
+  </style><script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+<script type="text/javascript"></script><style type="text/css" id="kc-css-general">.kc-off-notice{display: inline-block !important;}.kc-container{max-width:1170px;}</style><style type="text/css" id="kc-css-render">@media only screen and (min-width:1000px) and (max-width:5000px){body.kc-css-system .kc-css-808914{width:16.66%;}body.kc-css-system .kc-css-579525{width:16.66%;}body.kc-css-system .kc-css-660956{width:16.66%;}body.kc-css-system .kc-css-474225{width:16.66%;}body.kc-css-system .kc-css-70360{width:16.66%;}body.kc-css-system .kc-css-886007{width:16.66%;}body.kc-css-system .kc-css-295321{width:33.33%;}body.kc-css-system .kc-css-87522{width:33.33%;}body.kc-css-system .kc-css-155856{width:33.33%;}body.kc-css-system .kc-css-193798{width:100%;}body.kc-css-system .kc-css-530077{width:100%;}body.kc-css-system .kc-css-801027{width:33.33%;}body.kc-css-system .kc-css-814233{width:33.33%;}body.kc-css-system .kc-css-150752{width:33.33%;}body.kc-css-system .kc-css-644978{width:100%;}body.kc-css-system .kc-css-390610{width:100%;}}body.kc-css-system .kc-css-338502{background:#f3f3f3;margin-bottom:0px;padding-top:100px;padding-bottom:75px;}body.kc-css-system .kc-css-79288{background:#f3f3f3;margin-bottom:0px;padding-bottom:100px;}body.kc-css-system .kc-css-178603{background:transparent url(http://localhost/riskwisdom/wp-content/uploads/2023/03/income-protection.jpg) 50% 50%/cover no-repeat fixed;padding-top:100px;padding-bottom:100px;}body.kc-css-system .kc-css-207686{padding-top:0px;padding-bottom:0px;}body.kc-css-system .kc-css-588525{background:#f3f3f3;}</style></head>
+<body class="home wp-singular page-template page-template-page-templates page-template-page-wide-2 page-template-page-templatespage-wide-2-php page page-id-2318 wp-theme-health-insurance theme-health-insurance kingcomposer kc-css-system woocommerce-no-js" data-spy="scroll" data-target="#navbar-example"> 
+<div id="section1"></div>    
+<div class="preloader"><div class="loader"></div></div>
+<div class="bodybackground"></div>     
+
+<!-- header navigation for multi page -->	
+  <header>     
+  <div class="top widgets-style1"> 
+    <div class="top1"> 
+      <div class="container widgets-style2">   
+        <div class="row">   
+	      <div class="col-sm-6">   
+            	      </div>
+	      <div class="col-sm-6 text-right">   
+            	      </div>
+        </div>
+	  </div>
+	</div>		
+    <div class="top2"> 
+      <div class="container widgets-style1">   
+        <div class="row"> 
+		<div class="col-lg-3 col-xs-12"> 
+		 <div class="navbar-brand">
+                      <div class='site-logo'>
+              <a href='http://localhost/riskwisdom/' title='Risk Wisdom' rel='home'>
+               <img src='https://riskwisdom.com.au/wp-content/uploads/2026/02/riskwisdom-fp-2.jpg' alt='Risk Wisdom'>
+              </a>
+            </div>
+                    </div>
+		  </div>
+		  <div class="col-lg-9 col-xs-12"> 
+                        <aside id="text-2" class="widget widget_text">			<div class="textwidget"><div class="topwidgetswrapper" style="width: 100%; float: left;">
+<ul class="topwidgets" style="display: inline-block; float: left;">
+<li><i class="fa fa-phone"> </i>
+<div class="rightwidgettext">Phone number 02 9071 4735</div>
+</li>
+<li><i class="fa fa-envelope"> </i>
+<div class="rightwidgettext">Email admin@riskwisdom.com.au</div>
+</li>
+<li><i class="fa fa-map-pin"> </i>
+<div class="rightwidgettext">Adress Level 29 Chifley Tower , 2 Chifley Square, SYDNEY NSW</div>
+</li>
+</ul>
+</div>
+</div>
+		</aside>	
+            		  </div>
+        </div>
+	  </div>
+    </div>
+  </div>
+  <!-- menu -->
+    <div class="headhesive-wrapper">
+    <div class="headhesive" id="navbar-scroll">
+      <nav class="navbar menu menu--prospero"> 
+        <div class="navbarinner"> 		
+		<div class="container">   
+        <div class="row">    
+          <div class="navbar-header">  
+            <button id="toggle-icon2" class="navbar-toggle" data-toggle="collapse-side" 
+              data-target1=".side-collapse" 
+              data-target2=".side-collapse-container"
+              data-target3=".navbar" 
+              data-target4=".bodybackground" 
+              data-target5=".navbar-toggle" >
+              <span></span>
+            </button>
+          </div>
+          <div role="navigation" class="side-collapse in navbar-collapse navbar-ex1-collapse"> 
+          <div class="menu-multipage-menu-menu1-container"><ul id="menu-multipage-menu-menu1" class="innerpage menu__list nav navbar-nav"><li id="menu-item-2612" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2612"><a href="http://localhost/riskwisdom" aria-current="page">home</a></li>
+<li id="menu-item-2627" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2627"><a href="http://localhost/riskwisdom/about/">About</a></li>
+<li id="menu-item-2609" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2609"><a href="#">services</a>
+<ul class="sub-menu">
+	<li id="menu-item-2891" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2891"><a href="http://localhost/riskwisdom/life-insurance">Life Insurance</a></li>
+	<li id="menu-item-2892" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2892"><a href="http://localhost/riskwisdom/income-insurance">Income Insurance</a></li>
+	<li id="menu-item-2893" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2893"><a href="http://localhost/riskwisdom/tpd-insurance">TPD Insurance</a></li>
+	<li id="menu-item-2894" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2894"><a href="http://localhost/riskwisdom/trauma-insurance">Trauma Insurance</a></li>
+	<li id="menu-item-2895" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2895"><a href="http://localhost/riskwisdom/business-insurance">Business Insurance</a></li>
+	<li id="menu-item-2896" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2896"><a href="http://localhost/riskwisdom/key-man-insurance">Key Man Insurance</a></li>
+</ul>
+</li>
+<li id="menu-item-2912" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2912"><a href="http://localhost/riskwisdom/financial-planning-process/">Financial Planning Process</a></li>
+<li id="menu-item-2626" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2626"><a href="http://localhost/riskwisdom/faq/">FAQ</a></li>
+<li id="menu-item-2809" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2809"><a href="http://localhost/riskwisdom/blog">Blog</a></li>
+<li id="menu-item-2807" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2807"><a href="http://localhost/riskwisdom/contact-us/">Contact</a></li>
+</ul></div>          </div>
+		  </div>
+		</div>  
+		</div> 
+      </nav> 
+    </div>
+    </div>
+  </header>  
+  <div class="menuswitch"></div>  
+
+<div id="wrapperpages">
+    <div class="kc_clfw"></div><section class="kc-elm kc-css-758632 kc_row fullwidth"><div class="kc-row-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-921296 kc_col-sm-12 kc_column kc_col-sm-12"><div class="kc-col-container"><div class="kc-elm kc-css-162417 kc-raw-code"><link href="http://fonts.googleapis.com/css?family=Montserrat:400%2C300%7CRoboto:300%7COpen+Sans:400" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+<!-- START REVOLUTION SLIDER 5.4.7.4 fullwidth mode -->
+	<div id="rev_slider_1_1" class="rev_slider fullwidthabanner tp-overflow-hidden" style="display:none;" data-version="5.4.7.4">
+<ul>	<!-- SLIDE  -->
+	<li data-index="rs-6" data-transition="slideright" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="http://localhost/riskwisdom/wp-content/uploads/2019/02/Untitled-1-02-100x50.png"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img decoding="async" src="http://localhost/riskwisdom/wp-content/plugins/revslider--/admin/assets/images/dummy.png"  alt="" title="Untitled-1-02"  width="1920" height="800" data-lazyload="http://localhost/riskwisdom/wp-content/uploads/2019/02/Untitled-1-02.png" data-bgposition="center right" data-kenburns="on" data-duration="10000" data-ease="Power1.easeInOut" data-scalestart="100" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-1" data-transition="slotfade-horizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="500"  data-thumb="http://localhost/riskwisdom/wp-content/uploads/2019/01/banner_new_1-100x50.jpg"  data-delay="6000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img loading="lazy" decoding="async" src="http://localhost/riskwisdom/wp-content/plugins/revslider--/admin/assets/images/dummy.png"  alt="" title="banner_new_1"  width="1920" height="800" data-lazyload="http://localhost/riskwisdom/wp-content/uploads/2019/01/banner_new_1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption Insurance-Heading-New-1   tp-resizeme" 
+			 id="slide-1-layer-1" 
+			 data-x="['left','left','left','left']" data-hoffset="['0','70','70','70']" 
+			 data-y="['top','top','top','top']" data-voffset="['223','61','61','61']" 
+						data-fontsize="['42','44','44','44']"
+			data-fontweight="['400','300','300','300']"
+			data-width="['671','459','459','459']"
+			data-height="['133','115','115','115']"
+			data-whitespace="normal"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":490,"speed":1470,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1450,"frame":"999","to":"x:-50px;opacity:0;","ease":"nothing"}]'
+			data-textAlign="['left','left','left','left']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5; min-width: 671px; max-width: 671px; max-width: 133px; max-width: 133px; white-space: normal; font-size: 42px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: px;font-family:Montserrat;font-size:50px;margin-bottom:25px;line-height:1.2;font-weight:700;"><span class="zoom2"></span> </div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption Insurance-Heading--New-2   tp-resizeme" 
+			 id="slide-1-layer-2" 
+			 data-x="['left','left','left','left']" data-hoffset="['-2','70','70','70']" 
+			 data-y="['top','top','top','top']" data-voffset="['359','179','179','179']" 
+						data-width="['562','355','355','355']"
+			data-height="['none','68','68','68']"
+			data-whitespace="normal"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":690,"speed":1450,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:-50px;opacity:0;","ease":"nothing"}]'
+			data-textAlign="['left','left','left','left']"
+			data-paddingtop="[1,1,1,1]"
+			data-paddingright="[4,4,4,4]"
+			data-paddingbottom="[1,1,1,1]"
+			data-paddingleft="[4,4,4,4]"
+
+			style="z-index: 6; min-width: 562px; max-width: 562px; white-space: normal; font-size: 16px; line-height: 27px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: px;font-family:Roboto;font-size:22px;margin-bottom:30px;font-weight:300;line-height:1.7;"><span class="zoom1"></span> </div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-1-layer-6" 
+			 data-x="['left','left','left','left']" data-hoffset="['70','70','70','70']" 
+			 data-y="['top','top','top','top']" data-voffset="['334','334','334','334']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 8; white-space: nowrap; font-size: 50px; line-height: 26px; font-weight: 400; color: #12507a; letter-spacing: 0px;font-family:Open Sans;">Secure your family's future by providing  </div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-1-layer-7" 
+			 data-x="['left','left','left','left']" data-hoffset="['79','79','79','79']" 
+			 data-y="['top','top','top','top']" data-voffset="['447','447','447','447']" 
+						data-width="100%"
+			data-height="none"
+			data-whitespace="normal"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 9; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 50px; line-height: 26px; font-weight: 400; color: #12507a; letter-spacing: 0px;font-family:Open Sans;">them with hope, when you are no longer </div>
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-1-layer-8" 
+			 data-x="['left','left','left','left']" data-hoffset="['75','75','75','75']" 
+			 data-y="['top','top','top','top']" data-voffset="['557','557','557','557']" 
+						data-width="100%"
+			data-height="none"
+			data-whitespace="normal"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 10; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 50px; line-height: 22px; font-weight: 400; color: #12507a; letter-spacing: 0px;font-family:Open Sans;">available for their support </div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-5" data-transition="slideright" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="http://localhost/riskwisdom/wp-content/uploads/2019/01/banner_3-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img loading="lazy" decoding="async" src="http://localhost/riskwisdom/wp-content/plugins/revslider--/admin/assets/images/dummy.png"  alt="" title="banner_3"  width="1920" height="800" data-lazyload="http://localhost/riskwisdom/wp-content/uploads/2019/01/banner_3.jpg" data-bgposition="center right" data-kenburns="on" data-duration="10000" data-ease="Power1.easeInOut" data-scalestart="100" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 6 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-5-layer-1" 
+			 data-x="['left','left','left','left']" data-hoffset="['90','90','90','90']" 
+			 data-y="['top','top','top','top']" data-voffset="['355','355','355','355']" 
+						data-width="none"
+			data-height="100%"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5; max-width: 100%px; max-width: 100%px; white-space: nowrap; font-size: 50px; line-height: 22px; font-weight: 400; color: #12507a; letter-spacing: 0px;font-family:Open Sans;">Creating plans for your secure </div>
+
+		<!-- LAYER NR. 7 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-5-layer-2" 
+			 data-x="['left','left','left','left']" data-hoffset="['95','95','95','95']" 
+			 data-y="['top','top','top','top']" data-voffset="['442','442','442','442']" 
+						data-width="100%"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6; min-width: 100%px; max-width: 100%px; white-space: nowrap; font-size: 50px; line-height: 22px; font-weight: 400; color: #12507a; letter-spacing: 0px;font-family:Open Sans;">future and a better life. </div>
+	</li>
+</ul>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+						if(htmlDiv) {
+							htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+						}else{
+							var htmlDiv = document.createElement("div");
+							htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+							document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+						}
+					</script>
+<div class="tp-bannertimer" style="height: 5px; background: rgba(0,0,0,0.15);"></div>	</div>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss=".tp-caption.Insurance-Heading-New-1,.Insurance-Heading-New-1{color:#ffffff;font-size:40px;line-height:50px;font-weight:700;font-style:normal;font-family:Source Sans Pro;text-decoration:none;background-color:transparent;border-color:#ffd658;border-style:none;border-width:0px;border-radius:0px 0px 0px 0px}.tp-caption.Insurance-Heading--New-2,.Insurance-Heading--New-2{color:#ffffff;font-size:17px;line-height:30px;font-weight:600;font-style:normal;font-family:Source Sans Pro;text-decoration:none;background-color:transparent;border-color:#ffd658;border-style:none;border-width:0px;border-radius:0px 0px 0px 0px;text-shadow:none}";
+				if(htmlDiv) {
+					htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+				}else{
+					var htmlDiv = document.createElement("div");
+					htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+					document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+				}
+			</script>
+		<script type="text/javascript">
+if (setREVStartSize!==undefined) setREVStartSize(
+	{c: '#rev_slider_1_1', responsiveLevels: [1240,1024,1024,1024], gridwidth: [1900,1900,1900,1900], gridheight: [800,800,800,800], sliderLayout: 'fullwidth'});
+			
+var revapi1,
+	tpj;	
+(function() {			
+	if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded",onLoad); else onLoad();	
+	function onLoad() {				
+		if (tpj===undefined) { tpj = jQuery; if("off" == "on") tpj.noConflict();}
+	if(tpj("#rev_slider_1_1").revolution == undefined){
+		revslider_showDoubleJqueryError("#rev_slider_1_1");
+	}else{
+		revapi1 = tpj("#rev_slider_1_1").show().revolution({
+			sliderType:"standard",
+			jsFileLocation:"//localhost/riskwisdom/wp-content/plugins/revslider--/public/assets/js/",
+			sliderLayout:"fullwidth",
+			dottedOverlay:"none",
+			delay:6000,
+			navigation: {
+				keyboardNavigation:"off",
+				keyboard_direction: "horizontal",
+				mouseScrollNavigation:"off",
+ 							mouseScrollReverse:"default",
+				onHoverStop:"on",
+				touch:{
+					touchenabled:"on",
+					touchOnDesktop:"off",
+					swipe_threshold: 75,
+					swipe_min_touches: 50,
+					swipe_direction: "horizontal",
+					drag_block_vertical: false
+				}
+				,
+				arrows: {
+					style:"ares",
+					enable:true,
+					hide_onmobile:true,
+					hide_under:600,
+					hide_onleave:false,
+					tmp:'<div class="tp-title-wrap">	<span class="tp-arr-titleholder">{{title}}</span> </div>',
+					left: {
+						h_align:"left",
+						v_align:"center",
+						h_offset:30,
+						v_offset:0
+					},
+					right: {
+						h_align:"right",
+						v_align:"center",
+						h_offset:30,
+						v_offset:0
+					}
+				}
+				,
+				bullets: {
+					enable:true,
+					hide_onmobile:false,
+					style:"hermes",
+					hide_onleave:false,
+					direction:"horizontal",
+					h_align:"center",
+					v_align:"bottom",
+					h_offset:0,
+					v_offset:30,
+					space:5,
+					tmp:''
+				}
+			},
+			responsiveLevels:[1240,1024,1024,1024],
+			visibilityLevels:[1240,1024,1024,1024],
+			gridwidth:[1900,1900,1900,1900],
+			gridheight:[800,800,800,800],
+			lazyType:"smart",
+			parallax: {
+				type:"scroll",
+				origo:"slidercenter",
+				speed:2000,
+				speedbg:0,
+				speedls:0,
+				levels:[2,3,4,5,6,7,12,16,10,50,47,48,49,50,51,55],
+				disable_onmobile:"on"
+			},
+			shadow:0,
+			spinner:"spinner2",
+			stopLoop:"off",
+			stopAfterLoops:-1,
+			stopAtSlide:-1,
+			shuffle:"off",
+			autoHeight:"on",
+			hideThumbsOnMobile:"off",
+			hideSliderAtLimit:0,
+			hideCaptionAtLimit:0,
+			hideAllCaptionAtLilmit:0,
+			debugMode:false,
+			fallbacks: {
+				simplifyAll:"off",
+				nextSlideOnWindowFocus:"off",
+				disableFocusListener:false,
+			}
+		});
+	}; /* END OF revapi call */
+	
+ }; /* END OF ON LOAD FUNCTION */
+}()); /* END OF WRAPPING FUNCTION */
+</script>
+		<script>
+					var htmlDivCss = ' #rev_slider_1_1_wrapper .tp-loader.spinner2{ background-color: #3aa0e1 !important; } ';
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}
+					else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+					</script>
+					<script>
+					var htmlDivCss = unescape("%40media%20%28min-width%3A%20768px%29%20%7B%0A.zoom1%20%7B%0A%09font-size%3A%20inherit%21important%3B%0A%20%20%09line-height%3A%20inherit%21important%3B%0A%20%20%20%20margin-bottom%3A%20inherit%21important%3B%0A%0A%7D%20%0A%20%20.zoom1a%20%7B%0A%09visibility%3Avisible%3B%0A%0A%7D%20%0A.zoom2%20%7B%0A%09font-size%3A%20inherit%21important%3B%0A%20%20%09line-height%3A%20inherit%21important%3B%0A%20%20%20%20margin-bottom%3A%20inherit%21important%3B%0A%20width%3A%20inherit%21important%3B%0A%7D%0A%7D%0A%40media%20%28max-width%3A%20767px%29%20%7B%0A.zoom1%20%7B%0A%09font-size%3A%2015px%21important%3B%0A%20%20%09line-height%3A%201.3%21important%3B%0A%20%20%20%20margin-bottom%3A%205px%21important%3B%0A%20%20%20%20width%3A%20100%25%21important%3B%0A%0A%7D%0A%20.zoom1a%20%7B%0A%09font-size%3A%2011px%21important%3B%0A%20%20%09line-height%3A%201.2%21important%3B%0A%20%20%20%20margin-bottom%3A%205px%21important%3B%0A%0A%7D%20%0A.zoom2%20%7B%0A%09font-size%3A%20inherit%21important%3B%0A%20%20%09line-height%3A%20inherit%21important%3B%0A%20%20%20%20margin-bottom%3A%20inherit%21important%3B%0A%20width%3A%20inherit%21important%3B%0A%7D%20%0A%7D%0A%40media%20%28max-width%3A%20600px%29%20%7B%0A.zoom1%20%7B%0A%09font-size%3A%2013px%21important%3B%0A%20%20%09line-height%3A%201.3%21important%3B%0A%20%20%20%20margin-bottom%3A%205px%21important%3B%0A%20%20%20%20width%3A%20100%25%21important%3B%0A%0A%7D%0A.zoom1a%20%7B%0A%09visibility%3Ahidden%3B%0A%0A%7D%20%0A.zoom2%20%7B%0A%09font-size%3A%20inherit%21important%3B%0A%20%20%09line-height%3A%20inherit%21important%3B%0A%20%20%20%20margin-bottom%3A%20inherit%21important%3B%0A%20width%3A%20inherit%21important%3B%0A%7D%0A%7D%0A%40media%20%28max-width%3A%20400px%29%20%7B%20%0A.zoom2%20%7B%0A%09font-size%3A%2018px%21important%3B%0A%20%20%09line-height%3A%201.3%21important%3B%0A%20%20%20%20margin-bottom%3A%205px%21important%3B%0A%20width%3A%20100%25%21important%3B%0A%7D%0A%7D%0A%40media%20%28max-width%3A%20350px%29%20%7B%20%0A.zoom2%20%7B%0A%09font-size%3A%2016px%21important%3B%0A%20%20%09line-height%3A%201.1%21important%3B%0A%20%20%20%20margin-bottom%3A%205px%21important%3B%0A%20width%3A%20100%25%21important%3B%0A%7D%0A%7D");
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}
+					else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				  </script><script>
+					var htmlDivCss = unescape(".ares.tparrows%20%7B%0A%09cursor%3Apointer%3B%0A%09background%3Argba%28255%2C%20255%2C%20255%2C%201%29%3B%0A%09min-width%3A60px%3B%0A%20%20%20%20min-height%3A60px%3B%0A%09position%3Aabsolute%3B%0A%09display%3Ablock%3B%0A%09z-index%3A100%3B%0A%20%20%20%20border-radius%3A50%25%3B%0A%7D%0A.ares.tparrows%3Ahover%20%7B%0A%7D%0A.ares.tparrows%3Abefore%20%7B%0A%09font-family%3A%20%22revicons%22%3B%0A%09font-size%3A25px%3B%0A%09color%3Argba%28170%2C%20170%2C%20170%2C%201%29%3B%0A%09display%3Ablock%3B%0A%09line-height%3A%2060px%3B%0A%09text-align%3A%20center%3B%0A%20%20%20%20-webkit-transition%3A%20color%200.3s%3B%0A%20%20%20%20-moz-transition%3A%20color%200.3s%3B%0A%20%20%20%20transition%3A%20color%200.3s%3B%0A%20%20%20%20z-index%3A2%3B%0A%20%20%20%20position%3Arelative%3B%0A%7D%0A.ares.tparrows.tp-leftarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Ce81f%22%3B%0A%7D%0A.ares.tparrows.tp-rightarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Ce81e%22%3B%0A%7D%0A.ares.tparrows%3Ahover%3Abefore%20%7B%0A%20color%3Argb%280%2C%200%2C%200%29%3B%0A%20%20%20%20%20%20%7D%0A.tp-title-wrap%20%7B%20%0A%20%20position%3Aabsolute%3B%0A%20%20z-index%3A1%3B%0A%20%20display%3Ainline-block%3B%0A%20%20background%3Argba%28255%2C%20255%2C%20255%2C%201%29%3B%0A%20%20min-height%3A60px%3B%0A%20%20line-height%3A60px%3B%0A%20%20top%3A0px%3B%0A%20%20margin-left%3A30px%3B%0A%20%20border-radius%3A0px%2030px%2030px%200px%3B%0A%20%20overflow%3Ahidden%3B%0A%20%20-webkit-transition%3A%20-webkit-transform%200.3s%3B%0A%20%20transition%3A%20transform%200.3s%3B%0A%20%20transform%3Ascalex%280%29%3B%20%20%0A%20%20-webkit-transform%3Ascalex%280%29%3B%20%20%0A%20%20transform-origin%3A0%25%2050%25%3B%20%0A%20%20%20-webkit-transform-origin%3A0%25%2050%25%3B%0A%7D%0A%20.ares.tp-rightarrow%20.tp-title-wrap%20%7B%20%0A%20%20%20right%3A0px%3B%0A%20%20%20margin-right%3A30px%3Bmargin-left%3A0px%3B%0A%20%20%20-webkit-transform-origin%3A100%25%2050%25%3B%0Aborder-radius%3A30px%200px%200px%2030px%3B%0A%20%7D%0A.ares.tparrows%3Ahover%20.tp-title-wrap%20%7B%0A%09transform%3Ascalex%281%29%20scaley%281%29%3B%0A%20%20%09-webkit-transform%3Ascalex%281%29%20scaley%281%29%3B%0A%7D%0A.ares%20.tp-arr-titleholder%20%7B%0A%20%20position%3Arelative%3B%0A%20%20-webkit-transition%3A%20-webkit-transform%200.3s%3B%0A%20%20transition%3A%20transform%200.3s%3B%0A%20%20transform%3Atranslatex%28200px%29%3B%20%20%0A%20%20text-transform%3Auppercase%3B%0A%20%20color%3Argb%280%2C%200%2C%200%29%3B%0A%20%20font-weight%3A400%3B%0A%20%20font-size%3A14px%3B%0A%20%20line-height%3A60px%3B%0A%20%20white-space%3Anowrap%3B%0A%20%20padding%3A0px%2020px%3B%0A%20%20margin-left%3A10px%3B%0A%20%20opacity%3A0%3B%0A%7D%0A%0A.ares.tp-rightarrow%20.tp-arr-titleholder%20%7B%0A%20%20%20transform%3Atranslatex%28-200px%29%3B%20%0A%20%20%20margin-left%3A0px%3B%20margin-right%3A10px%3B%0A%20%20%20%20%20%20%7D%0A%0A.ares.tparrows%3Ahover%20.tp-arr-titleholder%20%7B%0A%20%20%20transform%3Atranslatex%280px%29%3B%0A%20%20%20-webkit-transform%3Atranslatex%280px%29%3B%0A%20%20transition-delay%3A%200.1s%3B%0A%20%20opacity%3A1%3B%0A%7D%0A.hermes.tp-bullets%20%7B%0A%7D%0A%0A.hermes%20.tp-bullet%20%7B%0A%20%20%20%20overflow%3Ahidden%3B%0A%20%20%20%20border-radius%3A50%25%3B%0A%20%20%20%20width%3A16px%3B%0A%20%20%20%20height%3A16px%3B%0A%20%20%20%20background-color%3A%20rgba%280%2C%200%2C%200%2C%200%29%3B%0A%20%20%20%20box-shadow%3A%20inset%200%200%200%202px%20rgb%28255%2C%20255%2C%20255%29%3B%0A%20%20%20%20-webkit-transition%3A%20background%200.3s%20ease%3B%0A%20%20%20%20transition%3A%20background%200.3s%20ease%3B%0A%20%20%20%20position%3Aabsolute%3B%0A%7D%0A%0A.hermes%20.tp-bullet%3Ahover%20%7B%0A%09%20%20background-color%3A%20rgba%280%2C0%2C0%2C0.21%29%3B%0A%7D%0A.hermes%20.tp-bullet%3Aafter%20%7B%0A%20%20content%3A%20%27%20%27%3B%0A%20%20position%3A%20absolute%3B%0A%20%20bottom%3A%200%3B%0A%20%20height%3A%200%3B%0A%20%20left%3A%200%3B%0A%20%20width%3A%20100%25%3B%0A%20%20background-color%3A%20rgb%28255%2C%20255%2C%20255%29%3B%0A%20%20box-shadow%3A%200%200%201px%20rgb%28255%2C%20255%2C%20255%29%3B%0A%20%20-webkit-transition%3A%20height%200.3s%20ease%3B%0A%20%20transition%3A%20height%200.3s%20ease%3B%0A%7D%0A.hermes%20.tp-bullet.selected%3Aafter%20%7B%0A%20%20height%3A100%25%3B%0A%7D%0A%0A");
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}
+					else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				  </script>
+				</div><!-- END REVOLUTION SLIDER --></div></div></div></div></div></section><section class="kc-elm kc-css-357443 kc-animated kc-animate-eff-fadeIn kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-926748 kc_col-sm-12 kc_column kc_col-sm-12"><div class="kc-col-container">
+  <div class="mainheadlinewrapper">
+    <div class="mainheadline text-center">
+      <h2 class="headline">Insurance plans</h2>     
+      <h3 class="subheadline">Here you can see our insurance plans that include individual group and family plan.</h3>  
+	</div>
+  </div> 
+</div></div></div></div></section><section class="kc-elm kc-css-902547 kc-animated kc-animate-eff-fadeIn kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-808914 kc_col-sm-2 kc_column kc_col-sm-2"><div class="kc-col-container"><div class="kc-elm kc-css-224888 kc_shortcode kc_single_image">
+
+        <img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/01/icon1.png" class="" alt="" />    </div>
+<div class="kc-elm kc-css-415212 kc_text_block"><h2 class="title" style="text-align: center;">Life Insurance</h2>
+<div style="text-align: justify;">Secure your family’s future and provide them options when you no longer available to support.</div>
+</div></div></div><div class="kc-elm kc-css-579525 kc_col-sm-2 kc_column kc_col-sm-2"><div class="kc-col-container"><div class="kc-elm kc-css-760506 kc_shortcode kc_single_image">
+
+        <img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/01/icon2.png" class="" alt="" />    </div>
+<div class="kc-elm kc-css-884793 kc_text_block"><h2 class="title" style="text-align: center;">Income Protection</h2>
+<div style="text-align: justify;">Ensure you with an income to assist comfortable life if an injury stops you from work.</div>
+</div></div></div><div class="kc-elm kc-css-660956 kc_col-sm-2 kc_column kc_col-sm-2"><div class="kc-col-container"><div class="kc-elm kc-css-667196 kc_shortcode kc_single_image">
+
+        <img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/01/icon3.png" class="" alt="" />    </div>
+<div class="kc-elm kc-css-516975 kc_text_block"><h2 class="title" style="text-align: center;">TPD Insurance</h2>
+<div style="text-align: justify;">Provide options to maintain better standard of living if you are permanently disabled.</div>
+</div></div></div><div class="kc-elm kc-css-474225 kc_col-sm-2 kc_column kc_col-sm-2"><div class="kc-col-container"><div class="kc-elm kc-css-283453 kc_shortcode kc_single_image">
+
+        <img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/01/icon4.png" class="" alt="" />    </div>
+<div class="kc-elm kc-css-28593 kc_text_block"><h2 class="title" style="text-align: center;">Trauma Insurance</h2>
+<div style="text-align: justify;">Let you make the most of life though you have a serious illness and heartbroken.</div>
+</div></div></div><div class="kc-elm kc-css-70360 kc_col-sm-2 kc_column kc_col-sm-2"><div class="kc-col-container"><div class="kc-elm kc-css-82159 kc_shortcode kc_single_image">
+
+        <img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/01/icon5.png" class="" alt="" />    </div>
+<div class="kc-elm kc-css-216322 kc_text_block"><h2 class="title" style="text-align: center;">Business Insurance</h2>
+<div style="text-align: justify;">Protects your business when you suffer any injury to support other dependents of it.</div>
+</div></div></div><div class="kc-elm kc-css-886007 kc_col-sm-2 kc_column kc_col-sm-2"><div class="kc-col-container"><div class="kc-elm kc-css-298178 kc_shortcode kc_single_image">
+
+        <img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/01/icon6.png" class="" alt="" />    </div>
+<div class="kc-elm kc-css-836712 kc_text_block"><h2 class="title" style="text-align: center;">Key man Insurance</h2>
+<div style="text-align: justify;">To overcome the challenging conditions in business on the loss of key personnel.</div>
+</div></div></div></div></div></section><section class="kc-elm kc-css-655858 kc-animated kc-animate-eff-fadeIn kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-295321 kc_col-sm-4 kc_column kc_col-sm-4"><div class="kc-col-container"><div class="kc-elm kc-css-614525" style="height: 100px; clear: both; width:100%;"></div></div></div><div class="kc-elm kc-css-87522 kc_col-sm-4 kc_column kc_col-sm-4"><div class="kc-col-container"><div class="kc-elm kc-css-487228" style="height: 100px; clear: both; width:100%;"></div>
+<div class="kc-elm kc-css-747998 kc-animated kc-animate-eff-fadeInDown">
+	<a class="kc_button" href="https://riskwisdom.com.au/wp-content/uploads/2019/02/FSG-Riskwisdom.pdf" target="_blank" title="" onclick="">
+		<i class="et-book-open"></i> Financial service guide	</a>
+</div>
+</div></div><div class="kc-elm kc-css-155856 kc_col-sm-4 kc_column kc_col-sm-4"><div class="kc-col-container"><div class="kc-elm kc-css-174392" style="height: 100px; clear: both; width:100%;"></div></div></div></div></div></section><section class="kc-elm kc-css-272233 kc-animated kc-animate-eff-fadeIn kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-193798 kc_col-sm-12 kc_column kc_col-sm-12"><div class="kc-col-container"></div></div></div></div></section><section class="kc-elm kc-css-899736 kc-animated kc-animate-eff-fadeIn kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-530077 kc_col-sm-12 kc_column kc_col-sm-12"><div class="kc-col-container"><div class="kc-elm kc-css-57046" style="height: 100px; clear: both; width:100%;"></div></div></div></div></div></section><section class="kc-elm kc-css-233016 kc-animated kc-animate-eff-fadeIn kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-29299 kc_col-sm-12 kc_column kc_col-sm-12"><div class="kc-col-container"><div class="kc-elm kc-css-690770" style="height: 0px; clear: both; width:100%;"></div>
+  <div class="mainheadlinewrapper">
+    <div class="mainheadline text-center">
+      <h2 class="headline">Insurance quote</h2>     
+      <h3 class="subheadline"></h3>  
+	</div>
+  </div> 
+<div class="kc-elm kc-css-63012" style="height: 70px; clear: both; width:100%;"></div><div data-open-on-mouseover="" data-tab-active="1" data-effect-option="" class="kc-elm kc-css-680196 kc-animated kc-animate-eff-fadeInUp kc_tabs group">
+	<div class="kc_wrapper ui-tabs kc_clearfix">
+		<ul class="kc_tabs_nav ui-tabs-nav kc_clearfix">
+			<li><a href="#life-insurance" data-prevent="scroll">Life Insurance</a></li><li><a href="#income-insurance" data-prevent="scroll">Income Insurance </a></li><li><a href="#trauma-insurance" data-prevent="scroll">Trauma Insurance</a></li><li><a href="#tpd-insurance" data-prevent="scroll">TPD Insurance </a></li><li><a href="#business-insurance" data-prevent="scroll">Business Insurance</a></li>		</ul>
+		<div id="life-insurance" class="kc-elm kc-css-936429 kc_tab ui-tabs-panel kc_ui-tabs-hide kc_clearfix "><div class="kc_tab_content"><div class="kc-elm kc-css-172937 kc_text_block"><div class="row">
+<div class="col-sm-4"><img loading="lazy" decoding="async" class="alignnone" src="https://riskwisdomfp.com.au/wp-content/uploads/2017/05/woman-4.jpg" alt="" width="465" height="667" /></div>
+<div class="col-sm-8">
+<div class="wpcf7 no-js" id="wpcf7-f2234-p2318-o3" lang="en-US" dir="ltr" data-wpcf7-id="2234">
+<div class="screen-reader-response">
+<p role="status" aria-live="polite" aria-atomic="true">Thank you for your message. It has been sent.</p>
+<ul></ul>
+</div>
+<form action="/riskwisdom/#wpcf7-f2234-p2318-o3" method="post" class="wpcf7-form sent" aria-label="Contact form" novalidate="novalidate" data-status="sent">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="2234" /><input type="hidden" name="_wpcf7_version" value="6.1.6" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2234-p2318-o3" /><input type="hidden" name="_wpcf7_container_post" value="2318" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" /><input type="hidden" name="_wpcf7_recaptcha_response" value="" /><br />
+</fieldset>
+<div class="row form1" style="padding-right:25px;">
+<div class="col-md-12">
+<h2>Life Insurance Quote Form<br />
+		</h2>
+</p></div>
+<div class="divider-space1">
+	</div>
+<div class="col-md-6">
+<div style="margin-bottom: 62px;">
+<p><label style="margin-bottom: 6px;">Do you smoke?</label><br />
+<span class="wpcf7-form-control-wrap" data-name="radio-102"><span class="wpcf7-form-control wpcf7-radio"><span class="wpcf7-list-item first"><span class="wpcf7-list-item-label">No</span><input type="radio" name="radio-102" value="No" checked="checked" /></span><span class="wpcf7-list-item last"><span class="wpcf7-list-item-label">Yes</span><input type="radio" name="radio-102" value="Yes" /></span></span></span>
+			</p>
+</p></div>
+<p><label>Your age?</label><span class="wpcf7-form-control-wrap" data-name="menu-993"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="menu-993"><option value="18-25 years">18-25 years</option><option value="26-35 years">26-35 years</option><option value="36-45 years">36-45 years</option><option value="46-55 years">46-55 years</option><option value="56-65 years">56-65 years</option><option value="65 years and more">65 years and more</option></select></span>
+		</p>
+</p></div>
+<div class="col-md-6">
+<p><label>Your name</label><span class="wpcf7-form-control-wrap" data-name="text-340"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="text-340" /></span>
+		</p>
+<p><label>phone</label><span class="wpcf7-form-control-wrap" data-name="tel-105"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Phone number" value="" type="tel" name="tel-105" /></span>
+		</p>
+</p></div>
+<div class="col-md-6">
+<p><label>Occupation: </label><span class="wpcf7-form-control-wrap" data-name="Occupation"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Occupation" value="" type="text" name="Occupation" /></span>
+		</p>
+</p></div>
+<div class="col-md-12">
+<p><span class="wpcf7-form-control-wrap" data-name="textarea-570"><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="message..." name="textarea-570"></textarea></span>
+		</p>
+</p></div>
+<div class="col-md-12">
+<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="submit" />
+		</p>
+</p></div>
+</div>
+<p><input type='hidden' class='wpcf7-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' /></p>
+<div class="wpcf7-response-output" aria-hidden="true">Thank you for your message. It has been sent.</div>
+</form>
+</div>
+</div>
+</div>
+</div></div></div><div id="income-insurance" class="kc-elm kc-css-948122 kc_tab ui-tabs-panel kc_ui-tabs-hide kc_clearfix "><div class="kc_tab_content"><div class="kc-elm kc-css-621571 kc_text_block"><div class="row">
+<div class="col-sm-4"><img loading="lazy" decoding="async" class="alignnone size-full" src="https://riskwisdomfp.com.au/wp-content/uploads/2017/05/tabspecial2.jpg" alt="" width="465" height="667" /></div>
+<div class="col-sm-8">
+<div class="wpcf7 no-js" id="wpcf7-f2478-p2318-o4" lang="en-US" dir="ltr" data-wpcf7-id="2478">
+<div class="screen-reader-response">
+<p role="status" aria-live="polite" aria-atomic="true">
+<ul></ul>
+</div>
+<form action="/riskwisdom/#wpcf7-f2478-p2318-o4" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="2478" /><input type="hidden" name="_wpcf7_version" value="6.1.6" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2478-p2318-o4" /><input type="hidden" name="_wpcf7_container_post" value="2318" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" /><input type="hidden" name="_wpcf7_recaptcha_response" value="" /><br />
+</fieldset>
+<div class="row form1" style="padding-right:25px;">
+<div class="col-md-12">
+<h2>Insurance quote form<br />
+		</h2>
+</p></div>
+<div class="divider-space1">
+	</div>
+<div class="col-md-6">
+<p><label>Gross Income:</label><span class="wpcf7-form-control-wrap" data-name="GrossIncome"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="GrossIncome" /></span>
+		</p>
+<p><label>Occupation:</label><span class="wpcf7-form-control-wrap" data-name="Occupation"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="Occupation" /></span>
+		</p>
+</p></div>
+<div class="col-md-6">
+<p><label>Your name</label><span class="wpcf7-form-control-wrap" data-name="text-340"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="text-340" /></span>
+		</p>
+<p><label>phone</label><span class="wpcf7-form-control-wrap" data-name="tel-105"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-text wpcf7-validates-as-tel" aria-invalid="false" placeholder="Phone number" value="" type="tel" name="tel-105" /></span>
+		</p>
+</p></div>
+<div class="col-md-12">
+<p><span class="wpcf7-form-control-wrap" data-name="textarea-570"><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="message..." name="textarea-570"></textarea></span>
+		</p>
+</p></div>
+<div class="col-md-12">
+<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="submit" />
+		</p>
+</p></div>
+</div>
+<p><input type='hidden' class='wpcf7-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' /></p>
+<div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+</div>
+</div>
+</div></div></div><div id="trauma-insurance" class="kc-elm kc-css-82345 kc_tab ui-tabs-panel kc_ui-tabs-hide kc_clearfix "><div class="kc_tab_content"><div class="kc-elm kc-css-578212 kc_text_block"><div class="row">
+<div class="col-sm-4"><img loading="lazy" decoding="async" class="alignnone size-full" src="https://riskwisdomfp.com.au/wp-content/uploads/2017/05/tabslider3.jpg" alt="" width="465" height="667" /></div>
+<div class="col-sm-8">
+<div class="wpcf7 no-js" id="wpcf7-f2863-p2318-o5" lang="en-US" dir="ltr" data-wpcf7-id="2863">
+<div class="screen-reader-response">
+<p role="status" aria-live="polite" aria-atomic="true">
+<ul></ul>
+</div>
+<form action="/riskwisdom/#wpcf7-f2863-p2318-o5" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="2863" /><input type="hidden" name="_wpcf7_version" value="6.1.6" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2863-p2318-o5" /><input type="hidden" name="_wpcf7_container_post" value="2318" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" /><input type="hidden" name="_wpcf7_recaptcha_response" value="" /><br />
+</fieldset>
+<div class="row form1" style="padding-right:25px;">
+<div class="col-md-12">
+<h2>Trauma Insurance Quote Form<br />
+		</h2>
+</p></div>
+<div class="divider-space1">
+	</div>
+<div class="col-md-6">
+<div style="margin-bottom: 62px;">
+<p><label style="margin-bottom: 6px;">Do you smoke?</label><br />
+<span class="wpcf7-form-control-wrap" data-name="radio-102"><span class="wpcf7-form-control wpcf7-radio"><span class="wpcf7-list-item first"><span class="wpcf7-list-item-label">No</span><input type="radio" name="radio-102" value="No" checked="checked" /></span><span class="wpcf7-list-item last"><span class="wpcf7-list-item-label">Yes</span><input type="radio" name="radio-102" value="Yes" /></span></span></span>
+			</p>
+</p></div>
+<p><label>Your age?</label><span class="wpcf7-form-control-wrap" data-name="menu-993"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="menu-993"><option value="18-25 years">18-25 years</option><option value="26-35 years">26-35 years</option><option value="36-45 years">36-45 years</option><option value="46-55 years">46-55 years</option><option value="56-65 years">56-65 years</option><option value="65 years and more">65 years and more</option></select></span>
+		</p>
+</p></div>
+<div class="col-md-6">
+<p><label>Your name</label><span class="wpcf7-form-control-wrap" data-name="text-340"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="text-340" /></span>
+		</p>
+<p><label>phone</label><span class="wpcf7-form-control-wrap" data-name="tel-105"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Phone number" value="" type="tel" name="tel-105" /></span>
+		</p>
+</p></div>
+<div class="col-md-6">
+<p><label>Occupation: </label><span class="wpcf7-form-control-wrap" data-name="Occupation"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Occupation" value="" type="text" name="Occupation" /></span>
+		</p>
+</p></div>
+<div class="col-md-12">
+<p><span class="wpcf7-form-control-wrap" data-name="textarea-570"><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="message..." name="textarea-570"></textarea></span>
+		</p>
+</p></div>
+<div class="col-md-12">
+<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="submit" />
+		</p>
+</p></div>
+</div>
+<p><input type='hidden' class='wpcf7-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' /></p>
+<div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+</div>
+</div>
+</div></div></div><div id="tpd-insurance" class="kc-elm kc-css-566310 kc_tab ui-tabs-panel kc_ui-tabs-hide kc_clearfix "><div class="kc_tab_content"><div class="kc-elm kc-css-744541 kc_text_block"><div class="row">
+<div class="col-sm-4"><img loading="lazy" decoding="async" class="alignnone size-full" src="https://riskwisdomfp.com.au/wp-content/uploads/2017/05/woman-4.jpg" alt="" width="465" height="667" /></div>
+<div class="col-sm-8">
+<div class="wpcf7 no-js" id="wpcf7-f2866-p2318-o6" lang="en-US" dir="ltr" data-wpcf7-id="2866">
+<div class="screen-reader-response">
+<p role="status" aria-live="polite" aria-atomic="true">
+<ul></ul>
+</div>
+<form action="/riskwisdom/#wpcf7-f2866-p2318-o6" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="2866" /><input type="hidden" name="_wpcf7_version" value="6.1.6" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2866-p2318-o6" /><input type="hidden" name="_wpcf7_container_post" value="2318" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" /><input type="hidden" name="_wpcf7_recaptcha_response" value="" /><br />
+</fieldset>
+<div class="row form1" style="padding-right:25px;">
+<div class="col-md-12">
+<h2>TPD Insurance Quote Form<br />
+		</h2>
+</p></div>
+<div class="divider-space1">
+	</div>
+<div class="col-md-6">
+<div style="margin-bottom: 62px;">
+<p><label style="margin-bottom: 6px;">Do you smoke?</label><br />
+<span class="wpcf7-form-control-wrap" data-name="radio-102"><span class="wpcf7-form-control wpcf7-radio"><span class="wpcf7-list-item first"><span class="wpcf7-list-item-label">No</span><input type="radio" name="radio-102" value="No" checked="checked" /></span><span class="wpcf7-list-item last"><span class="wpcf7-list-item-label">Yes</span><input type="radio" name="radio-102" value="Yes" /></span></span></span>
+			</p>
+</p></div>
+<p><label>Your age?</label><span class="wpcf7-form-control-wrap" data-name="menu-993"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="menu-993"><option value="18-25 years">18-25 years</option><option value="26-35 years">26-35 years</option><option value="36-45 years">36-45 years</option><option value="46-55 years">46-55 years</option><option value="56-65 years">56-65 years</option><option value="65 years and more">65 years and more</option></select></span>
+		</p>
+</p></div>
+<div class="col-md-6">
+<p><label>Your name</label><span class="wpcf7-form-control-wrap" data-name="text-340"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="text-340" /></span>
+		</p>
+<p><label>phone</label><span class="wpcf7-form-control-wrap" data-name="tel-105"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Phone number" value="" type="tel" name="tel-105" /></span>
+		</p>
+</p></div>
+<div class="col-md-6">
+<p><label>Occupation: </label><span class="wpcf7-form-control-wrap" data-name="Occupation"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Occupation" value="" type="text" name="Occupation" /></span>
+		</p>
+</p></div>
+<div class="col-md-12">
+<p><span class="wpcf7-form-control-wrap" data-name="textarea-570"><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="message..." name="textarea-570"></textarea></span>
+		</p>
+</p></div>
+<div class="col-md-12">
+<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="submit" />
+		</p>
+</p></div>
+</div>
+<p><input type='hidden' class='wpcf7-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' /></p>
+<div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+</div>
+</div>
+</div></div></div><div id="business-insurance" class="kc-elm kc-css-13324 kc_tab ui-tabs-panel kc_ui-tabs-hide kc_clearfix "><div class="kc_tab_content"><div class="kc-elm kc-css-620973 kc_text_block"><div class="row">
+<div class="col-sm-4"><img loading="lazy" decoding="async" class="alignnone size-full" src="https://riskwisdomfp.com.au/wp-content/uploads/2017/05/woman-4.jpg" alt="" width="465" height="667" /></div>
+<div class="col-sm-8">
+<div class="wpcf7 no-js" id="wpcf7-f2862-p2318-o7" lang="en-US" dir="ltr" data-wpcf7-id="2862">
+<div class="screen-reader-response">
+<p role="status" aria-live="polite" aria-atomic="true">
+<ul></ul>
+</div>
+<form action="/riskwisdom/#wpcf7-f2862-p2318-o7" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="2862" /><input type="hidden" name="_wpcf7_version" value="6.1.6" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2862-p2318-o7" /><input type="hidden" name="_wpcf7_container_post" value="2318" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" /><input type="hidden" name="_wpcf7_recaptcha_response" value="" /><br />
+</fieldset>
+<div class="row form1" style="padding-right:25px;">
+<div class="col-md-12">
+<h2>Business Insurance Quote Form<br />
+		</h2>
+</p></div>
+<div class="divider-space1">
+	</div>
+<div class="col-md-6">
+<p><label>Gross Income:</label><span class="wpcf7-form-control-wrap" data-name="GrossIncome"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="GrossIncome" /></span>
+		</p>
+<p><label>Occupation:</label><span class="wpcf7-form-control-wrap" data-name="Occupation"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="Occupation" /></span>
+		</p>
+</p></div>
+<div class="col-md-6">
+<p><label>Your name</label><span class="wpcf7-form-control-wrap" data-name="text-340"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="text-340" /></span>
+		</p>
+<p><label>phone</label><span class="wpcf7-form-control-wrap" data-name="tel-105"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-text wpcf7-validates-as-tel" aria-invalid="false" placeholder="Phone number" value="" type="tel" name="tel-105" /></span>
+		</p>
+</p></div>
+<div class="col-md-12">
+<p><span class="wpcf7-form-control-wrap" data-name="textarea-570"><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="message..." name="textarea-570"></textarea></span>
+		</p>
+</p></div>
+<div class="col-md-12">
+<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="submit" />
+		</p>
+</p></div>
+</div>
+<p><input type='hidden' class='wpcf7-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' /></p>
+<div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+</div>
+</div>
+</div></div></div>	</div>
+</div>
+
+
+<div class="kc-elm kc-css-508697" style="height: 75px; clear: both; width:100%;"></div></div></div></div></div></section><section class="kc-elm kc-css-338502 kc-animated kc-animate-eff-fadeIn kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-948604 kc_col-sm-12 kc_column kc_col-sm-12"><div class="kc-col-container">
+  <div class="mainheadlinewrapper">
+    <div class="mainheadline text-center">
+      <h2 class="headline">Welcome to Risk Wisdom!</h2>     
+      <h3 class="subheadline">Risk Wisdom is an independent insurance advisory firm comprising of resolute financial risk advisors, who specialize in providing financial risk analysis, advice and solutions in the field of Income Protection, Life Insurance, Critical illness/ Disability Covers &amp; Key Man/Share Purchase Insurance</h3>  
+	</div>
+  </div> 
+</div></div></div></div></section><section class="kc-elm kc-css-79288 kc-animated kc-animate-eff-fadeIn kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-801027 kc_col-sm-4 kc_column kc_col-sm-4"><div class="kc-col-container"><div class="kc-elm kc-css-187331 kc_text_block boxshadow"><h1>Experience</h1>
+<p style="text-align: justify;">The <strong>Risk Wisdom </strong>group, with over 40 years of combined<br />
+risk and superannuation experience, endeavors to convey the latest<br />
+advisor insights and expertise to our valued clients. This is inclusive<br />
+of economic updates, financial topics, industry developments,<br />
+superannuation news and life insurance advancements.</p>
+</div></div></div><div class="kc-elm kc-css-814233 kc_col-sm-4 kc_column kc_col-sm-4"><div class="kc-col-container"><div class="kc-elm kc-css-481991 kc_text_block boxshadow"><h1>Availability</h1>
+<p style="text-align: justify;">At <strong>Risk Wisdom</strong>, we provide accessibility to over 15 life insurance companies and their product range.  The  Team at <strong>Risk Wisdom</strong><br />
+ensures that our clients have easy access to all information including<br />
+their own policies as well as information provided by all life insurance<br />
+companies regarding their products, definitions, and premiums.</p>
+</div></div></div><div class="kc-elm kc-css-150752 kc_col-sm-4 kc_column kc_col-sm-4"><div class="kc-col-container"><div class="kc-elm kc-css-484249 kc_text_block boxshadow"><h1>Speciality</h1>
+<p style="text-align: justify;">The team at Risk Wisdom prides itself on finding coverage for risks<br />
+deemed uninsurable at standard rates for clients with medical conditions<br />
+such as (heart conditions, mental health issues, and obesity) etc.<br />
+Furthermore, we are able to access insurance products for high-risk<br />
+occupations, whilst adding specialized benefits linked to the insurance<br />
+policies.</p>
+</div></div></div></div></div></section><section class="kc-elm kc-css-178603 kc-animated kc-animate-eff-fadeIn kc-animate-speed-3s kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-644978 kc_col-sm-12 kc_column kc_col-sm-12"><div class="kc-col-container"><div class="kc-elm kc-css-329035 kc_text_block"><div id="sp-testimonial-free-wrapper-3036" class="sp-testimonial-free-wrapper">
+<div id="sp-testimonial-free-3036" class="sp-testimonial-free-section tfree-style-theme-one" dir="ltr" data-preloader="" data-swiper='{&quot;dots&quot;: 1,&quot;pagination_type&quot;: &quot;dots&quot;, &quot;spaceBetween&quot;: 20, &quot;adaptiveHeight&quot;: false, &quot;pauseOnHover&quot;: true, &quot;slidesToShow&quot;: 1, &quot;speed&quot;: 600, &quot;arrows&quot;: &quot;1&quot;, &quot;autoplay&quot;: true, &quot;autoplaySpeed&quot;: 3000, &quot;swipe&quot;: true, &quot;swipeToSlide&quot;: false, &quot;draggable&quot;: true, &quot;freeMode&quot;: false, &quot;rtl&quot;: false, &quot;infinite&quot;: true,&quot;slidesPerView&quot;: {&quot;lg_desktop&quot;:1 , &quot;desktop&quot;: 1, &quot;laptop&quot;:1 , &quot;tablet&quot;: 1, &quot;mobile&quot;: 1},&quot;navigation_mobile&quot;: true, &quot;pagination_mobile&quot;:true, &quot;autoplay_mobile&quot;:true}' >
+<div class="swiper-wrapper">
+<div class="sp-testimonial-item swiper-slide">
+<div class="sp-testimonial-free">
+<div class="sp-testimonial-title">
+<h3 class="sp-testimonial-post-title">Income Protection Claim</h3>
+</div>
+<div class="sp-testimonial-client-testimonial">
+<div class="sp-testimonial-content">
+<p class="pragrh_text"><strong><em>Occupation Plumber</em></strong></p>
+<p class="pragrh_text">Claim made for hip injury on 10/10/2019</p>
+<p class="pragrh_text">Claim lodged on 22/10/2019</p>
+<p class="pragrh_text">Successfully approved on 16/02/2021</p>
+<p class="pragrh_text">Claim Tenure: approx. 1 year 6 months</p>
+<p class="pragrh_text">Benefit Amount Paid $270,132.83</p>
+<p>‘’<em class="pragrh_text">I have been operating a successful plumbing business for over 15 years and decided to take out an income protection cover for approx. ten years ago. The adviser who was referred from my brother did an excellent job at that time and convinced me to take out an income protection policy which would protect me financially if I was to suffer an illness or have an accident which would prevent me from working. A few times I thought about cancelling the policy but good advice kept me on-board. Last year I had an accident which led to serious complications with my right hip, I was required to undergo multiple procedures to rectify the problem. I contacted my adviser who was very forthcoming and helpful and my claim was handled very professionally by the Risk Wisdom staff. I was paid out all my dues in a timely manner and all communications was of excellent standards. I am very happy with the Risk Wisdom Team and happy to refer them.</em>’’</p>
+</div>
+</div>
+</div></div>
+<div class="sp-testimonial-item swiper-slide">
+<div class="sp-testimonial-free">
+<div class="sp-testimonial-title">
+<h3 class="sp-testimonial-post-title">Grateful for the assistance</h3>
+</div>
+<div class="sp-testimonial-client-testimonial">
+<div class="sp-testimonial-content">
+<p class="pragrh_text">‘’<em>Risk wisdom – I am very grateful for the assistance, services and attention you have paid for the issuance and underwriting all the policies I have. I never get this kind of attention and advice from my previous insurance provider. Thanks for your guidance and always work like this. Good Luck.</em>”– Debbie Clarke</p>
+</div>
+</div>
+</div></div>
+<div class="sp-testimonial-item swiper-slide">
+<div class="sp-testimonial-free">
+<div class="sp-testimonial-title">
+<h3 class="sp-testimonial-post-title">Support and Persistence</h3>
+</div>
+<div class="sp-testimonial-client-testimonial">
+<div class="sp-testimonial-content">
+<p class="pragrh_text">&#8220;<em>Thanks for all your support and persistence in getting me a policy. It was truly pleasure to hear answer to my all questions instantly. I greatly appreciate everything you have done for me from the documentations to the deep knowledge about the premiums and my benefits. I will always appreciate your promptness and professionalism.</em>’’– John Luttig</p>
+</div>
+</div>
+</div></div>
+<div class="sp-testimonial-item swiper-slide">
+<div class="sp-testimonial-free">
+<div class="sp-testimonial-title">
+<h3 class="sp-testimonial-post-title">Best In Class Services</h3>
+</div>
+<div class="sp-testimonial-client-testimonial">
+<div class="sp-testimonial-content">
+<p class="pragrh_text">‘’<em>I would love to thank Risk wisdom team for the best in class services. They interact in a very positive way and pay personal attention to every case. You can’t go wrong with this amazing insurance provider company. I highly recommend them</em>.’’ &#8211; Diana H</p>
+</div>
+</div>
+</div></div>
+<div class="sp-testimonial-item swiper-slide">
+<div class="sp-testimonial-free">
+<div class="sp-testimonial-title">
+<h3 class="sp-testimonial-post-title">I have been with Risk wisdom income protection cover since 15 years</h3>
+</div>
+<div class="sp-testimonial-client-testimonial">
+<div class="sp-testimonial-content">
+<p class="pragrh_text">‘’<em>I have been with Risk wisdom income protection cover since 15 years and met with an accident 4 years ago. After that I never get back to work due injury. From then till now, Risk wisdom have been fantastic, they pay on time without much hassle of documentation. The team is very supportive and answer your every query without troubling you. There initial claim process was simple and quick. I would love to recommend Income protection cover to every professional.</em>’’– Michael G</p>
+</div>
+</div>
+</div></div>
+</p></div>
+<div class="swiper-pagination testimonial-pagination"></div>
+<div class="swiper-button-prev testimonial-nav-arrow vertical_center"><i class="fa fa-angle-left"></i></div>
+<div class="swiper-button-next testimonial-nav-arrow vertical_center"><i class="fa fa-angle-right"></i></div>
+</div>
+</div>
+</div></div></div></div></div></section><section class="kc-elm kc-css-207686 kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-390610 kc_col-sm-12 kc_column kc_col-sm-12"><div class="kc-col-container">  
+  <div class="divider-line"><div class="divider-line2"></div></div>  
+</div></div></div></div></section><section class="kc-elm kc-css-157129 kc-animated kc-animate-eff-fadeIn kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-811226 kc_col-sm-12 kc_column kc_col-sm-12"><div class="kc-col-container"><div class="kc-elm kc-css-811463" style="height: 100px; clear: both; width:100%;"></div>
+  <div class="mainheadlinewrapper">
+    <div class="mainheadline text-center">
+      <h2 class="headline">Blog news</h2>     
+      <h3 class="subheadline"></h3>  
+	</div>
+  </div> 
+<div class="kc-elm kc-css-682869" style="height: 75px; clear: both; width:100%;"></div> 
+<div class="row">
+    <div class=" col-sm-3 blogpages">
+          <article class="blogpost">
+            <div class="post-3203 post type-post status-publish format-standard hentry category-uncategorized">
+            <div>
+  </div>             <div class="wrapper100percent">
+                	<h2 class="blog-title">
+      <a href="http://localhost/riskwisdom/vmware-workstation-crack-tool-lifetime-x86x64-patch/">
+      VMware Workstation Crack tool [Lifetime] [x86x64] Patch      </a>
+    </h2>
+<ul class="meta">
+  <li class="category">   <a href="http://localhost/riskwisdom/category/uncategorized/" rel="category tag">Uncategorized</a>  </li>  
+  <li>  <i class="fa fa-calendar"></i>  March 3, 2026 </li>
+  <li> <i class="fa fa-user"></i>   <a href="http://localhost/riskwisdom/author/admin-2/" rel="author">admin</a>  </li>  
+</ul>
+
+     
+                <div class="wrapper100percent">
+                <p>
+				📎 HASH: 7b259edb6def38f36b79875c62fc28f8Updated: 2026-02-28VerifyProcessor: 1 GHz CPU for bypass RAM: 4 GB recommended Disk space:&hellip;				</p>  
+                <div class="text-left"> 
+                    <div class="button1 white small"><a href="http://localhost/riskwisdom/vmware-workstation-crack-tool-lifetime-x86x64-patch/">read more</a></div>                 </div>
+                </div>
+            </div>
+            </div> 
+          </article> 
+  </div>
+    <div class=" col-sm-3 blogpages">
+          <article class="blogpost">
+            <div class="post-3201 post type-post status-publish format-standard hentry category-uncategorized">
+            <div>
+  </div>             <div class="wrapper100percent">
+                	<h2 class="blog-title">
+      <a href="http://localhost/riskwisdom/adobe-acrobat-2024-crack-windows-11-x86x64-patch/">
+      Adobe Acrobat 2024 Crack Windows 11 x86x64 [Patch]      </a>
+    </h2>
+<ul class="meta">
+  <li class="category">   <a href="http://localhost/riskwisdom/category/uncategorized/" rel="category tag">Uncategorized</a>  </li>  
+  <li>  <i class="fa fa-calendar"></i>  March 2, 2026 </li>
+  <li> <i class="fa fa-user"></i>   <a href="http://localhost/riskwisdom/author/admin-2/" rel="author">admin</a>  </li>  
+</ul>
+
+     
+                <div class="wrapper100percent">
+                <p>
+				🖹 HASH-SUM:f314e8764d1bc50bd1ada0ea4a202f65📅 Updated on: 2026-02-25VerifyProcessor: 1+ GHz for cracks RAM: 4 GB for crack use&hellip;				</p>  
+                <div class="text-left"> 
+                    <div class="button1 white small"><a href="http://localhost/riskwisdom/adobe-acrobat-2024-crack-windows-11-x86x64-patch/">read more</a></div>                 </div>
+                </div>
+            </div>
+            </div> 
+          </article> 
+  </div>
+    <div class=" col-sm-3 blogpages">
+          <article class="blogpost">
+            <div class="post-3199 post type-post status-publish format-standard hentry category-uncategorized">
+            <div>
+  </div>             <div class="wrapper100percent">
+                	<h2 class="blog-title">
+      <a href="http://localhost/riskwisdom/hyperterminal-private-edition-licenseactivated-patch-clean-mediafire/">
+      HyperTerminal Private Edition License[Activated] [Patch] [Clean] MediaFire      </a>
+    </h2>
+<ul class="meta">
+  <li class="category">   <a href="http://localhost/riskwisdom/category/uncategorized/" rel="category tag">Uncategorized</a>  </li>  
+  <li>  <i class="fa fa-calendar"></i>  March 2, 2026 </li>
+  <li> <i class="fa fa-user"></i>   <a href="http://localhost/riskwisdom/author/admin-2/" rel="author">admin</a>  </li>  
+</ul>
+
+     
+                <div class="wrapper100percent">
+                <p>
+				🔒 Hash checksum:a1d9faf5b48d025afc2ded02ff522fb6📆 Last updated: 2026-03-01VerifyProcessor: 1 GHz, 2-core minimum RAM: Minimum 4 GB Disk&hellip;				</p>  
+                <div class="text-left"> 
+                    <div class="button1 white small"><a href="http://localhost/riskwisdom/hyperterminal-private-edition-licenseactivated-patch-clean-mediafire/">read more</a></div>                 </div>
+                </div>
+            </div>
+            </div> 
+          </article> 
+  </div>
+    <div class=" col-sm-3 blogpages">
+          <article class="blogpost">
+            <div class="post-3197 post type-post status-publish format-standard hentry category-uncategorized">
+            <div>
+  </div>             <div class="wrapper100percent">
+                	<h2 class="blog-title">
+      <a href="http://localhost/riskwisdom/winhex-portable-license-key-final-x86x64-stable-instant/">
+      WinHex Portable + License Key [Final] x86x64 Stable Instant      </a>
+    </h2>
+<ul class="meta">
+  <li class="category">   <a href="http://localhost/riskwisdom/category/uncategorized/" rel="category tag">Uncategorized</a>  </li>  
+  <li>  <i class="fa fa-calendar"></i>  March 2, 2026 </li>
+  <li> <i class="fa fa-user"></i>   <a href="http://localhost/riskwisdom/author/admin-2/" rel="author">admin</a>  </li>  
+</ul>
+
+     
+                <div class="wrapper100percent">
+                <p>
+				📘 Build Hash:3c8fb5dc476b5ad82f5541e96654eb3b🗓 2026-02-23VerifyProcessor: 1 GHz, 2-core minimum RAM: Enough for patching Disk space: 64&hellip;				</p>  
+                <div class="text-left"> 
+                    <div class="button1 white small"><a href="http://localhost/riskwisdom/winhex-portable-license-key-final-x86x64-stable-instant/">read more</a></div>                 </div>
+                </div>
+            </div>
+            </div> 
+          </article> 
+  </div>
+  </div><div class="kc-elm kc-css-356176" style="height: 50px; clear: both; width:100%;"></div>
+  <div class="divider-line">
+  </div> 
+</div></div></div></div></section><section class="kc-elm kc-css-588525 kc-animated kc-animate-eff-fadeIn kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-989630 kc_col-sm-12 kc_column kc_col-sm-12"><div class="kc-col-container"><div class="kc-elm kc-css-922357" style="height: 50px; clear: both; width:100%;"></div>
+  <div class="mainheadlinewrapper">
+    <div class="mainheadline text-center">
+      <h2 class="headline">Our Association</h2>     
+      <h3 class="subheadline"></h3>  
+	</div>
+  </div> 
+<div class="kc-elm kc-css-624987" style="height: 25px; clear: both; width:100%;"></div><div class="kc-elm kc-css-561450">
+	<div class="kc-carousel_images kc-elm kc-css-561450">
+	
+		<div class="kc-carousel-images owl-carousel-images kc-sync1 " data-owl-i-options='{"items":"6","tablet":"3","mobile":"3","speed":"500","navigation":"","pagination":"yes","autoheight":"","progressbar":"","delay":"8","autoplay":"yes","showthumb":"","num_thumb":"5"}'>
+	
+					<div class="item">
+	
+							<img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/02/CommInsure-logo_137x57.png"  alt=""/>
+	
+				
+			</div>
+	
+					<div class="item">
+	
+							<img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/02/clearview-logo_137x57.png"  alt=""/>
+	
+				
+			</div>
+	
+					<div class="item">
+	
+							<img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/01/zurich.png"  alt=""/>
+	
+				
+			</div>
+	
+					<div class="item">
+	
+							<img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/01/tal.png"  alt=""/>
+	
+				
+			</div>
+	
+					<div class="item">
+	
+							<img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/01/onepath.png"  alt=""/>
+	
+				
+			</div>
+	
+					<div class="item">
+	
+							<img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/01/logo_mob-2x1.png"  alt=""/>
+	
+				
+			</div>
+	
+					<div class="item">
+	
+							<img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/01/asteron.png"  alt=""/>
+	
+				
+			</div>
+	
+					<div class="item">
+	
+							<img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/01/amp.png"  alt=""/>
+	
+				
+			</div>
+	
+					<div class="item">
+	
+							<img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/01/aia.png"  alt=""/>
+	
+				
+			</div>
+	
+					<div class="item">
+	
+							<img decoding="async" src="http://localhost/riskwisdom/wp-content/uploads/2019/01/1472009854488.mlc-logo.png"  alt=""/>
+	
+				
+			</div>
+	
+			
+		</div>
+	
+			</div>
+</div>
+<div class="kc-elm kc-css-880492" style="height: 50px; clear: both; width:100%;"></div></div></div></div></div></section></div>
+
+     
+<footer class="bottom">
+  <div class="container widgets-style2">
+	  <div class="row">
+      <div class="col-sm-3">   
+                <aside id="text-4" class="widget widget_text"><h3>About Us</h3>			<div class="textwidget"><p style="text-align: justify;">Risk Wisdom consists of independent financial risk advisors, who specialize in providing financial risk analysis, advice and solutions in the field of Income Protection, Life Insurance, Critical illness/ Disability Covers &amp; Key Man/Share Purchase Insurance. The main focus of our company is to build long-term business relationships with our clients.</p>
+</div>
+		</aside>	
+              </div>
+		<div class="col-sm-3">   
+                <aside id="text-3" class="widget widget_text"><h3>Services</h3>			<div class="textwidget"><ul id="menu-services" class="menu">
+<li id="menu-item-2284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2284"><a href="https://riskwisdom.com.au/life-insurance/">Life Insurance</a></li>
+<li id="menu-item-2283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2283"><a href="https://riskwisdom.com.au/income-insurance">Income Insurance</a></li>
+<li id="menu-item-2282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2282"><a href="https://localhost/riskwisdom/tpd-insurance">TPD Insurance</a></li>
+<li id="menu-item-2281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2281"><a href="https://riskwisdom.com.au/trauma-insurance/">Trauma Insurance</a></li>
+<li id="menu-item-2280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2280"><a href="https://riskwisdom.com.au/business-insurance/">Business Insurance</a></li>
+<li id="menu-item-2279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2279"><a href="https://riskwisdom.com.au/key-man-insurance/">Key man Insurance</a></li>
+</ul>
+</div>
+		</aside>	
+              </div>
+		<div class="col-sm-3">   
+                <aside id="text-5" class="widget widget_text"><h3>Follow Us</h3>			<div class="textwidget"><ul id="" class="cnss-social-icon " style="text-align:left;">
+<li class="cn-fa-facebook cn-fa-icon " style="display:inline-block;"><a class="cnss-facebook" target="_blank" href="https://www.facebook.com/RiskWisdomFP" title="Facebook" style="width:48px;height:48px;padding:8px;margin:2px;color: #ffffff;border-radius: 0%;"><i title="Facebook" style="font-size:32px;" class="fa fa-facebook"></i></a></li>
+<li class="cn-fa-twitter cn-fa-icon " style="display:inline-block;"><a class="cnss-twitter" target="_blank" href="https://twitter.com/riskwisdomfp" title="Twitter" style="width:48px;height:48px;padding:8px;margin:2px;color: #ffffff;border-radius: 0%;"><i title="Twitter" style="font-size:32px;" class="fa fa-twitter"></i></a></li>
+<li class="cn-fa-linkedin cn-fa-icon " style="display:inline-block;"><a class="cnss-linkedin" target="_blank" href="https://www.linkedin.com/company/riskwisdomfp?trk=biz-companies-cym" title="LinkedIn" style="width:48px;height:48px;padding:8px;margin:2px;color: #ffffff;border-radius: 0%;"><i title="LinkedIn" style="font-size:32px;" class="fa fa-linkedin"></i></a></li>
+<li class="cn-fa-youtube cn-fa-icon " style="display:inline-block;"><a class="cnss-youtube" target="_blank" href="https://www.youtube.com/channel/UCQNBaTSfTKPhuhgF6sfFu-A" title="YouTube" style="width:48px;height:48px;padding:8px;margin:2px;color: #ffffff;border-radius: 0%;"><i title="YouTube" style="font-size:32px;" class="fa fa-youtube"></i></a></li>
+</ul>
+</div>
+		</aside>	
+              </div>
+	  <div class="col-sm-3">   
+                <aside id="text-6" class="widget widget_text"><h3>Contact</h3>			<div class="textwidget"><ul class="special-list">
+<li><i class="fa fa-map"></i> Address: Level 29 Chifley Tower , 2 Chifley Square, SYDNEY NSW</li>
+<li>Phone number: 02 9071 4735</li>
+<li><i class="fa fa-envelope"></i> Email: admin@riskwisdom.com.au</li>
+</ul>
+</div>
+		</aside>	
+              </div>
+    </div>
+  </div> 
+  <div class="container">
+  <div class="row">
+    <div class="scrollbutton">
+      <a href="#"><i class="fa fa-chevron-up"></i></a>
+    </div> 
+  </div>
+  <div class="row">
+  
+    <div class="col-lg-12 copyright">   
+		<p style="text-align:center;">
+		Authorised Representative for: Lionsgate Financial Group Pty Ltd ABN 9214 059 1484 Australian Financial Services Licensee Licence Number 342 766
+		<br>
+		Lionsgate Financial Group Pty Ltd address – Suite 1402, 122 Arthur St, North Sydney NSW 2060
+		<br>
+		Information provided on this website is general in nature and does not constitute financial advice.
+		</p>
+      <!--p>
+	    	    </p-->
+    </div>
+  </div>
+  </div>
+
+</footer>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/561cb89e4cce476c061fe61c/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/riskwisdom/*"},{"not":{"href_matches":["/riskwisdom/wp-*.php","/riskwisdom/wp-admin/*","/riskwisdom/wp-content/uploads/*","/riskwisdom/wp-content/*","/riskwisdom/wp-content/plugins/*","/riskwisdom/wp-content/themes/health-insurance/*","/riskwisdom/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div 
+	id="pum-2485" 
+	role="dialog" 
+	aria-modal="false"
+	class="pum pum-overlay pum-theme-6 pum-theme-default-theme popmake-overlay click_open" 
+	data-popmake="{&quot;id&quot;:2485,&quot;slug&quot;:&quot;popup-quote-form-2&quot;,&quot;theme_id&quot;:6,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:false,&quot;responsive_min_width&quot;:false,&quot;responsive_max_width&quot;:false,&quot;custom_width&quot;:false,&quot;custom_height&quot;:false,&quot;animation_type&quot;:false,&quot;animation_speed&quot;:false,&quot;animation_origin&quot;:false,&quot;position_bottom&quot;:false,&quot;location&quot;:false,&quot;position_right&quot;:false,&quot;position_top&quot;:false,&quot;position_left&quot;:false,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:false,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width_unit&quot;:false,&quot;custom_height_unit&quot;:false,&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;custom_height_auto&quot;:false,&quot;position_from_trigger&quot;:false,&quot;position_fixed&quot;:false},&quot;close&quot;:{&quot;text&quot;:false,&quot;button_delay&quot;:false,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-2485" class="pum-container popmake theme-6 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+				
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			<div class="row">
+<div class="col-sm-4"><img fetchpriority="high" decoding="async" class="alignnone size-full wp-image-2466" src="http://www.riskwisdomfp.com.au/wp-content/uploads/2017/05/woman-4.jpg" alt="" width="465" height="667" /></div>
+<div class="col-sm-8">
+<div class="wpcf7 no-js" id="wpcf7-f2256-o1" lang="en-US" dir="ltr" data-wpcf7-id="2256">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/riskwisdom/#wpcf7-f2256-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="2256" /><input type="hidden" name="_wpcf7_version" value="6.1.6" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2256-o1" /><input type="hidden" name="_wpcf7_container_post" value="0" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" /><input type="hidden" name="_wpcf7_recaptcha_response" value="" />
+</fieldset>
+<div class="row" style="padding: 12px 12px 0 0">
+	<div class="col-md-12" style="margin-bottom: 12px;">
+		<p><label>Insurance type: </label><span class="wpcf7-form-control-wrap" data-name="radio-186"><span class="wpcf7-form-control wpcf7-radio"><span class="wpcf7-list-item first"><span class="wpcf7-list-item-label">Personal insurance</span><input type="radio" name="radio-186" value="Personal insurance" checked="checked" /></span><span class="wpcf7-list-item"><span class="wpcf7-list-item-label">Family insurance</span><input type="radio" name="radio-186" value="Family insurance" /></span><span class="wpcf7-list-item last"><span class="wpcf7-list-item-label">Group insurance</span><input type="radio" name="radio-186" value="Group insurance" /></span></span></span>
+		</p>
+	</div>
+	<div class="col-md-12">
+		<p><label>Your monthly rate?</label><span class="wpcf7-form-control-wrap" data-name="text-910"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text rangeexample" aria-invalid="false" value="" type="text" name="text-910" /></span>
+		</p>
+	</div>
+	<div class="col-md-6" style="padding-right: 6px;">
+		<p><label>Your age?</label><span class="wpcf7-form-control-wrap" data-name="menu-993"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="menu-993"><option value="18-25 years">18-25 years</option><option value="26-35 years">26-35 years</option><option value="36-45 years">36-45 years</option><option value="46-55 years">46-55 years</option><option value="56-65 years">56-65 years</option><option value="65 years and more">65 years and more</option></select></span>
+		</p>
+	</div>
+	<div class="col-md-6" style="padding-left: 6px;">
+		<p><label>Your name?</label><span class="wpcf7-form-control-wrap" data-name="text-340"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="text-340" /></span>
+		</p>
+	</div>
+	<div class="col-md-12">
+		<p><span class="wpcf7-form-control-wrap" data-name="tel-353"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="contact phone" value="" type="tel" name="tel-353" /></span>
+		</p>
+		<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="submit" />
+		</p>
+	</div>
+</div><input type='hidden' class='wpcf7-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' /><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+</div>
+</div>
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			&#215;			</button>
+		
+	</div>
+
+</div>
+<div 
+	id="pum-2236" 
+	role="dialog" 
+	aria-modal="false"
+	class="pum pum-overlay pum-theme-6 pum-theme-default-theme popmake-overlay click_open" 
+	data-popmake="{&quot;id&quot;:2236,&quot;slug&quot;:&quot;popup-quote-form-1&quot;,&quot;theme_id&quot;:6,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:false,&quot;responsive_min_width&quot;:false,&quot;responsive_max_width&quot;:false,&quot;custom_width&quot;:false,&quot;custom_height&quot;:false,&quot;animation_type&quot;:false,&quot;animation_speed&quot;:false,&quot;animation_origin&quot;:false,&quot;position_bottom&quot;:false,&quot;location&quot;:false,&quot;position_right&quot;:false,&quot;position_top&quot;:false,&quot;position_left&quot;:false,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:false,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width_unit&quot;:false,&quot;custom_height_unit&quot;:false,&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;custom_height_auto&quot;:false,&quot;position_from_trigger&quot;:false,&quot;position_fixed&quot;:false},&quot;close&quot;:{&quot;text&quot;:false,&quot;button_delay&quot;:false,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-2236" class="pum-container popmake theme-6 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+				
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			<div class="row">
+<div class="col-sm-4"><img decoding="async" class="alignnone size-full wp-image-2466" src="http://www.riskwisdomfp.com.au/wp-content/uploads/2017/05/woman-4.jpg" alt="" width="465" height="667" /></div>
+<div class="col-sm-8">
+<div class="wpcf7 no-js" id="wpcf7-f2256-o2" lang="en-US" dir="ltr" data-wpcf7-id="2256">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/riskwisdom/#wpcf7-f2256-o2" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="2256" /><input type="hidden" name="_wpcf7_version" value="6.1.6" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2256-o2" /><input type="hidden" name="_wpcf7_container_post" value="0" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" /><input type="hidden" name="_wpcf7_recaptcha_response" value="" />
+</fieldset>
+<div class="row" style="padding: 12px 12px 0 0">
+	<div class="col-md-12" style="margin-bottom: 12px;">
+		<p><label>Insurance type: </label><span class="wpcf7-form-control-wrap" data-name="radio-186"><span class="wpcf7-form-control wpcf7-radio"><span class="wpcf7-list-item first"><span class="wpcf7-list-item-label">Personal insurance</span><input type="radio" name="radio-186" value="Personal insurance" checked="checked" /></span><span class="wpcf7-list-item"><span class="wpcf7-list-item-label">Family insurance</span><input type="radio" name="radio-186" value="Family insurance" /></span><span class="wpcf7-list-item last"><span class="wpcf7-list-item-label">Group insurance</span><input type="radio" name="radio-186" value="Group insurance" /></span></span></span>
+		</p>
+	</div>
+	<div class="col-md-12">
+		<p><label>Your monthly rate?</label><span class="wpcf7-form-control-wrap" data-name="text-910"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text rangeexample" aria-invalid="false" value="" type="text" name="text-910" /></span>
+		</p>
+	</div>
+	<div class="col-md-6" style="padding-right: 6px;">
+		<p><label>Your age?</label><span class="wpcf7-form-control-wrap" data-name="menu-993"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="menu-993"><option value="18-25 years">18-25 years</option><option value="26-35 years">26-35 years</option><option value="36-45 years">36-45 years</option><option value="46-55 years">46-55 years</option><option value="56-65 years">56-65 years</option><option value="65 years and more">65 years and more</option></select></span>
+		</p>
+	</div>
+	<div class="col-md-6" style="padding-left: 6px;">
+		<p><label>Your name?</label><span class="wpcf7-form-control-wrap" data-name="text-340"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="text-340" /></span>
+		</p>
+	</div>
+	<div class="col-md-12">
+		<p><span class="wpcf7-form-control-wrap" data-name="tel-353"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="contact phone" value="" type="tel" name="tel-353" /></span>
+		</p>
+		<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="submit" />
+		</p>
+	</div>
+</div><input type='hidden' class='wpcf7-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' /><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+</div>
+</div>
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			&#215;			</button>
+		
+	</div>
+
+</div>
+	<script type='text/javascript'>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+				<script type="text/javascript">
+				function revslider_showDoubleJqueryError(sliderID) {
+					var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+					errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+					errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+					errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+					errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+						jQuery(sliderID).show().html(errorMessage);
+				}
+			</script>
+			<script id="wp-hooks-js" src="http://localhost/riskwisdom/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="http://localhost/riskwisdom/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="swv-js" src="http://localhost/riskwisdom/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.6"></script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "http:\/\/localhost\/riskwisdom\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+var wpcf7 = {
+    "api": {
+        "root": "http:\/\/localhost\/riskwisdom\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+var wpcf7 = {
+    "api": {
+        "root": "http:\/\/localhost\/riskwisdom\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+var wpcf7 = {
+    "api": {
+        "root": "http:\/\/localhost\/riskwisdom\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script id="contact-form-7-js" src="http://localhost/riskwisdom/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.6"></script>
+<script id="contact-form-7-js-after">
+(function () {
+	function clearCf7Ui() {
+		document.querySelectorAll('.wpcf7-form.submitting').forEach(function (form) {
+			form.classList.remove('submitting');
+		});
+		document.querySelectorAll('.preloader').forEach(function (el) {
+			el.remove();
+		});
+		if (document.body) {
+			document.body.style.display = '';
+			document.body.style.opacity = '1';
+		}
+	}
+
+	['wpcf7submit', 'wpcf7invalid', 'wpcf7spam', 'wpcf7mailfailed'].forEach(function (evt) {
+		document.addEventListener(evt, clearCf7Ui, false);
+	});
+
+	document.addEventListener('DOMContentLoaded', function () {
+		if (location.hash && location.hash.indexOf('wpcf7') !== -1) {
+			clearCf7Ui();
+		}
+	});
+
+	if (window.jQuery) {
+		jQuery(document).ajaxComplete(function (_e, xhr, settings) {
+			if (settings && settings.url && settings.url.indexOf('contact-form-7') !== -1) {
+				clearCf7Ui();
+			}
+		});
+	}
+})();
+//# sourceURL=contact-form-7-js-after
+</script>
+<script id="imagesloaded-js" src="http://localhost/riskwisdom/wp-includes/js/imagesloaded.min.js?ver=5.0.0"></script>
+<script id="masonry-js" src="http://localhost/riskwisdom/wp-includes/js/masonry.min.js?ver=4.2.2"></script>
+<script id="rt_healthinsurance_plugin_scripts-js" src="http://localhost/riskwisdom/wp-content/plugins/rt-healthinsurance-theme-functions/js/scripts.js?ver=1.0.0"></script>
+<script id="bootstrap-js" src="http://localhost/riskwisdom/wp-content/themes/health-insurance/assets/js/bootstrap.js?ver=1.0.0"></script>
+<script id="flickity-js" src="http://localhost/riskwisdom/wp-content/themes/health-insurance/assets/js/flickity.js?ver=1.0.0"></script>
+<script id="isotope-js" src="http://localhost/riskwisdom/wp-content/themes/health-insurance/assets/js/isotope.js?ver=1.0.0"></script>
+<script id="headhesive-js" src="http://localhost/riskwisdom/wp-content/themes/health-insurance/assets/js/headhesive.js?ver=1.0.0"></script>
+<script id="colorbox-js" src="http://localhost/riskwisdom/wp-content/themes/health-insurance/assets/js/colorbox.js?ver=1.0.0"></script>
+<script id="waypoints-js" src="http://localhost/riskwisdom/wp-content/themes/health-insurance/assets/js/waypoints.js?ver=1.0.0"></script>
+<script id="ionrangeslider-js" src="http://localhost/riskwisdom/wp-content/themes/health-insurance/assets/js/ionrangeslider.js?ver=1.0.0"></script>
+<script id="rt_healthinsurance_scripts-js" src="http://localhost/riskwisdom/wp-content/themes/health-insurance/assets/js/scripts.js?ver=1.0.1"></script>
+<script id="sourcebuster-js-js" src="http://localhost/riskwisdom/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.8.1"></script>
+<script id="wc-order-attribution-js-extra">
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"http://localhost/riskwisdom/wp-admin/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+//# sourceURL=wc-order-attribution-js-extra
+</script>
+<script id="wc-order-attribution-js" src="http://localhost/riskwisdom/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.8.1"></script>
+<script id="jquery-ui-core-js" src="http://localhost/riskwisdom/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"></script>
+<script id="popup-maker-site-js-extra">
+var pum_vars = {"version":"1.22.0","pm_dir_url":"http://localhost/riskwisdom/wp-content/plugins/popup-maker/","ajaxurl":"http://localhost/riskwisdom/wp-admin/admin-ajax.php","restapi":"http://localhost/riskwisdom/wp-json/pum/v1","rest_nonce":null,"default_theme":"6","debug_mode":"","disable_tracking":"","home_url":"/riskwisdom/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"cookie_domain":"","paramNames":{"popup_id":"pid","cta":"cta","notrack":"notrack"},"analytics_enabled":"1","analytics_route":"analytics","analytics_api":"http://localhost/riskwisdom/wp-json/pum/v1","form_submission":{"ajax":false,"tracked":false,"formProvider":"contactform7","formId":2234}};
+var pum_sub_vars = {"ajaxurl":"http://localhost/riskwisdom/wp-admin/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-2485":{"triggers":[],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":6,"size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":350,"animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center top","position_top":100,"position_bottom":0,"position_left":0,"position_right":0,"position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":1999999999,"close_button_delay":0,"fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":0,"close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","id":2485,"slug":"popup-quote-form-2"},"pum-2236":{"triggers":[],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":6,"size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":350,"animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center top","position_top":100,"position_bottom":0,"position_left":0,"position_right":0,"position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":1999999999,"close_button_delay":0,"fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":0,"close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","id":2236,"slug":"popup-quote-form-1"}};
+//# sourceURL=popup-maker-site-js-extra
+</script>
+<script id="popup-maker-site-js" src="//localhost/riskwisdom/wp-content/uploads/pum/pum-site-scripts.js?defer&#038;generated=1771827479&#038;ver=1.22.0"></script>
+<script id="google-recaptcha-js" src="https://www.google.com/recaptcha/api.js?render=6Le84o4UAAAAAIgStZX1WDQv1fcWODPvA4W1BYKG&#038;ver=3.0"></script>
+<script id="wp-polyfill-js" src="http://localhost/riskwisdom/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"></script>
+<script id="wpcf7-recaptcha-js-before">
+var wpcf7_recaptcha = {
+    "sitekey": "6Le84o4UAAAAAIgStZX1WDQv1fcWODPvA4W1BYKG",
+    "actions": {
+        "homepage": "homepage",
+        "contactform": "contactform"
+    }
+};
+//# sourceURL=wpcf7-recaptcha-js-before
+</script>
+<script id="wpcf7-recaptcha-js" src="http://localhost/riskwisdom/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=6.1.6"></script>
+<script id="kc-front-scripts-js" src="http://localhost/riskwisdom/wp-content/plugins/kingcomposer/assets/frontend/js/kingcomposer.min.js?ver=2.7.8"></script>
+<script id="owl-carousel-js" src="http://localhost/riskwisdom/wp-content/plugins/kingcomposer/includes/frontend/vendors/owl-carousel/owl.carousel.min.js?ver=2.7.8"></script>
+<script id="sp-testimonial-scripts-js" src="http://localhost/riskwisdom/wp-content/plugins/testimonial-free/src/Frontend/assets/js/sp-scripts.min.js?ver=3.1.14"></script>
+<script id="sp-testimonial-swiper-js-js" src="http://localhost/riskwisdom/wp-content/plugins/testimonial-free/src/Frontend/assets/js/swiper.min.js?ver=3.1.14"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"http://localhost/riskwisdom/wp-includes/js/wp-emoji-release.min.js?ver=7.0"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=http://localhost/riskwisdom/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html>
