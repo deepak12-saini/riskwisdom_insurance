@@ -96,6 +96,134 @@ add_action(
 );
 
 /**
+ * Reject placeholder / test emails (e.g. test@gmail.com) before submit.
+ */
+function riskwisdom_cf7_is_placeholder_email( $email ) {
+	if ( ! is_string( $email ) ) {
+		return true;
+	}
+
+	$email = strtolower( trim( $email ) );
+
+	if ( ! is_email( $email ) ) {
+		return true;
+	}
+
+	$parts = explode( '@', $email, 2 );
+	if ( 2 !== count( $parts ) ) {
+		return true;
+	}
+
+	list( $local, $domain ) = $parts;
+
+	$blocked_locals = array(
+		'test',
+		'testing',
+		'demo',
+		'fake',
+		'example',
+		'sample',
+		'temp',
+		'asdf',
+		'abc',
+		'xxx',
+		'none',
+		'user',
+		'admin',
+		'email',
+		'name',
+	);
+
+	if ( in_array( $local, $blocked_locals, true ) ) {
+		return true;
+	}
+
+	$blocked_domains = array(
+		'example.com',
+		'example.org',
+		'example.net',
+		'test.com',
+		'localhost',
+		'invalid.com',
+	);
+
+	if ( in_array( $domain, $blocked_domains, true ) ) {
+		return true;
+	}
+
+	$junk_domains = array(
+		'mailinator.com',
+		'guerrillamail.com',
+		'tempmail.com',
+		'10minutemail.com',
+		'yopmail.com',
+		'throwaway.email',
+		'fakeinbox.com',
+		'trashmail.com',
+	);
+
+	foreach ( $junk_domains as $junk_domain ) {
+		if ( $domain === $junk_domain ) {
+			return true;
+		}
+	}
+
+	return false;
+}
+
+/**
+ * @param WPCF7_Validation $result Validation result.
+ * @param WPCF7_FormTag    $tag    Form tag.
+ */
+function riskwisdom_cf7_validate_real_email( $result, $tag ) {
+	$value = wpcf7_superglobal_post( $tag->name );
+
+	if ( '' === $value || ! riskwisdom_cf7_is_placeholder_email( $value ) ) {
+		return $result;
+	}
+
+	$result->invalidate(
+		$tag,
+		__( 'Please enter your real email address (test or placeholder emails are not accepted).', 'riskwisdom' )
+	);
+
+	return $result;
+}
+
+add_filter( 'wpcf7_validate_email', 'riskwisdom_cf7_validate_real_email', 20, 2 );
+add_filter( 'wpcf7_validate_email*', 'riskwisdom_cf7_validate_real_email', 20, 2 );
+
+/**
+ * Honeypot: bots fill hidden field; humans leave it empty.
+ */
+add_filter(
+	'wpcf7_spam',
+	static function ( $spam, $submission ) {
+		if ( $spam ) {
+			return $spam;
+		}
+
+		$honeypot = wpcf7_superglobal_post( 'riskwisdom-hp' );
+
+		if ( is_string( $honeypot ) && '' !== trim( $honeypot ) ) {
+			if ( $submission instanceof WPCF7_Submission ) {
+				$submission->add_spam_log(
+					array(
+						'agent'  => 'honeypot',
+						'reason' => 'Hidden honeypot field was filled.',
+					)
+				);
+			}
+			return true;
+		}
+
+		return $spam;
+	},
+	5,
+	2
+);
+
+/**
  * reCAPTCHA v3 often fails on KC tabbed quote forms (empty/expired token).
  * SMTP test works; CF7 was returning status "spam" with the same message as mail_failed.
  */
@@ -194,13 +322,76 @@ add_action(
 		}
 	}
 
+	/** Keep KingComposer quote tab (Life/Income/Business/etc.) after CF7 submit. */
+	function activateKcTabForCf7(node) {
+		if (!node || !window.jQuery) {
+			return;
+		}
+
+		var container = node.classList && node.classList.contains('wpcf7')
+			? node
+			: (node.closest ? node.closest('.wpcf7') : null);
+
+		if (!container) {
+			return;
+		}
+
+		var panel = container.closest('.kc_tab');
+		if (!panel || !panel.id) {
+			return;
+		}
+
+		var $li = jQuery('.kc_tabs_nav a[href="#' + panel.id + '"]').closest('li');
+		if ($li.length && !$li.hasClass('ui-tabs-active')) {
+			$li.trigger('click');
+		}
+	}
+
+	function scrollToCf7Form(node) {
+		var container = null;
+
+		if (node && node.classList && node.classList.contains('wpcf7')) {
+			container = node;
+		} else if (node && node.closest) {
+			container = node.closest('.wpcf7');
+		}
+
+		if (!container && location.hash && location.hash.indexOf('wpcf7') !== -1) {
+			container = document.getElementById(location.hash.replace('#', ''));
+		}
+
+		if (container && container.scrollIntoView) {
+			container.scrollIntoView({ behavior: 'smooth', block: 'center' });
+		}
+	}
+
+	function activateKcTabFromHash() {
+		if (!location.hash || location.hash.indexOf('wpcf7') === -1) {
+			return;
+		}
+
+		var unitId = location.hash.replace('#', '');
+		var el = document.getElementById(unitId);
+		if (el) {
+			activateKcTabForCf7(el);
+			scrollToCf7Form(el);
+		}
+	}
+
 	['wpcf7submit', 'wpcf7invalid', 'wpcf7spam', 'wpcf7mailfailed'].forEach(function (evt) {
-		document.addEventListener(evt, clearCf7Ui, false);
+		document.addEventListener(evt, function (e) {
+			clearCf7Ui();
+			activateKcTabForCf7(e.target);
+			scrollToCf7Form(e.target);
+		}, false);
 	});
 
 	document.addEventListener('DOMContentLoaded', function () {
 		if (location.hash && location.hash.indexOf('wpcf7') !== -1) {
 			clearCf7Ui();
+			// KC tabs() activates tab 1 first; override after it runs.
+			setTimeout(activateKcTabFromHash, 200);
+			setTimeout(activateKcTabFromHash, 600);
 		}
 	});
 
