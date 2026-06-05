@@ -72,8 +72,20 @@ If still failing, read Apache log:
 tail -50 /var/www/vhosts/riskwisdom.com.au/logs/error_log
 ```
 
-## 5. Security
+## 5. Blog spam posts (invalid "Uncategorized" crack posts)
+
+Hackers injected SEO spam into **Posts**. Homepage **Blog news** shows latest posts automatically.
+
+```bash
+php cleanup-spam-posts.php          # dry run
+php cleanup-spam-posts.php --apply  # delete spam (keeps real insurance articles)
+```
+
+Then **WP Fastest Cache → Delete Cache**.
+
+## 6. Security
 
 - Change mailbox password after any exposure
+- Change WordPress admin password after hack cleanup
 - Never commit `wp-config-smtp.php` to Git
 - Scan site with Wordfence / Imunify after malware cleanup
