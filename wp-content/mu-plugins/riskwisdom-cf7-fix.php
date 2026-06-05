@@ -95,6 +95,58 @@ add_action(
 	19
 );
 
+/**
+ * reCAPTCHA v3 often fails on KC tabbed quote forms (empty/expired token).
+ * SMTP test works; CF7 was returning status "spam" with the same message as mail_failed.
+ */
+add_filter(
+	'wpcf7_spam',
+	static function ( $spam, $submission ) {
+		if ( ! $spam || ! $submission instanceof WPCF7_Submission ) {
+			return $spam;
+		}
+
+		$only_recaptcha = true;
+
+		foreach ( $submission->get_spam_log() as $entry ) {
+			if ( empty( $entry['agent'] ) || 'recaptcha' !== $entry['agent'] ) {
+				$only_recaptcha = false;
+				break;
+			}
+		}
+
+		if ( $only_recaptcha && $submission->get_spam_log() ) {
+			error_log(
+				'CF7: allowing submission after reCAPTCHA false positive — ' .
+				wp_json_encode( $submission->get_spam_log() )
+			);
+			return false;
+		}
+
+		return $spam;
+	},
+	20,
+	2
+);
+
+add_action(
+	'wpcf7_submit',
+	static function ( $contact_form, $result ) {
+		if ( isset( $result['status'] ) && 'mail_sent' !== $result['status'] ) {
+			error_log(
+				sprintf(
+					'CF7 form %d status=%s message=%s',
+					$contact_form->id(),
+					$result['status'],
+					$result['message'] ?? ''
+				)
+			);
+		}
+	},
+	10,
+	2
+);
+
 add_filter(
 	'phpmailer_init',
 	static function ( $phpmailer ) {
@@ -112,6 +164,10 @@ add_action(
 		wp_enqueue_script( 'swv' );
 		wpcf7_enqueue_scripts();
 		wpcf7_enqueue_styles();
+
+		if ( wp_script_is( 'wpcf7-recaptcha', 'registered' ) ) {
+			wp_enqueue_script( 'wpcf7-recaptcha' );
+		}
 	},
 	100
 );

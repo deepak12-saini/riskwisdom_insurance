@@ -23,8 +23,9 @@ foreach ( $quote_form_ids as $form_id ) {
 	}
 
 	$properties = $contact_form->get_properties();
-	$properties['mail']['sender']    = '[text-340] <info@riskwisdom.com.au>';
+	$properties['mail']['sender']    = 'Risk Wisdom <info@riskwisdom.com.au>';
 	$properties['mail']['recipient'] = 'info@riskwisdom.com.au';
+	$properties['messages']['spam']  = 'Your message was blocked by our spam filter. Please call us or try again.';
 
 	$contact_form->set_properties( $properties );
 	$contact_form->save();

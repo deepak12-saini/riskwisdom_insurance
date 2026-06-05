@@ -27,6 +27,8 @@ Then redeploy from Plesk Git.
 
 ## 3. Contact form email
 
+`setup-smtp.php --test` working but form still errors? That is usually **reCAPTCHA spam** (same message as mail failure). Deploy `wp-content/mu-plugins/riskwisdom-cf7-fix.php` — it allows mail when only reCAPTCHA blocks the submit.
+
 After deploy, run:
 
 ```bash
