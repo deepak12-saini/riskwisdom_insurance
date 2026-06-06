@@ -107,6 +107,7 @@ $form_templates = array(
 		'title'  => 'Life Insurance Quote',
 		'fields' => array(
 			array( 'label' => 'Name', 'tag' => '[text-340]' ),
+			array( 'label' => 'Email', 'tag' => '[quote-email]' ),
 			array( 'label' => 'Age', 'tag' => '[menu-993]' ),
 			array( 'label' => 'Do you smoke?', 'tag' => '[radio-102]' ),
 			array( 'label' => 'Phone', 'tag' => '[tel-105]' ),
@@ -118,6 +119,7 @@ $form_templates = array(
 		'title'  => 'Income Insurance Quote',
 		'fields' => array(
 			array( 'label' => 'Name', 'tag' => '[text-340]' ),
+			array( 'label' => 'Email', 'tag' => '[quote-email]' ),
 			array( 'label' => 'Phone', 'tag' => '[tel-105]' ),
 			array( 'label' => 'Occupation', 'tag' => '[Occupation]' ),
 			array( 'label' => 'Gross Income', 'tag' => '[GrossIncome]' ),
@@ -128,6 +130,7 @@ $form_templates = array(
 		'title'  => 'Business Insurance Quote',
 		'fields' => array(
 			array( 'label' => 'Name', 'tag' => '[text-340]' ),
+			array( 'label' => 'Email', 'tag' => '[quote-email]' ),
 			array( 'label' => 'Phone', 'tag' => '[tel-105]' ),
 			array( 'label' => 'Occupation', 'tag' => '[Occupation]' ),
 			array( 'label' => 'Gross Income', 'tag' => '[GrossIncome]' ),
@@ -138,6 +141,7 @@ $form_templates = array(
 		'title'  => 'Trauma Insurance Quote',
 		'fields' => array(
 			array( 'label' => 'Name', 'tag' => '[text-340]' ),
+			array( 'label' => 'Email', 'tag' => '[quote-email]' ),
 			array( 'label' => 'Phone', 'tag' => '[tel-105]' ),
 			array( 'label' => 'Occupation', 'tag' => '[Occupation]' ),
 			array( 'label' => 'Do you smoke?', 'tag' => '[radio-102]' ),
@@ -148,6 +152,7 @@ $form_templates = array(
 		'title'  => 'TPD Insurance Quote',
 		'fields' => array(
 			array( 'label' => 'Name', 'tag' => '[text-340]' ),
+			array( 'label' => 'Email', 'tag' => '[quote-email]' ),
 			array( 'label' => 'Phone', 'tag' => '[tel-105]' ),
 			array( 'label' => 'Do you smoke?', 'tag' => '[radio-102]' ),
 			array( 'label' => 'Occupation', 'tag' => '[Occupation]' ),
@@ -186,6 +191,10 @@ foreach ( $form_templates as $form_id => $template ) {
 	$properties['mail']['body']       = riskwisdom_cf7_email_body( $template['title'], $template['fields'], $intro );
 	$properties['mail']['use_html']   = true;
 	$properties['messages']['spam']   = 'Your message was blocked by our spam filter. Please call us or try again.';
+
+	if ( in_array( (int) $form_id, array( 2234, 2478, 2862, 2863, 2866 ), true ) ) {
+		$properties['mail']['additional_headers'] = "Reply-To: [quote-email]\n";
+	}
 
 	$contact_form->set_properties( $properties );
 	$contact_form->save();

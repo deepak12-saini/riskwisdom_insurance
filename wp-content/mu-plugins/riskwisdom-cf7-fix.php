@@ -116,6 +116,90 @@ function riskwisdom_cf7_is_placeholder_email( $email ) {
 
 	list( $local, $domain ) = $parts;
 
+	$allowed_short_locals = array(
+		'amy',
+		'ann',
+		'ben',
+		'bob',
+		'dan',
+		'eli',
+		'eva',
+		'ian',
+		'jay',
+		'jim',
+		'joe',
+		'joy',
+		'kim',
+		'leo',
+		'max',
+		'mia',
+		'ray',
+		'roy',
+		'sam',
+		'tim',
+		'tom',
+	);
+
+	// Reject very short local parts except common real first names.
+	if ( strlen( $local ) < 3 ) {
+		return true;
+	}
+
+	if ( strlen( $local ) < 4 && ! in_array( $local, $allowed_short_locals, true ) ) {
+		return true;
+	}
+
+	// Reject obvious junk like aaa@, 111@, abc@.
+	if ( preg_match( '/^(.)\1+$/', $local ) ) {
+		return true;
+	}
+
+	if ( preg_match( '/^[0-9]+$/', $local ) ) {
+		return true;
+	}
+
+	// Repeated characters: deeeee@, aaa@, xxxx@.
+	if ( preg_match( '/(.)\1{3,}/', $local ) ) {
+		return true;
+	}
+
+	// One letter dominates the local part (padding to pass length checks).
+	if ( strlen( $local ) >= 5 ) {
+		$counts = count_chars( $local, 1 );
+		if ( $counts ) {
+			arsort( $counts );
+			$max = (int) reset( $counts );
+			if ( $max / strlen( $local ) >= 0.6 ) {
+				return true;
+			}
+		}
+	}
+
+	// Keyboard mash / random typing (asdf, qwerty, dsfsdfds).
+	$keyboard_spam = array(
+		'asdf',
+		'asdfg',
+		'asdfgh',
+		'qwer',
+		'qwert',
+		'qwerty',
+		'zxcv',
+		'zxcvb',
+		'qazwsx',
+		'aaaa',
+		'bbbb',
+		'cccc',
+		'dddd',
+		'eeee',
+		'ffff',
+	);
+
+	foreach ( $keyboard_spam as $spam ) {
+		if ( str_contains( $local, $spam ) ) {
+			return true;
+		}
+	}
+
 	$blocked_locals = array(
 		'test',
 		'testing',
@@ -184,7 +268,7 @@ function riskwisdom_cf7_validate_real_email( $result, $tag ) {
 
 	$result->invalidate(
 		$tag,
-		__( 'Please enter your real email address (test or placeholder emails are not accepted).', 'riskwisdom' )
+		__( 'Please enter a valid email address (at least 4 characters before @, no test or placeholder emails).', 'riskwisdom' )
 	);
 
 	return $result;
@@ -192,6 +276,153 @@ function riskwisdom_cf7_validate_real_email( $result, $tag ) {
 
 add_filter( 'wpcf7_validate_email', 'riskwisdom_cf7_validate_real_email', 20, 2 );
 add_filter( 'wpcf7_validate_email*', 'riskwisdom_cf7_validate_real_email', 20, 2 );
+
+/**
+ * CF7 field names used for person name (stricter link blocking).
+ *
+ * @return string[]
+ */
+function riskwisdom_cf7_name_field_names() {
+	return array( 'your-name', 'text-340' );
+}
+
+/**
+ * Normalize user text before spam checks.
+ *
+ * @param mixed $value Raw value.
+ * @return string
+ */
+function riskwisdom_cf7_normalize_field_text( $value ) {
+	if ( ! is_string( $value ) ) {
+		return '';
+	}
+
+	$value = wp_strip_all_tags( $value );
+	$value = preg_replace( '/[\x{200B}-\x{200D}\x{FEFF}]/u', '', $value );
+
+	return trim( $value );
+}
+
+/**
+ * Strict validation for name fields — block links, domains, and www variants.
+ *
+ * @param mixed $value Field value.
+ * @return bool True when invalid.
+ */
+function riskwisdom_cf7_is_invalid_name( $value ) {
+	$value = riskwisdom_cf7_normalize_field_text( $value );
+
+	if ( '' === $value ) {
+		return false;
+	}
+
+	$patterns = array(
+		'/https?:\/\//i',
+		'/ftp:\/\//i',
+		'/mailto:/i',
+		'/\[url(?:=|\])/i',
+		'/\[\/url\]/i',
+		'/\[link(?:=|\])/i',
+		'/<a\s/i',
+		'/^www[\W_]/i',
+		'/^www\d*\./i',
+		'/[\s(]www[\W_]/i',
+		'/www[\.\/]/i',
+		'/\swww\d*\./i',
+		'/\@/',                          // any email address in name field.
+		'/\:\/\/',                       // protocol-relative URL.
+		'/\b[a-z0-9][a-z0-9-]{0,62}\.(com|net|org|ru|au|co|uk|io|info|biz|xyz|top|shop|online|site|link|click|tk|cn|de|fr|us|in|me|tv|edu|gov|mil|int)\b/i',
+		'/[^\s]+\.(php|html|htm|asp|aspx)\b/i',
+	);
+
+	foreach ( $patterns as $pattern ) {
+		if ( preg_match( $pattern, $value ) ) {
+			return true;
+		}
+	}
+
+	// Domain-like single token: "www.spam" or "site.ru" (allow "Mary-Jane", "O'Brien").
+	if ( preg_match( '/^[a-z0-9][a-z0-9._-]*\.[a-z0-9][a-z0-9._-]*$/i', $value ) ) {
+		return true;
+	}
+
+	return false;
+}
+
+/**
+ * Block link/BBCode spam in message and other text fields.
+ *
+ * @param mixed $value Field value.
+ * @return bool
+ */
+function riskwisdom_cf7_is_spam_text( $value ) {
+	$value = riskwisdom_cf7_normalize_field_text( $value );
+
+	if ( '' === $value ) {
+		return false;
+	}
+
+	$patterns = array(
+		'/https?:\/\//i',
+		'/ftp:\/\//i',
+		'/mailto:/i',
+		'/\[url(?:=|\])/i',
+		'/\[\/url\]/i',
+		'/\[link(?:=|\])/i',
+		'/<a\s/i',
+		'/www[\.\/]/i',
+		'/^www[\W_]/i',
+		'/\swww[\.\/]/i',
+		'/\:\/\/',
+		'/\bnarkolog/i',
+		'/\b[a-z0-9][a-z0-9-]{0,62}\.(com|net|org|ru|au|co|uk|io|info|biz|xyz|top|shop|online|site|link|click|tk|cn|de|fr|us|in|me|tv|edu|gov)\b/i',
+	);
+
+	foreach ( $patterns as $pattern ) {
+		if ( preg_match( $pattern, $value ) ) {
+			return true;
+		}
+	}
+
+	return false;
+}
+
+/**
+ * @param WPCF7_Validation $result Validation result.
+ * @param WPCF7_FormTag    $tag    Form tag.
+ */
+function riskwisdom_cf7_validate_no_spam_text( $result, $tag ) {
+	if ( ! in_array( $tag->basetype, array( 'text', 'textarea' ), true ) ) {
+		return $result;
+	}
+
+	$value = wpcf7_superglobal_post( $tag->name );
+
+	if ( in_array( $tag->name, riskwisdom_cf7_name_field_names(), true ) ) {
+		if ( riskwisdom_cf7_is_invalid_name( $value ) ) {
+			$result->invalidate(
+				$tag,
+				__( 'Please enter your real name only — links and website addresses are not allowed.', 'riskwisdom' )
+			);
+		}
+
+		return $result;
+	}
+
+	if ( riskwisdom_cf7_is_spam_text( $value ) ) {
+		$result->invalidate(
+			$tag,
+			__( 'Please enter plain text only — links are not allowed in this field.', 'riskwisdom' )
+		);
+	}
+
+	return $result;
+}
+
+add_filter( 'wpcf7_validate_text', 'riskwisdom_cf7_validate_no_spam_text', 20, 2 );
+add_filter( 'wpcf7_validate_text*', 'riskwisdom_cf7_validate_no_spam_text', 20, 2 );
+add_filter( 'wpcf7_validate_textarea', 'riskwisdom_cf7_validate_no_spam_text', 20, 2 );
+add_filter( 'wpcf7_validate_textarea*', 'riskwisdom_cf7_validate_no_spam_text', 20, 2 );
 
 /**
  * Honeypot: bots fill hidden field; humans leave it empty.
@@ -223,14 +454,66 @@ add_filter(
 	2
 );
 
-/**
- * reCAPTCHA v3 often fails on KC tabbed quote forms (empty/expired token).
- * SMTP test works; CF7 was returning status "spam" with the same message as mail_failed.
- */
 add_filter(
 	'wpcf7_spam',
 	static function ( $spam, $submission ) {
-		if ( ! $spam || ! $submission instanceof WPCF7_Submission ) {
+		if ( $spam || ! $submission instanceof WPCF7_Submission ) {
+			return $spam;
+		}
+
+		foreach ( $submission->get_posted_data() as $key => $value ) {
+			if ( is_string( $key ) && str_starts_with( $key, '_' ) ) {
+				continue;
+			}
+
+			if ( is_array( $value ) ) {
+				$value = implode( ' ', $value );
+			}
+
+			if ( in_array( $key, array( 'your-email', 'quote-email' ), true ) ) {
+				if ( riskwisdom_cf7_is_placeholder_email( $value ) ) {
+					$submission->add_spam_log(
+						array(
+							'agent'  => 'riskwisdom',
+							'reason' => 'Invalid or placeholder email: ' . $key,
+						)
+					);
+					return true;
+				}
+				continue;
+			}
+
+			if ( in_array( $key, riskwisdom_cf7_name_field_names(), true ) ) {
+				$blocked = riskwisdom_cf7_is_invalid_name( $value );
+			} else {
+				$blocked = riskwisdom_cf7_is_spam_text( $value );
+			}
+
+			if ( $blocked ) {
+				$submission->add_spam_log(
+					array(
+						'agent'  => 'riskwisdom',
+						'reason' => 'Link or spam pattern in field: ' . $key,
+					)
+				);
+				return true;
+			}
+		}
+
+		return $spam;
+	},
+	6,
+	2
+);
+
+/**
+ * reCAPTCHA v3 often fails on KC tabbed quote forms (empty/expired token).
+ * Only bypass on localhost — production must enforce reCAPTCHA.
+ */
+add_filter(
+	'wpcf7_spam',
+	static function ( $spam, $submission ) use ( $riskwisdom_is_local ) {
+		if ( ! $riskwisdom_is_local || ! $spam || ! $submission instanceof WPCF7_Submission ) {
 			return $spam;
 		}
 
