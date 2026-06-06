@@ -1,5 +1,35 @@
 # Production deploy (riskwisdom.com.au)
 
+## URGENT: 500 error after Git push
+
+If **homepage works** but pages like `/life-insurance/` show **Internal Server Error**, the most common cause is the **wrong `.htaccess`** was deployed from localhost (`RewriteBase /riskwisdom/` instead of `/`).
+
+### Fix via Plesk File Manager (no SSH)
+
+1. Open **Plesk → Files →** `httpdocs/.htaccess`
+2. Replace the whole file with the contents of **`.htaccess.production`** from this repo (must have `RewriteBase /` and `RewriteRule . /index.php`)
+3. **Delete** any extra `.htaccess` inside `wp-admin/` or `wp-includes/` (except normal WordPress ones — if unsure, run cleanup script below)
+4. **wp-admin → WP Fastest Cache → Delete Cache**
+5. Test: https://riskwisdom.com.au/life-insurance/
+
+### Fix via SSH (recommended)
+
+```bash
+cd /var/www/vhosts/riskwisdom.com.au/httpdocs
+php cleanup-malware.php
+php fix-production-pages.php --apply
+```
+
+Then **WP Fastest Cache → Delete Cache**.
+
+### Prevent this on the next deploy
+
+- **Never push** root `.htaccess` from localhost (it is in `.gitignore` now)
+- On the server, keep production `.htaccess` with `RewriteBase /`
+- Only deploy: theme, plugins, mu-plugins, PHP fix scripts — not local Apache config
+
+---
+
 ## 1. Clean malware first (Plesk SSH / Terminal)
 
 Git deploy fails until hacked files are removed manually:

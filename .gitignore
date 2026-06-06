@@ -2,6 +2,9 @@
 wp-config.php
 wp-config-smtp.php
 
+# Apache rewrite rules differ per environment (local vs production)
+.htaccess
+
 # WordPress uploads and generated files
 wp-content/uploads/
 wp-content/cache/
