@@ -49,7 +49,32 @@ find httpdocs -name '.htaccess' -exec grep -l 'Allow from all' {} \; | xargs rm 
 
 Then redeploy from Plesk Git.
 
-## 2. Files that must stay on the server (not overwritten by Git)
+## 2. After every Git deploy — run form scripts (IMPORTANT)
+
+**Contact Form 7 forms are stored in the database, not in Git.**
+
+Pushing code updates `fix-cf7-spam.php` and `riskwisdom-cf7-fix.php`, but production will **still show the old form** (no email field, lowercase "phone" label) until you run:
+
+```bash
+cd /var/www/vhosts/riskwisdom.com.au/httpdocs
+php deploy-production-forms.php
+```
+
+Or run each script manually:
+
+```bash
+php fix-cf7-spam.php
+php fix-cf7-mail.php
+php fix-contact-us-page.php --apply
+```
+
+Then **WP Fastest Cache → Delete Cache** and hard-refresh the homepage.
+
+**Symptom:** Life Insurance form shows name + phone but **no Email field** → scripts above were not run on production DB.
+
+---
+
+## 3. Files that must stay on the server (not overwritten by Git)
 
 - `wp-config.php` — add: `require __DIR__ . '/wp-config-smtp.php';`
 - `wp-config-smtp.php` — copy from `wp-config-sample-smtp.php`, set password
