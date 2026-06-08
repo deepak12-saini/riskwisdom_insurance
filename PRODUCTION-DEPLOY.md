@@ -138,7 +138,36 @@ php cleanup-spam-posts.php --apply  # delete spam (keeps real insurance articles
 
 Then **WP Fastest Cache → Delete Cache**.
 
-## 6. Security
+## 6. SEO (after forms and malware cleanup)
+
+Git does **not** update SEO titles or fix broken URLs in the database. After deploy:
+
+```bash
+cd /var/www/vhosts/riskwisdom.com.au/httpdocs
+php cleanup-spam-posts.php --apply
+php fix-seo-urls.php --apply
+php fix-seo-meta.php --apply
+php fix-seo-content.php --apply
+php deploy-production-forms.php
+```
+
+Upload mu-plugin: `wp-content/mu-plugins/riskwisdom-seo.php`
+
+Then **WP Fastest Cache → Delete Cache**.
+
+Verify:
+
+- View source on homepage — `<title>` should mention **Insurance Advisor Sydney**
+- Search Google: `site:riskwisdom.com.au`
+- Submit sitemap in **Google Search Console**: `https://riskwisdom.com.au/sitemap.xml`
+
+Full client/marketing guide: [SEO-GUIDE.md](SEO-GUIDE.md)
+
+**Note:** On production only, `fix-seo-urls.php` sets `siteurl`/`home` to `https://riskwisdom.com.au` if they still point at localhost. Do **not** run `--apply` on local XAMPP unless you intend to change local URLs.
+
+---
+
+## 7. Security
 
 - Change mailbox password after any exposure
 - Change WordPress admin password after hack cleanup

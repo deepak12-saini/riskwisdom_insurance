@@ -38,8 +38,8 @@ function riskwisdom_cf7_harden_quote_form( $form, $honeypot_markup, $akismet ) {
 
 	if ( ! str_contains( $form, 'quote-email' ) ) {
 		$form = preg_replace(
-			'/(<label>Your name<\/label>\[text\* text-340[^\]]*\])/',
-			'$1' . "\n\n<label>Email</label>[email* quote-email" . $akismet_email . ' placeholder "Email address"]',
+			'/(<label[^>]*>Your name:?<\/label>\s*\[text\* text-340[^\]]*\])/i',
+			'$1' . "\n\n<label>Email:</label>[email* quote-email" . $akismet_email . ' placeholder "Email address"]',
 			$form,
 			1
 		);
