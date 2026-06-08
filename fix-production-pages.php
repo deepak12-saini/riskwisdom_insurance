@@ -73,6 +73,20 @@ if ( is_file( $root_htaccess ) ) {
 	if ( str_contains( $ht, 'RewriteBase /riskwisdom/' ) ) {
 		echo "WARNING: RewriteBase is /riskwisdom/ — wrong for production (must be /).\n";
 	}
+
+	$rewrite_base_count = preg_match_all( '/RewriteBase\s+/i', $ht );
+	if ( $rewrite_base_count > 1 ) {
+		echo "WARNING: Multiple RewriteBase directives ({$rewrite_base_count}) — causes redirect loop AH00124.\n";
+	}
+
+	if ( str_contains( $ht, 'BEGIN WpFastestCache' ) ) {
+		echo "WARNING: WpFastestCache .htaccess block present — often causes redirect loops after migrate.\n";
+		echo "         Fix: apply clean .htaccess, then re-enable cache in wp-admin.\n";
+	}
+
+	if ( preg_match_all( '/RewriteRule.*\[R=301/i', $ht ) > 2 ) {
+		echo "WARNING: Many 301 RewriteRules in .htaccess — possible redirect loop.\n";
+	}
 } else {
 	echo "\nERROR: Root .htaccess missing!\n";
 }
@@ -116,27 +130,41 @@ foreach ( $cache_dirs as $dir ) {
 }
 echo "\nCached index.html files" . ( $apply ? ' cleared' : ' found' ) . ": {$cleared}\n";
 
-// 5. Apply clean production .htaccess (strips ErrorDocument + wrong RewriteBase)
+// 5. Apply clean production .htaccess (WordPress only — no WPFC block to stop redirect loops)
 if ( $apply ) {
 	$production_file = $root . '/.htaccess.production';
 	$production      = is_file( $production_file ) ? file_get_contents( $production_file ) : '';
+	$keep_wpfc       = in_array( '--keep-wpfc', $argv ?? array(), true );
 
 	if ( $production ) {
 		$current = is_file( $root_htaccess ) ? file_get_contents( $root_htaccess ) : '';
 		$wpfc    = '';
 
-		if ( preg_match( '/#\s*BEGIN WpFastestCache.*?#\s*END WpFastestCache/s', $current, $m ) ) {
-			// Drop WPFC block if it contains ErrorDocument (common hack/corruption pattern).
-			if ( ! str_contains( $m[0], 'ErrorDocument' ) ) {
-				$wpfc = "\n" . $m[0] . "\n";
+		if ( $keep_wpfc && preg_match( '/#\s*BEGIN WpFastestCache.*?#\s*END WpFastestCache/s', $current, $m ) ) {
+			$block = $m[0];
+			$bad   = str_contains( $block, 'ErrorDocument' )
+				|| str_contains( $block, '/riskwisdom/' )
+				|| str_contains( $block, 'localhost' );
+
+			if ( ! $bad ) {
+				$wpfc = "\n" . $block . "\n";
 			} else {
-				echo "\nSkipped WpFastestCache .htaccess block (contained ErrorDocument).\n";
+				echo "\nSkipped WpFastestCache block (localhost, /riskwisdom/, or ErrorDocument found).\n";
 			}
+		} elseif ( preg_match( '/#\s*BEGIN WpFastestCache/s', $current ) ) {
+			echo "\nRemoved WpFastestCache .htaccess block (prevents AH00124 redirect loop).\n";
+			echo "After site works: wp-admin → WP Fastest Cache → re-save settings to regenerate rules.\n";
 		}
 
 		file_put_contents( $root_htaccess, trim( $production ) . $wpfc );
-		echo "\nApplied .htaccess.production" . ( $wpfc ? ' (kept clean WpFastestCache block)' : '' ) . ".\n";
-		echo "Removed ErrorDocument and localhost RewriteBase from root .htaccess.\n";
+		echo "\nApplied .htaccess.production" . ( $wpfc ? ' (kept WPFC block)' : ' (WordPress rules only)' ) . ".\n";
+	}
+
+	$home = get_option( 'home' );
+	if ( is_string( $home ) && ( str_contains( $home, 'localhost' ) || str_contains( $home, '/riskwisdom' ) ) ) {
+		update_option( 'home', 'https://riskwisdom.com.au' );
+		update_option( 'siteurl', 'https://riskwisdom.com.au' );
+		echo "Fixed siteurl/home -> https://riskwisdom.com.au\n";
 	}
 }
 

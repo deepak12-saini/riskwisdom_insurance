@@ -3,28 +3,39 @@
 ## Symptom
 
 - `https://riskwisdom.com.au/about/` shows **Internal Server Error**
-- Message: *"500 error while trying to use an ErrorDocument"*
-- Homepage may still work (cached)
+- Apache log: **`AH00124: Request exceeded the limit of 10 internal redirects`**
+- Or: *"500 error while trying to use an ErrorDocument"*
 
-This is **Apache `.htaccess`**, not WordPress SEO or forms.
+**Cause:** Broken `.htaccess` — usually **WP Fastest Cache rules** + wrong `RewriteBase /riskwisdom/` from localhost deploy.
 
 ---
 
-## Fix via SSH (fastest)
+## Fix via SSH (run again on server)
 
 ```bash
 cd /var/www/vhosts/riskwisdom.com.au/httpdocs
 php fix-production-500.php --apply
 ```
 
-Then **WP Fastest Cache → Delete Cache** and test `/about/`.
+This now:
+1. Removes bad `.htaccess` in `wp-admin/` / `wp-includes/`
+2. Writes **clean WordPress-only** `.htaccess` (removes WP Fastest Cache block that causes redirect loop)
+3. Clears cached HTML files
+4. Fixes `siteurl`/`home` if still pointing to localhost
+
+Then:
+1. **WP Fastest Cache → Delete Cache**
+2. Test https://riskwisdom.com.au/about/
+3. If OK, **WP Fastest Cache → Options → Save** (regenerates cache rules safely)
+
+**Do not** use `--keep-wpfc` unless you know the cache block is clean.
 
 ---
 
 ## Fix via Plesk File Manager (no SSH)
 
 1. **Plesk → Files →** `httpdocs/.htaccess`
-2. **Delete** the entire file content and replace with:
+2. **Delete everything** and paste **only** this (no WP Fastest Cache block):
 
 ```apache
 # BEGIN WordPress
@@ -40,25 +51,27 @@ RewriteRule . /index.php [L]
 # END WordPress
 ```
 
-3. **Remove** any extra `.htaccess` files inside `wp-admin/` or `wp-includes/` (hack leftovers)
-4. **Do not** include `ErrorDocument` lines
-5. **Do not** use `RewriteBase /riskwisdom/` (that is localhost only)
-6. Clear **WP Fastest Cache**
-7. Test https://riskwisdom.com.au/about/
+3. Delete extra `.htaccess` in `wp-admin/` and `wp-includes/`
+4. **Settings → General** in WordPress: ensure URLs are `https://riskwisdom.com.au` (not localhost)
+5. **WP Fastest Cache → Delete Cache**
+6. Test `/about/`
 
 ---
 
-## After fix — run SEO scripts
+## Verify error log after fix
+
+```bash
+tail -10 /var/www/vhosts/riskwisdom.com.au/logs/error_log
+```
+
+Should show **no new AH00124** lines when you load `/about/`.
+
+---
+
+## After pages work — SEO scripts
 
 ```bash
 php fix-seo-urls.php --apply
 php fix-seo-meta.php --apply
 php deploy-production-forms.php
 ```
-
----
-
-## Prevent on next Git deploy
-
-- Do **not** push root `.htaccess` from localhost (it is in `.gitignore`)
-- After deploy, run `php fix-production-500.php --apply` if inner pages break
