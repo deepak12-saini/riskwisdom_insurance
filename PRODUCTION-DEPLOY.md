@@ -16,9 +16,17 @@ If **homepage works** but pages like `/life-insurance/` show **Internal Server E
 
 ```bash
 cd /var/www/vhosts/riskwisdom.com.au/httpdocs
+php fix-production-500.php --apply
+```
+
+Or step by step:
+
+```bash
 php cleanup-malware.php
 php fix-production-pages.php --apply
 ```
+
+See also: [FIX-500-PRODUCTION.md](FIX-500-PRODUCTION.md)
 
 Then **WP Fastest Cache → Delete Cache**.
 

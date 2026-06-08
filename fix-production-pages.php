@@ -37,8 +37,9 @@ foreach ( $iterator as $file ) {
 	$is_root = ( $relative === '.htaccess' );
 	$is_core = str_starts_with( $relative, 'wp-admin/' ) || str_starts_with( $relative, 'wp-includes/' );
 	$is_mal  = str_contains( $contents, 'Deny from all' ) && str_contains( $contents, 'FilesMatch' );
+	$is_bad_name = str_ends_with( $relative, '.htaccess--' ) || str_ends_with( $relative, '.htaccess.bak' );
 
-	if ( $is_core || ( ! $is_root && $is_mal ) ) {
+	if ( $is_core || $is_bad_name || ( ! $is_root && $is_mal ) ) {
 		echo "BAD .htaccess: {$relative}\n";
 		++$bad_htaccess;
 		if ( $apply ) {
@@ -66,7 +67,11 @@ if ( is_file( $root_htaccess ) ) {
 	echo "\n";
 
 	if ( str_contains( $ht, 'ErrorDocument' ) ) {
-		echo "WARNING: Root .htaccess contains ErrorDocument rules (can cause double 500 errors).\n";
+		echo "WARNING: Root .htaccess contains ErrorDocument rules (causes double 500 on /about/ etc.).\n";
+	}
+
+	if ( str_contains( $ht, 'RewriteBase /riskwisdom/' ) ) {
+		echo "WARNING: RewriteBase is /riskwisdom/ — wrong for production (must be /).\n";
 	}
 } else {
 	echo "\nERROR: Root .htaccess missing!\n";
@@ -75,7 +80,7 @@ if ( is_file( $root_htaccess ) ) {
 // 3. WP bootstrap test for inner page
 require $root . '/wp-load.php';
 
-$test_slugs = array( 'financial-planning-process', 'contact-us' );
+$test_slugs = array( 'about', 'financial-planning-process', 'contact-us', 'life-insurance' );
 echo "\nWordPress page check:\n";
 foreach ( $test_slugs as $slug ) {
 	$page = get_page_by_path( $slug );
@@ -111,18 +116,27 @@ foreach ( $cache_dirs as $dir ) {
 }
 echo "\nCached index.html files" . ( $apply ? ' cleared' : ' found' ) . ": {$cleared}\n";
 
-// 5. Apply production WordPress .htaccess (without WPFC block — re-enable cache in wp-admin after)
+// 5. Apply clean production .htaccess (strips ErrorDocument + wrong RewriteBase)
 if ( $apply ) {
-	$production = file_get_contents( $root . '/.htaccess.production' );
+	$production_file = $root . '/.htaccess.production';
+	$production      = is_file( $production_file ) ? file_get_contents( $production_file ) : '';
+
 	if ( $production ) {
-		// Preserve WP Fastest Cache block if it exists.
 		$current = is_file( $root_htaccess ) ? file_get_contents( $root_htaccess ) : '';
 		$wpfc    = '';
+
 		if ( preg_match( '/#\s*BEGIN WpFastestCache.*?#\s*END WpFastestCache/s', $current, $m ) ) {
-			$wpfc = "\n" . $m[0] . "\n";
+			// Drop WPFC block if it contains ErrorDocument (common hack/corruption pattern).
+			if ( ! str_contains( $m[0], 'ErrorDocument' ) ) {
+				$wpfc = "\n" . $m[0] . "\n";
+			} else {
+				echo "\nSkipped WpFastestCache .htaccess block (contained ErrorDocument).\n";
+			}
 		}
+
 		file_put_contents( $root_htaccess, trim( $production ) . $wpfc );
-		echo "\nApplied .htaccess.production" . ( $wpfc ? ' (kept WpFastestCache block)' : '' ) . ".\n";
+		echo "\nApplied .htaccess.production" . ( $wpfc ? ' (kept clean WpFastestCache block)' : '' ) . ".\n";
+		echo "Removed ErrorDocument and localhost RewriteBase from root .htaccess.\n";
 	}
 }
 
