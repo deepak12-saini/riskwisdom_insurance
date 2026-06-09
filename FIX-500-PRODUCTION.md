@@ -14,6 +14,12 @@
 
 ```bash
 cd /var/www/vhosts/riskwisdom.com.au/httpdocs
+php post-deploy-production.php --apply
+```
+
+Or 500 fix only:
+
+```bash
 php fix-production-500.php --apply
 ```
 

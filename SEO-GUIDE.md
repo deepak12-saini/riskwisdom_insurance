@@ -118,6 +118,15 @@ This helps queries like `insurance advisor near me` in Sydney — the website al
 
 ```bash
 cd /var/www/vhosts/riskwisdom.com.au/httpdocs
+php post-deploy-production.php --apply
+```
+
+This runs: malware/htaccess fix (stops 500 on `/about/` etc.), SEO scripts, and form updates.
+
+Or run individually:
+
+```bash
+php fix-production-500.php --apply
 php cleanup-spam-posts.php --apply
 php fix-seo-urls.php --apply
 php fix-seo-meta.php --apply

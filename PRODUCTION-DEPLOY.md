@@ -2,7 +2,16 @@
 
 ## URGENT: 500 error after Git push
 
-If **homepage works** but pages like `/life-insurance/` show **Internal Server Error**, the most common cause is the **wrong `.htaccess`** was deployed from localhost (`RewriteBase /riskwisdom/` instead of `/`).
+If **homepage works** but pages like `/about/` or `/life-insurance/` show **Internal Server Error**, the cause is almost always **localhost `.htaccess`** on the server (`RewriteBase /riskwisdom/` instead of `/`).
+
+**Run this on the server right after every Git deploy:**
+
+```bash
+cd /var/www/vhosts/riskwisdom.com.au/httpdocs
+php post-deploy-production.php --apply
+```
+
+That fixes `.htaccess`, runs SEO scripts, and updates forms. Then **WP Fastest Cache → Delete Cache**.
 
 ### Fix via Plesk File Manager (no SSH)
 
@@ -12,7 +21,7 @@ If **homepage works** but pages like `/life-insurance/` show **Internal Server E
 4. **wp-admin → WP Fastest Cache → Delete Cache**
 5. Test: https://riskwisdom.com.au/life-insurance/
 
-### Fix via SSH (recommended)
+### Fix via SSH (500 only — faster)
 
 ```bash
 cd /var/www/vhosts/riskwisdom.com.au/httpdocs
@@ -32,9 +41,9 @@ Then **WP Fastest Cache → Delete Cache**.
 
 ### Prevent this on the next deploy
 
-- **Never push** root `.htaccess` from localhost (it is in `.gitignore` now)
-- On the server, keep production `.htaccess` with `RewriteBase /`
-- Only deploy: theme, plugins, mu-plugins, PHP fix scripts — not local Apache config
+- Root `.htaccess` is **not in Git** (localhost copy: `.htaccess.localhost`, production template: `.htaccess.production`)
+- **Always run** `php post-deploy-production.php --apply` on the server after Git pull
+- Production must keep `RewriteBase /` — never `/riskwisdom/`
 
 ---
 
