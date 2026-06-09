@@ -45,16 +45,72 @@ Page titles and meta descriptions are set by `fix-seo-meta.php` for these themes
 
 ## Google Business Profile (critical for local search)
 
-1. Claim or create profile for **Risk Wisdom** in **Sydney**
-2. Use exact NAP (name, address, phone):
-   - **Risk Wisdom**
-   - Level 29 Chifley Tower, 2 Chifley Square, Sydney NSW
-   - **02 9071 4735**
-   - https://riskwisdom.com.au
-3. Add photos, services, and business hours
-4. Ask satisfied clients for **Google reviews**
+This is **not a code plugin** — you set it up in Google’s dashboard. The website already has matching address, phone, and schema (`riskwisdom-seo.php`). GBP is what makes Risk Wisdom appear on **Google Maps** and in **“near me”** results in Sydney.
 
-This helps queries like `insurance advisor near me` in Sydney — website alone is not enough.
+### How to start (step by step)
+
+**Who does this:** Client or marketing (needs a Google account and access to business phone/email).
+
+1. **Open Google Business Profile**
+   - Go to [business.google.com](https://business.google.com) (or search “Google Business Profile” and click **Manage now**).
+   - Sign in with a Google account the business will use long term (e.g. `info@riskwisdom.com.au`).
+
+2. **Search for existing listing**
+   - Search: `Risk Wisdom` + `Sydney` or the Chifley Tower address.
+   - If a listing exists → click **Claim this business** and follow verification.
+   - If none exists → click **Add your business to Google**.
+
+3. **Enter business details (must match the website exactly)**
+
+   | Field | Value |
+   |-------|--------|
+   | Business name | Risk Wisdom (or Risk Wisdom Financial Partners — pick one and use the same everywhere) |
+   | Category | Primary: **Insurance agency** or **Financial consultant** |
+   | Address | Level 29 Chifley Tower, 2 Chifley Square, Sydney NSW 2000 |
+   | Phone | 02 9071 4735 |
+   | Website | https://riskwisdom.com.au |
+   | Service area | Sydney / Australia (if asked) |
+
+4. **Verify the business**
+   - Google usually verifies by **postcard**, **phone**, or **email** to the business address/number.
+   - Verification can take a few days (postcard) or minutes (phone/email). Complete this before editing much else.
+
+5. **Complete the profile (after verification)**
+   - **Hours** — office hours (or “by appointment” if applicable).
+   - **Photos** — logo, office/building, team (with permission).
+   - **Services** — Life insurance, Income protection, Trauma, TPD, Business / key person insurance.
+   - **Description** — 1–2 sentences: independent insurance advisors in Sydney (align with site copy).
+   - **Products / attributes** — fill what Google offers for your category.
+
+6. **Get reviews**
+   - In GBP: **Ask for reviews** → copy the review link.
+   - Email happy clients after a successful quote or policy setup.
+   - Reply politely to all reviews.
+
+7. **Link website ↔ Google (optional but recommended)**
+   - Copy your public Google Maps / Business Profile URL (e.g. `https://maps.google.com/...` or a short `https://g.page/...` link).
+   - Send that URL to your developer to add to site schema (see below).
+
+### Website integration (developer — after GBP is live)
+
+The site outputs LocalBusiness JSON-LD on every page. Once you have the GBP URL, add this line to production `wp-config.php` (above “That’s all, stop editing!”):
+
+```php
+define( 'RISKWISDOM_GBP_URL', 'https://g.page/your-risk-wisdom-link' );
+```
+
+Replace with the real profile URL from Google. No redeploy of SEO scripts needed — clear cache and check page source for `sameAs` in the JSON-LD block.
+
+### GBP checklist
+
+- [ ] Profile claimed or created at [business.google.com](https://business.google.com)
+- [ ] Business verified by Google
+- [ ] NAP matches website (name, address, phone, URL)
+- [ ] Category, hours, photos, and services filled in
+- [ ] At least 3–5 genuine Google reviews
+- [ ] GBP URL added to `wp-config.php` as `RISKWISDOM_GBP_URL` (developer)
+
+This helps queries like `insurance advisor near me` in Sydney — the website alone is not enough for Maps and local pack rankings.
 
 ---
 

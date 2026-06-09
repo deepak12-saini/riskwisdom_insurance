@@ -29,6 +29,14 @@ add_action(
 			return;
 		}
 
+		$same_as = apply_filters( 'riskwisdom_seo_same_as', array() );
+
+		if ( defined( 'RISKWISDOM_GBP_URL' ) && is_string( RISKWISDOM_GBP_URL ) && RISKWISDOM_GBP_URL !== '' ) {
+			$same_as[] = RISKWISDOM_GBP_URL;
+		}
+
+		$same_as = array_values( array_unique( array_filter( $same_as ) ) );
+
 		$schema = array(
 			'@context' => 'https://schema.org',
 			'@type'    => array( 'FinancialService', 'InsuranceAgency', 'LocalBusiness' ),
@@ -50,7 +58,7 @@ add_action(
 				'name'  => 'Australia',
 			),
 			'description' => 'Independent insurance advisors in Sydney specialising in life insurance, income protection, trauma, TPD and business insurance.',
-			'sameAs'      => array(),
+			'sameAs'      => $same_as,
 		);
 
 		echo '<script type="application/ld+json">' . wp_json_encode( $schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . "</script>\n";
