@@ -62,6 +62,10 @@ function riskwisdom_seo_page_meta_map() {
 			'title'       => 'Insurance FAQ | Risk Wisdom Australia',
 			'description' => 'Answers to common questions about life insurance, income protection, trauma, TPD and business cover in Australia.',
 		),
+		'newsletter' => array(
+			'title'       => 'Insurance Newsletter | Risk Wisdom Australia',
+			'description' => 'Read Risk Wisdom newsletter editions — insurance tips, market updates, and advice for Sydney and Australia.',
+		),
 	);
 }
 
