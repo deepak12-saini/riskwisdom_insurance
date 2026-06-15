@@ -27,6 +27,11 @@ if ( $menusswitch ) {
     <div class="container">
       <div class="row">
         <div class="col-md-8 blogpages">
+          <div class="rw-newsletter-hero">
+            <h2 class="rw-newsletter-hero__title"><?php esc_html_e( 'Risk Wisdom Newsletter', 'health-insurance' ); ?></h2>
+            <p class="rw-newsletter-hero__text"><?php esc_html_e( 'Insurance insights, market updates, and practical advice for Sydney and Australia.', 'health-insurance' ); ?></p>
+          </div>
+          <div class="rw-newsletter-grid">
           <?php
 			global $wp_query;
 
@@ -52,39 +57,19 @@ if ( $menusswitch ) {
 			if ( $newsletter_query->have_posts() ) :
 				while ( $newsletter_query->have_posts() ) :
 					$newsletter_query->the_post();
-					?>
-          <article class="blogpost">
-            <div <?php post_class(); ?>>
-            <?php include trailingslashit( get_template_directory() ) . 'post-image.php'; ?>
-            <div class="wrapper100percent">
-              <?php include trailingslashit( get_template_directory() ) . 'blog_meta_and_title.php'; ?>
-                <div class="wrapper100percent">
-                <p>
-				<?php
-				$content         = get_the_excerpt();
-				$trimmed_content = wp_trim_words( $content, 35 );
-				echo esc_html( $trimmed_content );
-				?>
-				</p>
-                <div class="text-left">
-                  <?php include trailingslashit( get_template_directory() ) . 'button2.php'; ?>
-                </div>
-                </div>
-            </div>
-            </div>
-          </article>
-					<?php
+					if ( function_exists( 'riskwisdom_newsletter_render_card' ) ) {
+						riskwisdom_newsletter_render_card();
+					}
 				endwhile;
 			else :
 				?>
-          <article class="blogpost">
-            <p><?php esc_html_e( 'Newsletter editions will appear here soon.', 'health-insurance' ); ?></p>
-          </article>
+          <p><?php esc_html_e( 'Newsletter editions will appear here soon.', 'health-insurance' ); ?></p>
 				<?php
 			endif;
 
 			wp_reset_postdata();
 			?>
+          </div>
         </div>
         <!--sidebar-->
         <div class="col-md-4">

@@ -1,0 +1,922 @@
+/**
+ * Risk Wisdom site-wide UI — inner pages, blog, newsletter, contact, mobile nav.
+ * Palette: #12507a, #5d9cec, #7c7c7c, #f3f3f3, #0d0d0d, #fff (unchanged).
+ */
+
+/* ---- Readability (line-height only; color unchanged) ---- */
+
+.riskwisdom-ui #wrapperpages p,
+.riskwisdom-ui .blogpages p,
+.riskwisdom-ui .wrapper100percent p,
+.riskwisdom-ui .kc_text_block p,
+.riskwisdom-ui .kc_text_block li,
+.riskwisdom-ui #wrapperpages li,
+.riskwisdom-ui .bottominner p {
+	line-height: 1.75;
+}
+
+.riskwisdom-ui #wrapperpages h1,
+.riskwisdom-ui #wrapperpages h2,
+.riskwisdom-ui #wrapperpages h3,
+.riskwisdom-ui .blogpages h2.blog-title a,
+.riskwisdom-ui .headline {
+	line-height: 1.3;
+}
+
+/* ---- Inner page headlines ---- */
+
+.riskwisdom-ui #wrapperpages .mainheadlinewrapper .headline {
+	position: relative;
+}
+
+.riskwisdom-ui #wrapperpages .mainheadline.text-center .headline::after {
+	background: linear-gradient(to right, #12507a, #5d9cec);
+	border-radius: 2px;
+	content: "";
+	display: block;
+	height: 3px;
+	margin: 16px auto 0;
+	width: 48px;
+}
+
+.riskwisdom-ui #wrapperpages .mainheadline .subheadline {
+	line-height: 1.75;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 680px;
+}
+
+/* ---- KingComposer content blocks ---- */
+
+.riskwisdom-ui #wrapperpages .boxshadow {
+	border: 1px solid #eee;
+	border-radius: 8px;
+	box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+	transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.riskwisdom-ui #wrapperpages .boxshadow:hover {
+	box-shadow: 0 10px 28px rgba(18, 80, 122, 0.1);
+	transform: translateY(-2px);
+}
+
+.riskwisdom-ui #wrapperpages .boxshadow h1,
+.riskwisdom-ui #wrapperpages .boxshadow h2 {
+	color: #12507a;
+}
+
+.riskwisdom-ui #wrapperpages .serviceone {
+	padding: 20px 14px;
+}
+
+.riskwisdom-ui #wrapperpages .serviceone i {
+	margin-bottom: 18px !important;
+}
+
+.riskwisdom-ui #wrapperpages .serviceone h2 {
+	font-weight: 700;
+	line-height: 1.35;
+}
+
+.riskwisdom-ui #wrapperpages .kc_button {
+	border-radius: 4px;
+	transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.riskwisdom-ui #wrapperpages .kc_button:hover {
+	box-shadow: 0 6px 18px rgba(18, 80, 122, 0.2);
+	transform: translateY(-2px);
+}
+
+/* ---- Page title banner ---- */
+
+.riskwisdom-ui .singletitlebg h1,
+.riskwisdom-ui .mainheadlinewrapperpage h1 {
+	text-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ---- Header contact strip ---- */
+
+.riskwisdom-ui .top ul.topwidgets li .rightwidgettext {
+	font-weight: 500;
+	line-height: 1.45;
+}
+
+.riskwisdom-ui .top ul.topwidgets li .rightwidgettext span {
+	font-weight: 600;
+}
+
+/* ---- Desktop menu ---- */
+
+@media (min-width: 993px) {
+	.riskwisdom-ui .navbar .nav > li > a:link,
+	.riskwisdom-ui .navbar .nav > li > a:visited {
+		font-weight: 600;
+		letter-spacing: 0.02em;
+	}
+}
+
+/* ---- Mobile header ---- */
+
+@media (max-width: 992px) {
+	.riskwisdom-ui .top .top2 .navbar-brand {
+		display: none !important;
+	}
+
+	.riskwisdom-ui .top .top2 .widgets-style1 .widget {
+		padding: 8px 0 !important;
+	}
+
+	.riskwisdom-ui .top .topwidgetswrapper ul.topwidgets {
+		display: flex !important;
+		flex-wrap: wrap;
+		float: none !important;
+		gap: 8px;
+		margin-bottom: 8px !important;
+	}
+
+	.riskwisdom-ui .top .topwidgetswrapper .topwidgets li {
+		align-items: flex-start;
+		display: flex !important;
+		flex: 1 1 calc(50% - 8px);
+		float: none !important;
+		margin-bottom: 0 !important;
+		width: auto !important;
+	}
+
+	.riskwisdom-ui .top .topwidgetswrapper .topwidgets li:last-child {
+		flex: 1 1 100%;
+	}
+
+	.riskwisdom-ui .top .topwidgetswrapper .topwidgets li i {
+		font-size: 18px !important;
+		margin: 2px 8px 0 0 !important;
+		padding-right: 0 !important;
+	}
+
+	.riskwisdom-ui .rw-mobile-topbar {
+		align-items: center;
+		background: #fff;
+		border-bottom: 1px solid #eee;
+		display: flex;
+		justify-content: center;
+		padding: 10px 12px;
+	}
+
+	.riskwisdom-ui .headhesive-wrapper {
+		position: sticky;
+		top: 0;
+		z-index: 1000;
+	}
+
+	.riskwisdom-ui .headhesive .navbar-header {
+		float: none !important;
+		position: absolute;
+		right: 12px;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 2;
+	}
+
+	.riskwisdom-ui .headhesive .navbarinner .container .row {
+		min-height: 52px;
+		position: relative;
+	}
+
+	.riskwisdom-ui .rw-mobile-topbar__logo img {
+		max-height: 44px;
+		max-width: 180px;
+		width: auto;
+	}
+
+	.riskwisdom-ui .rw-mobile-topbar__logo span {
+		color: #0d0d0d;
+		font-size: 15px;
+		font-weight: 700;
+	}
+
+	.riskwisdom-ui #toggle-icon2 {
+		background: transparent;
+		border: 1px solid #ddd;
+		border-radius: 8px;
+		height: 44px;
+		margin: 0;
+		width: 44px;
+	}
+
+	.riskwisdom-ui #toggle-icon2 span {
+		background: #12507a !important;
+		background-image: none !important;
+		border-radius: 2px;
+		display: block;
+		height: 2px;
+		margin: 6px auto;
+		position: relative;
+		width: 22px;
+	}
+
+	.riskwisdom-ui #toggle-icon2 span::before,
+	.riskwisdom-ui #toggle-icon2 span::after {
+		background: #12507a;
+		border-radius: 2px;
+		content: "";
+		display: block;
+		height: 2px;
+		position: absolute;
+		width: 22px;
+	}
+
+	.riskwisdom-ui #toggle-icon2 span::before { top: -7px; }
+	.riskwisdom-ui #toggle-icon2 span::after { top: 7px; }
+
+	.riskwisdom-ui #toggle-icon2.open2 span {
+		background: transparent !important;
+	}
+
+	.riskwisdom-ui #toggle-icon2.open2 span::before {
+		top: 0;
+		transform: rotate(45deg);
+	}
+
+	.riskwisdom-ui #toggle-icon2.open2 span::after {
+		top: 0;
+		transform: rotate(-45deg);
+	}
+
+	.riskwisdom-ui .side-collapse {
+		box-shadow: -6px 0 24px rgba(0, 0, 0, 0.1);
+		width: min(86vw, 320px) !important;
+	}
+
+	.riskwisdom-ui .side-collapse ul.menu__list {
+		padding-top: 12px !important;
+	}
+
+	.riskwisdom-ui .navbar-collapse a {
+		border-bottom: 1px solid #f3f3f3 !important;
+		color: #0d0d0d !important;
+		font-size: 15px !important;
+		font-weight: 600 !important;
+		margin: 0 !important;
+		padding: 14px 18px !important;
+	}
+
+	.riskwisdom-ui .side-collapse .sub-menu a {
+		font-size: 14px !important;
+		font-weight: 500 !important;
+		padding-left: 28px !important;
+	}
+}
+
+@media (min-width: 993px) {
+	.riskwisdom-ui .rw-mobile-topbar {
+		display: none;
+	}
+}
+
+/* ---- Blog archive & listings ---- */
+
+.riskwisdom-ui .blogpages .blogpost {
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	box-shadow: 0 2px 14px rgba(0, 0, 0, 0.06);
+	float: none;
+	margin-bottom: 28px;
+	overflow: hidden;
+	padding: 0 0 20px;
+	transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.riskwisdom-ui .blogpages .blogpost:hover {
+	box-shadow: 0 10px 26px rgba(18, 80, 122, 0.1);
+	transform: translateY(-3px);
+}
+
+.riskwisdom-ui .blogpages .blogpost .wrapper100percent {
+	padding: 0 20px;
+}
+
+.riskwisdom-ui .blogpages h2.blog-title a {
+	color: #0d0d0d;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.35;
+}
+
+.riskwisdom-ui .blogpages img {
+	border-radius: 8px 8px 0 0;
+	margin-bottom: 16px;
+}
+
+.riskwisdom-ui ul.meta li.category a {
+	background: #f3f3f3;
+	border-radius: 999px;
+	color: #12507a !important;
+	display: inline-block;
+	font-size: 11px !important;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	padding: 4px 10px;
+	text-transform: uppercase;
+}
+
+.riskwisdom-ui .button1.white.small a {
+	background-color: #12507a !important;
+	background-image: linear-gradient(to right, #12507a 0%, #5d9cec 51%, #12507a 100%) !important;
+	border-radius: 4px;
+	color: #fff !important;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+/* ---- Single blog post ---- */
+
+.riskwisdom-ui .blogpages article {
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+	padding: 24px;
+}
+
+.riskwisdom-ui .blogpages article .wrapper100percent p {
+	line-height: 1.8;
+}
+
+/* ---- Newsletter archive ---- */
+
+.riskwisdom-newsletter-archive .rw-newsletter-hero {
+	background: linear-gradient(to right, #12507a 0%, #5d9cec 51%, #12507a 100%);
+	background-size: 200% auto;
+	border-radius: 8px;
+	color: #fff;
+	margin-bottom: 1.5rem;
+	padding: 1.75rem 2rem;
+}
+
+.riskwisdom-newsletter-archive .rw-newsletter-hero__title {
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin: 0 0 0.5rem;
+}
+
+.riskwisdom-newsletter-archive .rw-newsletter-hero__text {
+	color: #fff;
+	line-height: 1.65;
+	margin: 0;
+	opacity: 0.92;
+}
+
+.riskwisdom-ui .rw-newsletter-grid {
+	display: grid;
+	gap: 1.25rem;
+}
+
+.riskwisdom-ui .rw-newsletter-card {
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	box-shadow: 0 2px 14px rgba(0, 0, 0, 0.06);
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	overflow: hidden;
+	transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.riskwisdom-ui .rw-newsletter-card:hover {
+	box-shadow: 0 10px 26px rgba(18, 80, 122, 0.1);
+	transform: translateY(-2px);
+}
+
+.riskwisdom-ui .rw-newsletter-card__media img {
+	display: block;
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+}
+
+.riskwisdom-ui .rw-newsletter-card__media--placeholder {
+	align-items: center;
+	background: #f3f3f3;
+	display: flex;
+	justify-content: center;
+	min-height: 160px;
+}
+
+.riskwisdom-ui .rw-newsletter-card__badge {
+	background: #12507a;
+	border-radius: 999px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	padding: 6px 14px;
+	text-transform: uppercase;
+}
+
+.riskwisdom-ui .rw-newsletter-card__body {
+	padding: 1.25rem 1.5rem;
+}
+
+.riskwisdom-ui .rw-newsletter-card__meta {
+	color: #7c7c7c;
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+
+.riskwisdom-ui .rw-newsletter-card__pill {
+	background: #f3f3f3;
+	border-radius: 999px;
+	color: #12507a;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	margin-right: 10px;
+	padding: 3px 10px;
+	text-transform: uppercase;
+}
+
+.riskwisdom-ui .rw-newsletter-card__title {
+	font-size: 1.15rem;
+	margin: 0 0 10px;
+}
+
+.riskwisdom-ui .rw-newsletter-card__title a {
+	color: #0d0d0d;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.riskwisdom-ui .rw-newsletter-card__title a:hover {
+	color: #12507a;
+}
+
+.riskwisdom-ui .rw-newsletter-card__excerpt {
+	color: #7c7c7c;
+	line-height: 1.65;
+	margin: 0 0 12px;
+}
+
+.riskwisdom-ui .rw-newsletter-card__link {
+	color: #12507a;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.riskwisdom-ui .rw-newsletter-card__link:hover {
+	color: #5d9cec;
+}
+
+/* ---- Newsletter single ---- */
+
+.riskwisdom-newsletter-single .blogpages article {
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+	padding: 2rem;
+}
+
+.riskwisdom-ui .rw-newsletter-back {
+	color: #12507a;
+	display: inline-block;
+	font-weight: 700;
+	margin-bottom: 1.25rem;
+	text-decoration: none;
+}
+
+.riskwisdom-ui .rw-newsletter-back:hover {
+	color: #5d9cec;
+}
+
+.riskwisdom-ui .rw-newsletter-prose p {
+	line-height: 1.8;
+}
+
+.riskwisdom-ui .rw-newsletter-prose a {
+	color: #12507a;
+	font-weight: 600;
+}
+
+/* ---- Contact forms ---- */
+
+.riskwisdom-ui .wpcf7-form label {
+	color: #0d0d0d;
+	font-weight: 600;
+}
+
+.riskwisdom-ui .wpcf7-form input[type="text"],
+.riskwisdom-ui .wpcf7-form input[type="email"],
+.riskwisdom-ui .wpcf7-form input[type="tel"],
+.riskwisdom-ui .wpcf7-form select,
+.riskwisdom-ui .wpcf7-form textarea {
+	border: 1px solid #ddd !important;
+	border-radius: 4px;
+	padding: 10px 12px;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.riskwisdom-ui .wpcf7-form input:focus,
+.riskwisdom-ui .wpcf7-form select:focus,
+.riskwisdom-ui .wpcf7-form textarea:focus {
+	border-color: #12507a !important;
+	box-shadow: 0 0 0 3px rgba(18, 80, 122, 0.12);
+	outline: none;
+}
+
+.riskwisdom-ui .wpcf7-form input[type="submit"] {
+	background-color: #12507a;
+	background-image: linear-gradient(to right, #12507a 0%, #5d9cec 51%, #12507a 100%);
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 600;
+	padding: 12px 26px;
+	text-transform: uppercase;
+}
+
+/* ---- Sidebar & footer ---- */
+
+.riskwisdom-ui .sidebar.widgets-style1 .widget-title,
+.riskwisdom-ui .sidebar h3 {
+	color: #12507a;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.riskwisdom-ui .bottom .copyright p {
+	font-size: 13px;
+	line-height: 1.65;
+}
+
+/* ---- FAQ / accordion (theme toggles) ---- */
+
+.riskwisdom-ui #wrapperpages .toggle,
+.riskwisdom-ui #wrapperpages .accordion {
+	border-radius: 4px;
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 991px) {
+	.riskwisdom-ui .rw-newsletter-card {
+		grid-template-columns: 1fr;
+	}
+
+	.riskwisdom-ui .blogpages article {
+		padding: 18px;
+	}
+}
+
+@media (max-width: 480px) {
+	.riskwisdom-ui .top .topwidgetswrapper .topwidgets li {
+		flex: 1 1 100%;
+	}
+
+	.riskwisdom-newsletter-archive .rw-newsletter-hero {
+		padding: 1.25rem 1rem;
+	}
+}
+
+/* ---- Shared buttons ---- */
+
+.riskwisdom-ui .rw-btn {
+	border-radius: 4px;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.2;
+	padding: 12px 22px;
+	text-decoration: none;
+	transition: box-shadow 0.25s ease, transform 0.25s ease, opacity 0.25s ease;
+}
+
+.riskwisdom-ui .rw-btn--primary {
+	background-color: #12507a;
+	background-image: linear-gradient(to right, #12507a 0%, #5d9cec 51%, #12507a 100%);
+	color: #fff !important;
+}
+
+.riskwisdom-ui .rw-btn--primary:hover {
+	box-shadow: 0 6px 18px rgba(18, 80, 122, 0.25);
+	transform: translateY(-2px);
+}
+
+.riskwisdom-ui .rw-btn--ghost {
+	background: #fff;
+	border: 1px solid #ddd;
+	color: #12507a !important;
+}
+
+.riskwisdom-ui .rw-btn--ghost:hover {
+	border-color: #12507a;
+}
+
+/* ---- Mobile sticky CTA ---- */
+
+.riskwisdom-ui .rw-mobile-cta {
+	background: #fff;
+	border-top: 1px solid #eee;
+	bottom: 0;
+	box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.08);
+	display: none;
+	gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	left: 0;
+	padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px));
+	position: fixed;
+	right: 0;
+	z-index: 1002;
+}
+
+.riskwisdom-ui .rw-mobile-cta__btn {
+	align-items: center;
+	border-radius: 8px;
+	display: flex;
+	font-size: 14px;
+	font-weight: 700;
+	justify-content: center;
+	padding: 12px 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.riskwisdom-ui .rw-mobile-cta__btn--call {
+	background: #f3f3f3;
+	color: #12507a !important;
+}
+
+.riskwisdom-ui .rw-mobile-cta__btn--quote {
+	background-color: #12507a;
+	background-image: linear-gradient(to right, #12507a 0%, #5d9cec 51%, #12507a 100%);
+	color: #fff !important;
+}
+
+@media (max-width: 992px) {
+	.riskwisdom-ui .rw-mobile-cta {
+		display: grid;
+	}
+
+	body.riskwisdom-ui {
+		padding-bottom: 72px;
+	}
+}
+
+/* ---- Navigation polish ---- */
+
+.riskwisdom-ui .menu__list > li > a {
+	text-transform: capitalize;
+}
+
+.riskwisdom-ui .menu-item-has-children > a {
+	padding-right: 28px !important;
+	position: relative;
+}
+
+.riskwisdom-ui .menu-item-has-children > a::after {
+	color: #12507a;
+	content: "›";
+	font-size: 18px;
+	line-height: 1;
+	position: absolute;
+	right: 12px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* ---- Service page CTA ---- */
+
+.riskwisdom-ui .rw-service-cta {
+	clear: both;
+	margin: 2.5rem 0 1rem;
+	width: 100%;
+}
+
+.riskwisdom-ui .rw-service-cta__inner {
+	background: linear-gradient(to right, #12507a 0%, #5d9cec 51%, #12507a 100%);
+	background-size: 200% auto;
+	border-radius: 8px;
+	color: #fff;
+	padding: 2rem;
+	text-align: center;
+}
+
+.riskwisdom-ui .rw-service-cta__title {
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin: 0 0 0.75rem;
+}
+
+.riskwisdom-ui .rw-service-cta__text {
+	color: #fff;
+	line-height: 1.65;
+	margin: 0 auto 1.25rem;
+	max-width: 520px;
+	opacity: 0.92;
+}
+
+.riskwisdom-ui .rw-service-cta__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	justify-content: center;
+}
+
+.riskwisdom-ui .rw-service-cta .rw-btn--primary {
+	background: #fff;
+	background-image: none;
+	color: #12507a !important;
+}
+
+.riskwisdom-ui .rw-service-cta .rw-btn--ghost {
+	background: transparent;
+	border-color: rgba(255, 255, 255, 0.65);
+	color: #fff !important;
+}
+
+/* ---- Contact trust strip ---- */
+
+.riskwisdom-ui .rw-contact-trust {
+	display: grid;
+	gap: 12px;
+	grid-template-columns: repeat(2, 1fr);
+	margin-bottom: 1.75rem;
+}
+
+.riskwisdom-ui .rw-contact-trust__item {
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+	padding: 14px 16px;
+}
+
+.riskwisdom-ui .rw-contact-trust__item strong {
+	color: #12507a;
+	display: block;
+	font-size: 12px;
+	letter-spacing: 0.05em;
+	margin-bottom: 4px;
+	text-transform: uppercase;
+}
+
+.riskwisdom-ui .rw-contact-trust__item span,
+.riskwisdom-ui .rw-contact-trust__item a {
+	color: #7c7c7c;
+	font-size: 14px;
+	line-height: 1.5;
+	text-decoration: none;
+}
+
+.riskwisdom-ui .rw-contact-trust__item a:hover {
+	color: #12507a;
+}
+
+/* ---- FAQ search ---- */
+
+.riskwisdom-ui .rw-faq-search-wrap {
+	margin: 0 0 1.5rem;
+}
+
+.riskwisdom-ui .rw-faq-search {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	font-size: 15px;
+	max-width: 480px;
+	padding: 12px 16px;
+	width: 100%;
+}
+
+.riskwisdom-ui .rw-faq-search:focus {
+	border-color: #12507a;
+	box-shadow: 0 0 0 3px rgba(18, 80, 122, 0.12);
+	outline: none;
+}
+
+.riskwisdom-ui .kc_accordion_section {
+	transition: opacity 0.2s ease;
+}
+
+.riskwisdom-ui .kc_accordion_section > .kc_accordion_header {
+	border-radius: 6px;
+	margin-bottom: 6px;
+}
+
+/* ---- Homepage blog view all ---- */
+
+.riskwisdom-ui .rw-blog-view-all {
+	margin: 1.5rem 0 2rem;
+}
+
+/* ---- 404 page ---- */
+
+.riskwisdom-ui .rw-404 {
+	padding: 4rem 0 5rem;
+}
+
+.riskwisdom-ui .rw-404__card {
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+	margin: 0 auto;
+	max-width: 560px;
+	padding: 2.5rem 2rem;
+	text-align: center;
+}
+
+.riskwisdom-ui .rw-404__code {
+	color: #12507a;
+	font-size: 4rem;
+	font-weight: 700;
+	line-height: 1;
+	margin: 0 0 0.5rem;
+}
+
+.riskwisdom-ui .rw-404__title {
+	color: #0d0d0d;
+	font-size: 1.75rem;
+	margin: 0 0 0.75rem;
+}
+
+.riskwisdom-ui .rw-404__text {
+	color: #7c7c7c;
+	line-height: 1.65;
+	margin: 0 0 1.5rem;
+}
+
+.riskwisdom-ui .rw-404__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	justify-content: center;
+	margin-bottom: 1.5rem;
+}
+
+.riskwisdom-ui .rw-404__links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.riskwisdom-ui .rw-404__links a {
+	color: #12507a;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+/* ---- Preloader & scroll-to-top ---- */
+
+.riskwisdom-ui .preloader {
+	transition: opacity 0.35s ease;
+}
+
+.riskwisdom-ui .scrollbutton a {
+	background-color: #12507a !important;
+	background-image: linear-gradient(to right, #12507a 0%, #5d9cec 51%, #12507a 100%) !important;
+	border-radius: 50% !important;
+	box-shadow: 0 4px 16px rgba(18, 80, 122, 0.3);
+	height: 44px !important;
+	line-height: 44px !important;
+	transition: box-shadow 0.25s ease, transform 0.25s ease;
+	width: 44px !important;
+}
+
+.riskwisdom-ui .scrollbutton a:hover {
+	box-shadow: 0 8px 22px rgba(18, 80, 122, 0.35);
+	transform: translateY(-3px);
+}
+
+.riskwisdom-ui .scrollbutton i {
+	color: #fff !important;
+}
+
+/* ---- Footer mobile ---- */
+
+@media (max-width: 767px) {
+	.riskwisdom-ui footer.bottom {
+		padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+	}
+
+	.riskwisdom-ui footer.bottom .col-sm-3 {
+		margin-bottom: 24px;
+	}
+
+	.riskwisdom-ui .rw-contact-trust {
+		grid-template-columns: 1fr;
+	}
+
+	.riskwisdom-ui .rw-service-cta__inner {
+		padding: 1.5rem 1.25rem;
+	}
+}

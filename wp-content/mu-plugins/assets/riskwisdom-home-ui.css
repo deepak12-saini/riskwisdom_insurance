@@ -1,0 +1,416 @@
+/**
+ * Risk Wisdom homepage — layout & polish only.
+ * Uses existing theme palette: #12507a, #5d9cec, #7c7c7c, #f3f3f3, #0d0d0d, #fff.
+ */
+
+/* ---- Section headlines ---- */
+
+.riskwisdom-home-ui #wrapperpages .mainheadlinewrapper {
+	margin-bottom: 0.5rem;
+}
+
+.riskwisdom-home-ui #wrapperpages .mainheadline .headline {
+	line-height: 1.25;
+	position: relative;
+}
+
+.riskwisdom-home-ui #wrapperpages .mainheadline.text-center .headline::after {
+	background: linear-gradient(to right, #12507a, #5d9cec);
+	border-radius: 2px;
+	content: "";
+	display: block;
+	height: 3px;
+	margin: 18px auto 0;
+	width: 56px;
+}
+
+.riskwisdom-home-ui #wrapperpages .mainheadline .subheadline {
+	line-height: 1.75;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 720px;
+}
+
+/* ---- Insurance plan icon columns ---- */
+
+.riskwisdom-home-ui #wrapperpages .kc_col-sm-2 .kc-col-container {
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	box-shadow: 0 2px 14px rgba(0, 0, 0, 0.06);
+	height: 100%;
+	padding: 24px 16px 20px;
+	transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+}
+
+.riskwisdom-home-ui #wrapperpages .kc_col-sm-2 .kc-col-container:hover {
+	border-color: rgba(18, 80, 122, 0.25);
+	box-shadow: 0 10px 28px rgba(18, 80, 122, 0.12);
+	transform: translateY(-4px);
+}
+
+.riskwisdom-home-ui #wrapperpages .kc_single_image {
+	margin-bottom: 14px;
+	text-align: center;
+}
+
+.riskwisdom-home-ui #wrapperpages .kc_single_image img {
+	height: auto;
+	max-height: 72px;
+	object-fit: contain;
+	width: auto;
+}
+
+.riskwisdom-home-ui #wrapperpages .kc_text_block h2.title {
+	color: #0d0d0d;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	line-height: 1.35;
+	margin: 0 0 12px;
+	text-transform: uppercase;
+}
+
+.riskwisdom-home-ui #wrapperpages .kc_text_block h2.title + div {
+	color: #7c7c7c;
+	font-size: 14px;
+	line-height: 1.65;
+	text-align: center !important;
+}
+
+/* ---- FSG button ---- */
+
+.riskwisdom-home-ui #wrapperpages .kc_button {
+	border-radius: 4px;
+	box-shadow: 0 4px 16px rgba(18, 80, 122, 0.2);
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.riskwisdom-home-ui #wrapperpages .kc_button:hover {
+	box-shadow: 0 8px 22px rgba(18, 80, 122, 0.28);
+	transform: translateY(-2px);
+}
+
+/* ---- Insurance quote tabs ---- */
+
+.riskwisdom-home-ui #wrapperpages .kc_tabs > .kc_wrapper > .kc_tabs_nav {
+	border: 1px solid #eee;
+	border-radius: 8px;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+	overflow: hidden;
+	padding: 6px !important;
+}
+
+.riskwisdom-home-ui #wrapperpages .kc_tabs_nav > li {
+	border-radius: 6px;
+	float: none;
+	margin: 2px;
+}
+
+.riskwisdom-home-ui #wrapperpages .kc_tabs_nav > li > a {
+	border-radius: 6px;
+	font-size: 13px !important;
+	line-height: 1.3 !important;
+	padding: 12px 14px !important;
+	transition: background 0.2s ease, color 0.2s ease;
+}
+
+.riskwisdom-home-ui #wrapperpages .kc_tabs_nav > .ui-tabs-active > a,
+.riskwisdom-home-ui #wrapperpages .kc_tabs_nav > .ui-tabs-active > a:hover {
+	background: #12507a !important;
+	color: #fff !important;
+}
+
+.riskwisdom-home-ui #wrapperpages .kc_tab.ui-tabs-body-active {
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+	margin-top: 16px;
+	padding: 8px !important;
+}
+
+.riskwisdom-home-ui #wrapperpages .kc_tab_content .row.form1 {
+	padding: 12px 8px 8px !important;
+}
+
+.riskwisdom-home-ui #wrapperpages .kc_tab_content .col-sm-4 img {
+	border-radius: 6px;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+	height: auto;
+	max-width: 100%;
+	object-fit: cover;
+}
+
+/* ---- Welcome / Experience cards ---- */
+
+.riskwisdom-home-ui #wrapperpages .boxshadow {
+	border: 1px solid #eee;
+	border-radius: 8px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+	height: 100%;
+	margin-bottom: 0;
+	transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.riskwisdom-home-ui #wrapperpages .boxshadow:hover {
+	box-shadow: 0 12px 32px rgba(18, 80, 122, 0.12);
+	transform: translateY(-3px);
+}
+
+.riskwisdom-home-ui #wrapperpages .boxshadow h1 {
+	color: #12507a;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 18px;
+}
+
+.riskwisdom-home-ui #wrapperpages .boxshadow p {
+	color: #7c7c7c;
+	line-height: 1.75;
+}
+
+/* ---- Quote forms (CF7) ---- */
+
+.riskwisdom-home-ui #wrapperpages .wpcf7-form label {
+	color: #0d0d0d;
+	display: block;
+	font-size: 13px;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+
+.riskwisdom-home-ui #wrapperpages .wpcf7-form input[type="text"],
+.riskwisdom-home-ui #wrapperpages .wpcf7-form input[type="email"],
+.riskwisdom-home-ui #wrapperpages .wpcf7-form input[type="tel"],
+.riskwisdom-home-ui #wrapperpages .wpcf7-form select,
+.riskwisdom-home-ui #wrapperpages .wpcf7-form textarea {
+	background: #fff;
+	border: 1px solid #ddd !important;
+	border-radius: 4px;
+	box-shadow: none;
+	color: #0d0d0d;
+	padding: 10px 12px;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease;
+	width: 100%;
+}
+
+.riskwisdom-home-ui #wrapperpages .wpcf7-form input:focus,
+.riskwisdom-home-ui #wrapperpages .wpcf7-form select:focus,
+.riskwisdom-home-ui #wrapperpages .wpcf7-form textarea:focus {
+	border-color: #12507a !important;
+	box-shadow: 0 0 0 3px rgba(18, 80, 122, 0.12);
+	outline: none;
+}
+
+.riskwisdom-home-ui #wrapperpages .wpcf7-form input[type="submit"] {
+	background-color: #12507a;
+	background-image: linear-gradient(to right, #12507a 0%, #5d9cec 51%, #12507a 100%);
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	padding: 12px 28px;
+	text-transform: uppercase;
+	transition: background-position 0.35s ease, box-shadow 0.25s ease;
+}
+
+.riskwisdom-home-ui #wrapperpages .wpcf7-form input[type="submit"]:hover {
+	box-shadow: 0 6px 18px rgba(18, 80, 122, 0.25);
+}
+
+.riskwisdom-home-ui #wrapperpages .form1 h2 {
+	color: #12507a;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1.3;
+	margin-bottom: 8px;
+}
+
+/* ---- Testimonials ---- */
+
+.riskwisdom-home-ui #wrapperpages .sp-testimonial-free {
+	background: rgba(255, 255, 255, 0.94);
+	border-radius: 8px;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+	margin: 0 auto;
+	max-width: 920px;
+	padding: 28px 32px;
+}
+
+.riskwisdom-home-ui #wrapperpages .sp-testimonial-post-title {
+	color: #12507a;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.35;
+	margin-bottom: 14px;
+}
+
+.riskwisdom-home-ui #wrapperpages .sp-testimonial-content,
+.riskwisdom-home-ui #wrapperpages .sp-testimonial-content p {
+	color: #7c7c7c;
+	font-size: 15px;
+	line-height: 1.75;
+}
+
+.riskwisdom-home-ui #wrapperpages .testimonial-nav-arrow {
+	opacity: 0.85;
+	transition: opacity 0.2s ease;
+}
+
+.riskwisdom-home-ui #wrapperpages .testimonial-nav-arrow:hover {
+	opacity: 1;
+}
+
+/* ---- Blog news strip ---- */
+
+.riskwisdom-home-ui #wrapperpages .blogpages .blogpost {
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	box-shadow: 0 2px 14px rgba(0, 0, 0, 0.06);
+	float: none;
+	margin-bottom: 24px;
+	overflow: hidden;
+	padding: 18px 16px 16px;
+	transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.riskwisdom-home-ui #wrapperpages .blogpages .blogpost:hover {
+	box-shadow: 0 10px 26px rgba(18, 80, 122, 0.1);
+	transform: translateY(-3px);
+}
+
+.riskwisdom-home-ui #wrapperpages .blogpages h2.blog-title a {
+	color: #0d0d0d;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.riskwisdom-home-ui #wrapperpages .blogpages p {
+	color: #7c7c7c;
+	font-size: 14px;
+	line-height: 1.65;
+}
+
+.riskwisdom-home-ui #wrapperpages .blogpages .button1.white.small a {
+	background-color: #12507a !important;
+	background-image: linear-gradient(to right, #12507a 0%, #5d9cec 51%, #12507a 100%) !important;
+	border-radius: 4px;
+	color: #fff !important;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+/* ---- Brochure section alignment (colors unchanged) ---- */
+
+.riskwisdom-home-ui .rw-brochure-section {
+	margin-top: 0;
+}
+
+.riskwisdom-home-ui .rw-brochure-card {
+	border: 1px solid #eee;
+}
+
+/* ---- RevSlider mobile ---- */
+
+@media (max-width: 767px) {
+	.riskwisdom-home-ui .rev_slider_wrapper {
+		max-height: 420px;
+		overflow: hidden;
+	}
+
+	.riskwisdom-home-ui .tp-caption {
+		font-size: clamp(22px, 5vw, 36px) !important;
+		line-height: 1.25 !important;
+	}
+}
+
+/* ---- Quote form sticky submit (mobile) ---- */
+
+@media (max-width: 767px) {
+	.riskwisdom-home-ui #wrapperpages .kc_tab.ui-tabs-body-active .wpcf7-form input[type="submit"] {
+		bottom: calc(68px + env(safe-area-inset-bottom, 0px));
+		box-shadow: 0 4px 16px rgba(18, 80, 122, 0.25);
+		position: sticky;
+		width: 100%;
+		z-index: 100;
+	}
+}
+
+/* ---- Testimonials ---- */
+
+.riskwisdom-home-ui #wrapperpages .sp-testimonial-free {
+	border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.riskwisdom-home-ui #wrapperpages .sp-testimonial-post-title {
+	letter-spacing: 0.01em;
+}
+
+.riskwisdom-home-ui #wrapperpages .testimonial-pagination .swiper-pagination-bullet-active {
+	background: #12507a;
+}
+
+/* ---- Empty blog strip message ---- */
+
+.riskwisdom-home-ui #wrapperpages .rw-blog-view-all {
+	margin-top: 0.5rem;
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 991px) {
+	.riskwisdom-home-ui #wrapperpages .kc_tabs > .kc_wrapper > .kc_tabs_nav {
+		display: flex;
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		text-align: left !important;
+	}
+
+	.riskwisdom-home-ui #wrapperpages .kc_tabs_nav > li {
+		flex: 0 0 auto;
+	}
+
+	.riskwisdom-home-ui #wrapperpages .kc_tab_content .col-sm-4 {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.riskwisdom-home-ui #wrapperpages .sp-testimonial-free {
+		padding: 22px 18px;
+	}
+}
+
+@media (max-width: 767px) {
+	.riskwisdom-home-ui #wrapperpages .mainheadline .headline {
+		font-size: 28px !important;
+	}
+
+	.riskwisdom-home-ui #wrapperpages .kc_col-sm-2 {
+		margin-bottom: 14px;
+	}
+
+	.riskwisdom-home-ui #wrapperpages .kc_col-sm-2 .kc-col-container {
+		padding: 20px 14px 16px;
+	}
+
+	.riskwisdom-home-ui #wrapperpages .boxshadow {
+		margin-bottom: 18px;
+		padding: 28px 22px;
+	}
+
+	.riskwisdom-home-ui #wrapperpages .blogpages {
+		margin-bottom: 16px;
+	}
+}

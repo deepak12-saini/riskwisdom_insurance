@@ -46,6 +46,11 @@
 	  </div>
     </div>
   </div>
+  <?php
+  if ( function_exists( 'riskwisdom_ui_mobile_topbar' ) ) {
+	  riskwisdom_ui_mobile_topbar();
+  }
+  ?>
   <!-- menu -->
     <div class="headhesive-wrapper">
     <div class="headhesive" id="navbar-scroll">
@@ -54,7 +59,7 @@
 		<div class="container">   
         <div class="row">   
           <div class="navbar-header">  
-            <button id="toggle-icon2" class="navbar-toggle" data-toggle="collapse-side" 
+            <button id="toggle-icon2" class="navbar-toggle" type="button" aria-label="<?php esc_attr_e( 'Open menu', 'health-insurance' ); ?>" data-toggle="collapse-side" 
               data-target1=".side-collapse" 
               data-target2=".side-collapse-container"
               data-target3=".navbar" 
