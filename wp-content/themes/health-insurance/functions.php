@@ -318,7 +318,7 @@ wp_enqueue_script( 'headhesive', get_template_directory_uri() . '/assets/js/head
 wp_enqueue_script( 'colorbox', get_template_directory_uri() . '/assets/js/colorbox.js', array('jquery'), '1.0.0', true );
 wp_enqueue_script( 'waypoints', get_template_directory_uri() . '/assets/js/waypoints.js', array('jquery'), '1.0.0', true );
 wp_enqueue_script( 'ionrangeslider', get_template_directory_uri() . '/assets/js/ionrangeslider.js', array('jquery'), '1.0.0', true );
-wp_enqueue_script( 'rt_healthinsurance_scripts', get_template_directory_uri() . '/assets/js/scripts.js', array('jquery'), '1.0.2', true );
+wp_enqueue_script( 'rt_healthinsurance_scripts', get_template_directory_uri() . '/assets/js/scripts.js', array('jquery'), '1.0.5', true );
 
 }
 add_action( 'wp_enqueue_scripts', 'rt_healthinsurance_scripts' );

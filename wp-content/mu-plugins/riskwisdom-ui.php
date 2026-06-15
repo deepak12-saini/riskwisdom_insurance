@@ -4,7 +4,7 @@
  * Theme colors unchanged; complements riskwisdom-home-ui.php on the homepage.
  */
 
-define( 'RISKWISDOM_UI_VERSION', '1.1.0' );
+define( 'RISKWISDOM_UI_VERSION', '1.1.7' );
 
 /** @var string[] */
 const RISKWISDOM_UI_SERVICE_SLUGS = array(

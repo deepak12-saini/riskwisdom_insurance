@@ -169,6 +169,27 @@
 		z-index: 1000;
 	}
 
+	/* Menu open: lift header above page content & overlay */
+	body.riskwisdom-ui.rw-nav-open {
+		overflow: hidden !important;
+	}
+
+	body.riskwisdom-ui.rw-nav-open header {
+		position: relative;
+		z-index: 1070 !important;
+	}
+
+	body.riskwisdom-ui.rw-nav-open .headhesive-wrapper {
+		z-index: 1070 !important;
+	}
+
+	/* Page title banner jumps up when nav goes fixed — hide main content while menu is open */
+	body.riskwisdom-ui.rw-nav-open #wrapperpages,
+	body.riskwisdom-ui.rw-nav-open footer.bottom {
+		pointer-events: none !important;
+		visibility: hidden !important;
+	}
+
 	.riskwisdom-ui .headhesive .navbar-header {
 		float: none !important;
 		position: absolute;
@@ -243,13 +264,100 @@
 		transform: rotate(-45deg);
 	}
 
-	.riskwisdom-ui .side-collapse {
-		box-shadow: -6px 0 24px rgba(0, 0, 0, 0.1);
+	.riskwisdom-ui .side-collapse:not(.in) {
+		background: #fff !important;
+		box-shadow: -6px 0 24px rgba(0, 0, 0, 0.15);
+		bottom: 0 !important;
+		height: 100% !important;
+		left: auto !important;
+		overflow-x: hidden;
+		overflow-y: auto;
+		position: fixed !important;
+		right: 0 !important;
+		top: 0 !important;
 		width: min(86vw, 320px) !important;
+		z-index: 1071 !important;
+	}
+
+	.riskwisdom-ui .side-collapse.in {
+		overflow: hidden !important;
+		pointer-events: none !important;
+		visibility: hidden !important;
+		width: 0 !important;
+		z-index: -1 !important;
+	}
+
+	.riskwisdom-ui .side-collapse:not(.in) .menu__list a,
+	.riskwisdom-ui .side-collapse:not(.in) .sub-menu a {
+		color: #0d0d0d !important;
 	}
 
 	.riskwisdom-ui .side-collapse ul.menu__list {
-		padding-top: 12px !important;
+		padding-top: 72px !important;
+	}
+
+	/* Menu open: full-screen overlay behind the white panel */
+	.riskwisdom-ui .bodybackground.bodybackground-activated {
+		z-index: 1050 !important;
+	}
+
+	.riskwisdom-ui .navbar.navbarclick {
+		background: transparent !important;
+		box-shadow: none !important;
+		height: 0 !important;
+		min-height: 0 !important;
+		overflow: visible !important;
+		pointer-events: none !important;
+		z-index: 1072 !important;
+	}
+
+	/* Menu panel must receive clicks (parent navbar has pointer-events: none). */
+	.riskwisdom-ui .navbar.navbarclick .side-collapse:not(.in),
+	.riskwisdom-ui .navbar.navbarclick .side-collapse:not(.in) * {
+		pointer-events: auto !important;
+	}
+
+	.riskwisdom-ui .navbar.navbarclick .side-collapse:not(.in) a {
+		cursor: pointer !important;
+	}
+
+	.riskwisdom-ui .side-collapse li.menu-item-has-children > .sub-menu {
+		display: none !important;
+		float: none !important;
+		left: auto !important;
+		max-height: 0 !important;
+		opacity: 0 !important;
+		overflow: hidden !important;
+		position: relative !important;
+		top: auto !important;
+		visibility: hidden !important;
+		width: 100% !important;
+	}
+
+	.riskwisdom-ui .side-collapse li.menu-item-has-children.open > .sub-menu {
+		display: block !important;
+		max-height: 3000px !important;
+		opacity: 1 !important;
+		overflow: visible !important;
+		visibility: visible !important;
+	}
+
+	.riskwisdom-ui .side-collapse li.menu-item-has-children > a::after {
+		content: " ›";
+		font-weight: 700;
+	}
+
+	.riskwisdom-ui .navbar.navbarclick .navbar-header,
+	.riskwisdom-ui .navbar.navbarclick #toggle-icon2 {
+		pointer-events: auto !important;
+	}
+
+	body.riskwisdom-ui.rw-nav-open .headhesive .navbar-header {
+		position: fixed !important;
+		right: 12px !important;
+		top: 10px !important;
+		transform: none !important;
+		z-index: 1073 !important;
 	}
 
 	.riskwisdom-ui .navbar-collapse a {
@@ -265,6 +373,24 @@
 		font-size: 14px !important;
 		font-weight: 500 !important;
 		padding-left: 28px !important;
+	}
+
+	/* Menu open: hide header contact strip & page sidebar under overlay */
+	body.riskwisdom-ui.rw-nav-open header .top,
+	body.riskwisdom-ui.rw-nav-open .rw-mobile-topbar,
+	body.riskwisdom-ui.rw-nav-open #wrapperpages .sidebar,
+	body.riskwisdom-ui.rw-nav-open .rw-mobile-cta {
+		opacity: 0 !important;
+		pointer-events: none !important;
+		visibility: hidden !important;
+	}
+
+	.bodybackground.bodybackground-activated ~ header .top,
+	.bodybackground.bodybackground-activated ~ header .rw-mobile-topbar,
+	.bodybackground.bodybackground-activated ~ #wrapperpages .sidebar {
+		opacity: 0 !important;
+		pointer-events: none !important;
+		visibility: hidden !important;
 	}
 }
 

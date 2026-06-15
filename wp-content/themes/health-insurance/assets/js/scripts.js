@@ -90,11 +90,18 @@
 	  return false;
     });
 
-  // Services (and any parent) menu: prevent link navigation and toggle dropdown on click
-  $(document).on('click', '.menu__list li.menu-item-has-children > a, .menu-item-has-children > a', function(e) {
+  // Parent menu items: toggle submenu on desktop only (mobile panel handled in riskwisdom-ui.js).
+  $(document).on('click', '.menu__list li.menu-item-has-children > a', function(e) {
+    var $link = $(this);
+
+    if ($link.closest('.side-collapse').length && $(window).width() < 992) {
+      return;
+    }
+
     e.preventDefault();
     e.stopPropagation();
-    var $li = $(this).closest('li.menu-item-has-children');
+
+    var $li = $link.closest('li.menu-item-has-children');
     var $sub = $li.children('ul.sub-menu');
     $li.toggleClass('open');
     if ($sub.length) {
@@ -132,22 +139,7 @@
       
   }   
   else if ( $(window).width() < 992 ){
-        
-    //dropdown menu link on hover second level
-    $('.navbarinner .menu__list li').on("click", function(){ 
-      $(this).toggleClass('open');
-    });     
-    
-    //dropdown menu link on hover third level
-    $('.navbarinner .menu__list li ul li').on("click", function(){ 
-      $('.navbarinner .menu__list li ul li ul').toggleClass('open');
-    });    
-    
-    //dropdown menu link prevent closing on click on phones 
-    $('.navbarinner .menu__list li').on("click", function(event){
-      event.stopPropagation();        
-    });
-
+    // Mobile submenu toggles are handled in riskwisdom-ui.js (capture phase).
   }
   };
 
@@ -169,14 +161,17 @@
   
     
   
-    //menu scroll
-  var menu = $('.navbar');
-    $(window).scroll(function() {
-  });
+    //menu scroll — only in-page anchors with a real target (skip bare "#")
   $('.navbar a[href^="#"]').on('click', function(e) {
+  var target = this.hash;
+  if (!target || target === '#') {
+    return;
+  }
+  var $target = $(target);
+  if (!$target.length || typeof $target.offset() === 'undefined') {
+    return;
+  }
   e.preventDefault();
-  var target = this.hash,
-  $target = $(target);
   $('html, body').stop().animate({
     'scrollTop': $target.offset().top
   }, 500, 'swing', function() {
