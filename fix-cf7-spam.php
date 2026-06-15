@@ -15,7 +15,7 @@ if ( ! class_exists( 'WPCF7_ContactForm' ) ) {
 $honeypot_markup = <<<'HTML'
 
 <div class="riskwisdom-hp" aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;height:0;width:0;overflow:hidden;opacity:0;pointer-events:none;">
-<label>Leave this field empty<input type="text" name="riskwisdom-hp" value="" tabindex="-1" autocomplete="off"></label>
+<label>Leave this field empty<input type="text" name="riskwisdom-hp" value="" tabindex="-1" autocomplete="new-password" readonly></label>
 </div>
 HTML;
 

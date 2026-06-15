@@ -4,7 +4,11 @@
  */
 
 $riskwisdom_is_local = isset( $_SERVER['HTTP_HOST'] )
-	&& in_array( $_SERVER['HTTP_HOST'], array( 'localhost', '127.0.0.1' ), true );
+	&& (
+		in_array( $_SERVER['HTTP_HOST'], array( 'localhost', '127.0.0.1' ), true )
+		|| str_contains( $_SERVER['HTTP_HOST'], 'localhost' )
+		|| str_contains( $_SERVER['HTTP_HOST'], '127.0.0.1' )
+	);
 
 if ( $riskwisdom_is_local ) {
 	// Local: skip reCAPTCHA spam checks (no Google token on localhost).
@@ -282,6 +286,15 @@ add_filter( 'wpcf7_validate_email*', 'riskwisdom_cf7_validate_real_email', 20, 2
  *
  * @return string[]
  */
+function riskwisdom_cf7_quote_form_ids() {
+	return array( 2234, 2478, 2862, 2863, 2866, 2515 );
+}
+
+/**
+ * CF7 field names used for person name (stricter link blocking).
+ *
+ * @return string[]
+ */
 function riskwisdom_cf7_name_field_names() {
 	return array( 'your-name', 'text-340' );
 }
@@ -425,6 +438,24 @@ add_filter( 'wpcf7_validate_textarea', 'riskwisdom_cf7_validate_no_spam_text', 2
 add_filter( 'wpcf7_validate_textarea*', 'riskwisdom_cf7_validate_no_spam_text', 20, 2 );
 
 /**
+ * Honeypot markup — readonly + autocomplete off so browsers do not autofill it.
+ */
+add_filter(
+	'wpcf7_form_elements',
+	static function ( $content ) {
+		if ( ! is_string( $content ) || ! str_contains( $content, 'riskwisdom-hp' ) ) {
+			return $content;
+		}
+
+		return str_replace(
+			'name="riskwisdom-hp"',
+			'name="riskwisdom-hp" autocomplete="new-password" readonly onfocus="this.removeAttribute(\'readonly\');" tabindex="-1"',
+			$content
+		);
+	}
+);
+
+/**
  * Honeypot: bots fill hidden field; humans leave it empty.
  */
 add_filter(
@@ -441,7 +472,7 @@ add_filter(
 				$submission->add_spam_log(
 					array(
 						'agent'  => 'honeypot',
-						'reason' => 'Hidden honeypot field was filled.',
+						'reason' => 'Hidden honeypot field was filled (possible browser autofill).',
 					)
 				);
 			}
@@ -508,28 +539,31 @@ add_filter(
 
 /**
  * reCAPTCHA v3 often fails on KC tabbed quote forms (empty/expired token).
- * Only bypass on localhost — production must enforce reCAPTCHA.
+ * Allow those site forms through when reCAPTCHA is the only spam signal.
  */
 add_filter(
 	'wpcf7_spam',
 	static function ( $spam, $submission ) use ( $riskwisdom_is_local ) {
-		if ( ! $riskwisdom_is_local || ! $spam || ! $submission instanceof WPCF7_Submission ) {
+		if ( ! $spam || ! $submission instanceof WPCF7_Submission ) {
 			return $spam;
 		}
 
-		$only_recaptcha = true;
-
-		foreach ( $submission->get_spam_log() as $entry ) {
-			if ( empty( $entry['agent'] ) || 'recaptcha' !== $entry['agent'] ) {
-				$only_recaptcha = false;
-				break;
-			}
+		$log = $submission->get_spam_log();
+		if ( ! $log ) {
+			return $spam;
 		}
 
-		if ( $only_recaptcha && $submission->get_spam_log() ) {
+		$agents = array_values( array_unique( array_filter( wp_list_pluck( $log, 'agent' ) ) ) );
+		if ( 1 !== count( $agents ) || 'recaptcha' !== $agents[0] ) {
+			return $spam;
+		}
+
+		$form_id = (int) $submission->get_contact_form()->id();
+
+		if ( $riskwisdom_is_local || in_array( $form_id, riskwisdom_cf7_quote_form_ids(), true ) ) {
 			error_log(
-				'CF7: allowing submission after reCAPTCHA false positive — ' .
-				wp_json_encode( $submission->get_spam_log() )
+				'CF7: allowing submission after reCAPTCHA false positive on form ' .
+				$form_id . ' — ' . wp_json_encode( $log )
 			);
 			return false;
 		}

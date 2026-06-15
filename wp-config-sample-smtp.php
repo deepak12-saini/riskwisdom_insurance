@@ -13,6 +13,6 @@ define( 'WPMS_SMTP_HOST', 'smtp.office365.com' );
 define( 'WPMS_SMTP_PORT', 587 );
 define( 'WPMS_SMTP_AUTH', true );
 define( 'WPMS_SMTP_USER', 'info@riskwisdom.com.au' );
-define( 'WPMS_SMTP_PASS', 'Info@123#' );
+define( 'WPMS_SMTP_PASS', 'Riskwisdom@2026' );
 define( 'WPMS_SMTP_AUTOTLS', true );
 define( 'WPMS_SSL', 'tls' );
